@@ -1,0 +1,9 @@
+[submodule "acpica"]
+	path = acpica
+	url = https://github.com/DiaoSuYu/acpica
+[submodule "edk2-libc"]
+	path = edk2-libc
+	url = https://github.com/DiaoSuYu/edk2-libc
+[submodule "edk2"]
+	path = edk2
+	url = https://github.com/DiaoSuYu/edk2
