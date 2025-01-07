@@ -1,0 +1,37 @@
+From 3bb29f45604ac6890f4ea5cdcbd1a62e6dad14a7 Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?Petr=20Men=C5=A1=C3=ADk?= <pemensik@redhat.com>
+Date: Wed, 16 Jan 2019 16:27:33 +0100
+Subject: [PATCH 2/2] Fix possible crash when loading corrupted file
+
+Some values passes internal triggers by coincidence. Fix the check and
+check also first_node_offset before even passing it further.
+---
+ lib/dns/rbt.c | 5 +++--
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+
+diff --git a/lib/dns/rbt.c b/lib/dns/rbt.c
+index 62d0826..b029b7d 100644
+--- a/lib/dns/rbt.c
++++ b/lib/dns/rbt.c
+@@ -787,7 +787,7 @@ treefix(dns_rbt_t *rbt, void *base, size_t filesize, dns_rbtnode_t *n,
+ 		return (ISC_R_SUCCESS);
+ 
+ 	CONFIRM((void *) n >= base);
+-	CONFIRM((char *) n - (char *) base <= (int) nodemax);
++	CONFIRM((size_t)((char *) n - (char *) base) <= nodemax);
+ 	CONFIRM(DNS_RBTNODE_VALID(n));
+ 
+ 	dns_name_init(&nodename, NULL);
+@@ -939,7 +939,8 @@ dns_rbt_deserialize_tree(void *base_address, size_t filesize,
+ 	rbt->root = (dns_rbtnode_t *)((char *)base_address +
+ 				header_offset + header->first_node_offset);
+ 
+-	if ((header->nodecount * sizeof(dns_rbtnode_t)) > filesize) {
++	if ((header->nodecount * sizeof(dns_rbtnode_t)) > filesize
++	    || header->first_node_offset > filesize) {
+ 		result = ISC_R_INVALIDFILE;
+ 		goto cleanup;
+ 	}
+-- 
+2.20.1
+

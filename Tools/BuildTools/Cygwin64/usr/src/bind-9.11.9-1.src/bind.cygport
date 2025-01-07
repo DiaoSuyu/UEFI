@@ -1,0 +1,197 @@
+inherit python3 python-wheel
+
+NAME="bind"
+VERSION=9.11.9
+RELEASE=1
+CATEGORY="Net"
+SUMMARY="DNS server and utilities suite"
+DESCRIPTION="BIND is an implementation of the Domain Name System (DNS)
+protocols. The DNS protocols are part of the core Internet standards.
+They specify the process by which one computer can find another computer
+on the basis of its name. The BIND software distribution contains all of
+the software needed both to ask name service questions and to answer
+such questions."
+HOMEPAGE="http://www.isc.org/downloads/bind/"
+tar_v=${VERSION}
+#tar_v="${VERSION}-${RELEASE##*\.}"
+SRC_URI="http://ftp.isc.org/isc/bind9/${tar_v}/bind-${tar_v}.tar.gz
+         http://ftp.isc.org/isc/bind9/${tar_v}/bind-${tar_v}.tar.gz.asc
+         named-config"
+SRC_DIR="bind-${tar_v}"
+PATCH_URI="
+	fedora/bind-95-rh452060.patch
+	fedora/bind93-rh490837.patch
+	fedora/bind97-rh478718.patch
+	fedora/bind97-rh645544.patch
+	fedora/bind99-rh640538.patch
+	fedora/bind97-rh669163.patch
+	fedora/bind-9.11-rh1410433.patch
+	fedora/bind-9.11-rh1205168.patch
+	fedora/bind-9.11-oot-manual.patch
+	fedora/bind-9.11-rt31459.patch
+	fedora/bind-9.11-rt46047.patch
+	fedora/bind-9.11-rh1624100.patch
+	fedora/bind-9.11-host-idn-disable.patch
+	fedora/bind-9.11-rh1663318.patch
+	fedora/bind-9.11-rh1666814.patch
+	fedora/bind-9.11-rh1647829.patch
+	fedora/bind-9.11-rh1732883.patch
+	fedora/bind-9.11-json-c.patch
+	9.9.6-configure.patch
+	9.9.6-lwconfig-win32.patch
+	9.5.0-parallel-build.patch
+	9.9.6-cygwin-threads.patch
+	9.10.3-cygwin-ftm.patch
+	9.10.4-doc-vpath.patch
+	9.11.2-libtool.patch
+"
+
+PKG_NAMES="bind bind-utils bind-doc
+	   libbind9_161 libdns1106 libirs161 libisc1100 libisccc161
+	   libisccfg163 liblwres161 libbind9-devel
+	   python27-isc python36-isc python37-isc"
+bind_SUMMARY="DNS server"
+bind_REQUIRES="bind-utils"
+bind_CONTENTS="
+	etc/
+	usr/bin/arpaname.exe
+	usr/sbin/*
+	usr/share/man/man1/arpaname*
+	usr/share/man/man[58]/
+"
+bind_utils_CONTENTS="DNS utilities"
+bind_utils_CONTENTS="
+	--exclude=arpaname*
+	--exclude=isc-config.sh*
+	--exclude=bind9-config*
+	--exclude=arm
+	usr/bin/*.exe
+	usr/share/doc/
+	usr/share/man/man1/
+"
+bind_doc_CATEGORY="Doc"
+bind_doc_SUMMARY="BIND Administrator Reference Manual"
+bind_doc_CONTENTS="usr/share/doc/bind/arm/"
+libbind9_161_CATEGORY="Libs"
+libbind9_161_SUMMARY="BIND library"
+libbind9_161_CONTENTS="usr/bin/cygbind9-161.dll"
+libdns1106_CATEGORY="Libs"
+libdns1106_SUMMARY="BIND DNS library"
+libdns1106_CONTENTS="usr/bin/cygdns-1106.dll"
+libirs161_CATEGORY="Libs"
+libirs161_SUMMARY="BIND resolv.conf parser library"
+libirs161_CONTENTS="usr/bin/cygirs-161.dll"
+libisc1100_CATEGORY="Libs"
+libisc1100_SUMMARY="BIND ISC core library"
+libisc1100_CONTENTS="usr/bin/cygisc-1100.dll"
+libisccc161_CATEGORY="Libs"
+libisccc161_SUMMARY="BIND Control Channel library"
+libisccc161_CONTENTS="usr/bin/cygisccc-161.dll"
+libisccfg163_CATEGORY="Libs"
+libisccfg163_SUMMARY="BIND named.conf parser library"
+libisccfg163_CONTENTS="usr/bin/cygisccfg-163.dll"
+liblwres161_CATEGORY="Libs"
+liblwres161_SUMMARY="BIND Lightweight Resolver library"
+liblwres161_CONTENTS="usr/bin/cyglwres-161.dll"
+libbind9_devel_CATEGORY="Libs"
+libbind9_devel_REQUIRES="libjson-c-devel libkrb5-devel libxml2-devel openssl-devel"
+libbind9_devel_SUMMARY="BIND libraries (development)"
+libbind9_devel_CONTENTS="
+	usr/bin/bind9-config
+	usr/bin/isc-config.sh
+	usr/include/bind9/
+	usr/include/dns/
+	usr/include/dst/
+	usr/include/irs/
+	usr/include/isc*/
+	usr/include/lwres/
+	usr/include/pk*11/
+	usr/lib/lib*.dll.a
+	usr/share/man/man1/bind9-config*
+	usr/share/man/man1/isc-config.sh*
+	usr/share/man/man3/
+"
+python27_isc_CATEGORY="Python"
+python27_isc_OBSOLETES="python-isc python2-isc"
+python27_isc_SUMMARY="Python module for sending commands to rndc"
+python27_isc_CONTENTS="usr/lib/python2.7/site-packages/isc*"
+python36_isc_CATEGORY="Python"
+python36_isc_OBSOLETES="python3-isc"
+python36_isc_SUMMARY="Python module for sending commands to rndc"
+python36_isc_CONTENTS="usr/lib/python3.6/site-packages/isc*"
+python37_isc_CATEGORY="Python"
+python37_isc_SUMMARY="Python module for sending commands to rndc"
+python37_isc_CONTENTS="usr/lib/python3.7/site-packages/isc*"
+
+DIFF_EXCLUDES="*.1 *.8 *.html *.pdf notes.txt"
+DISTCLEANFILES="aclocal.m4"
+
+src_compile() {
+	cd ${S}
+	cygautoreconf
+	lndirs
+
+	cd ${B}
+
+	# we want GetNetworkParams but not if_nametoindex
+	cat > iphlpapi.def <<_EOF
+LIBRARY "IPHLPAPI.DLL"
+EXPORTS
+GetNetworkParams${ARCH_i686+@8}
+_EOF
+	${DLLTOOL} -k -d iphlpapi.def -l libiphlpapi.a
+	LIBS+=" -Wl,${B}/libiphlpapi.a"
+
+	# see config.h.win32
+	CPPFLAGS+=" -DFD_SETSIZE=16384"
+
+	cygconf \
+		--enable-threads --enable-ipv6 \
+		--enable-filter-aaaa --enable-fixed-rrset \
+		--enable-full-report \
+		--enable-openssl-hash \
+		--disable-openssl-version-check \
+		--disable-backtrace --disable-linux-caps --without-dlopen \
+		--with-dlz-bdb=/usr \
+		--with-dlz-filesystem \
+		--with-dlz-ldap=/usr \
+		--with-dlz-mysql=/usr \
+		--with-dlz-odbc=/usr \
+		--with-dlz-postgres=/usr \
+		--with-dlz-stub \
+		--with-docbook-xsl=/usr/share/sgml/docbook/xsl-stylesheets \
+		--without-geoip \
+		--with-geoip2 \
+		--with-gssapi --disable-isc-spnego \
+		--with-libidn2 \
+		--with-libjson \
+		--with-libtool \
+		--with-libxml2=/usr \
+		--with-lmdb \
+		--with-openssl=/usr \
+		--with-python=/usr/bin/python${PYTHON3_VERSION}
+
+	cygmake
+	cygmake -j1 doc
+
+	pushd ${B}/bin/python
+	python_wheel_compile
+	popd
+}
+
+src_install() {
+	cd ${B}
+	dosbin ${S}/named-config
+	cyginstall -j1
+
+	find ${D}${PYTHON3_SITELIB}/isc* -delete
+	pushd ${B}/bin/python
+	python_wheel_install
+	popd
+
+	sed -i -e "s|-Wl,${B}[^ ]*||" ${D}/usr/bin/isc-config.sh
+
+	dodoc ${S}/RELEASE-NOTES-BIND-${VERSION%-*}.txt
+	docinto arm
+	dodoc ${S}/doc/arm/[^i]*.{html,pdf}
+}

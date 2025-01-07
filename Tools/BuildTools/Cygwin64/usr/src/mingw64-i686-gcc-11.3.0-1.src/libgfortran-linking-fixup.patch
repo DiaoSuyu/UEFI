@@ -1,0 +1,13 @@
+--- origsrc/gcc-10.2.0/libgfortran/configure
++++ src/gcc-10.2.0/libgfortran/configure
+@@ -16017,6 +16017,9 @@
+     # Darwin needs -single_module when linking libgfortran
+     extra_ldflags_libgfortran=-Wl,-single_module
+     ;;
++  *-mingw32)
++    extra_ldflags_libgfortran="-Wc,-B../libssp/.libs -Wc,-fstack-protector"
++    ;;      
+ esac
+ 
+ 
+

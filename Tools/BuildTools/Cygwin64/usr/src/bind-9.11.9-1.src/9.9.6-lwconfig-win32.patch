@@ -1,0 +1,35 @@
+--- origsrc/bind-9.9.6/lib/lwres/lwconfig.c	2014-10-12 13:53:08.206641700 -0500
++++ src/bind-9.9.6/lib/lwres/lwconfig.c	2014-10-08 15:57:40.000000000 -0500
+@@ -51,6 +51,11 @@
+  *    /etc/resolv.conf
+  */
+ 
++#if defined(__CYGWIN__) && !defined(CYGWIN_LWCONFIG_C)
++#define CYGWIN_LWCONFIG_C
++#include "win32/lwconfig.c"
++#else
++
+ #include <config.h>
+ 
+ #include <assert.h>
+@@ -774,3 +779,5 @@ lwres_conf_get(lwres_context_t *ctx) {
+ 
+ 	return (&ctx->confdata);
+ }
++
++#endif /* __CYGWIN__ && !CYGWIN_LWCONFIG_C */
+--- origsrc/bind-9.9.6/lib/lwres/win32/lwconfig.c	2014-10-12 13:53:08.214642700 -0500
++++ src/bind-9.9.6/lib/lwres/win32/lwconfig.c	2014-10-12 13:35:06.706308600 -0500
+@@ -39,7 +39,12 @@
+ #include "../lwconfig.c"
+ #undef lwres_conf_parse
+ 
++#ifdef __CYGWIN__
++#define if_nametoindex W32API_if_nametoindex
++#include <windows.h>
++#endif
+ #include <iphlpapi.h>
++#undef W32API_if_nametoindex
+ 
+ #define TCPIP_SUBKEY	\
+ 	"SYSTEM\\CurrentControlSet\\Services\\Tcpip\\Parameters"

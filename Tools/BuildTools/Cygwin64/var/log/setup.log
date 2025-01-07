@@ -1,0 +1,854 @@
+2022/11/27 22:44:10 Starting cygwin install, version 2.901
+2022/11/27 22:44:10 User has backup/restore rights
+2022/11/27 22:44:10 io_stream_cygfile: fopen(/etc/setup/setup.rc) failed 2 No such file or directory
+2022/11/27 22:44:10 Current Directory: C:\Users\DSY19\Desktop\Cygwinp
+2022/11/27 22:44:10 Could not open service McShield for query, start and stop. McAfee may not be installed, or we don't have access.
+2022/11/27 22:44:14 source: network install
+2022/11/27 22:45:16 root: C:\Tools\cygwin64 system
+2022/11/27 22:45:24 Selected local directory: C:\Tools\cygwin64\local_package
+2022/11/27 22:45:45 net: Preconfig
+2022/11/27 22:45:48 site: https://mirrors.aliyun.com/cygwin/
+2022/11/27 22:45:49 mbox note: Internal Error:  gcrypt library error 1 unsupported pk alg.
+2022/11/27 22:45:56 mbox note: Mirror Error:  Setup.ini signature https://mirrors.aliyun.com/cygwin/x86_64/setup.zst.sig from https://mirrors.aliyun.com/cygwin/ failed to verify.
+Possible corrupt mirror?  Setup.ini rejected.
+2022/11/27 22:45:59 mbox note: Internal Error:  gcrypt library error 1 unsupported pk alg.
+2022/11/27 22:46:00 mbox note: Mirror Error:  Setup.ini signature https://mirrors.aliyun.com/cygwin/x86_64/setup.xz.sig from https://mirrors.aliyun.com/cygwin/ failed to verify.
+Possible corrupt mirror?  Setup.ini rejected.
+2022/11/27 22:46:01 mbox note: Internal Error:  gcrypt library error 1 unsupported pk alg.
+2022/11/27 22:46:02 mbox note: Mirror Error:  Setup.ini signature https://mirrors.aliyun.com/cygwin/x86_64/setup.bz2.sig from https://mirrors.aliyun.com/cygwin/ failed to verify.
+Possible corrupt mirror?  Setup.ini rejected.
+2022/11/27 22:46:03 mbox note: Internal Error:  gcrypt library error 1 unsupported pk alg.
+2022/11/27 22:46:03 mbox note: Mirror Error:  Setup.ini signature https://mirrors.aliyun.com/cygwin/x86_64/setup.ini.sig from https://mirrors.aliyun.com/cygwin/ failed to verify.
+Possible corrupt mirror?  Setup.ini rejected.
+2022/11/27 22:46:04 mbox note: Unable to get setup from <https://mirrors.aliyun.com/cygwin/>
+2022/11/27 22:46:21 site: https://mirrors.aliyun.com/cygwin/
+2022/11/27 22:46:21 site: http://mirrors.aliyun.com/cygwin/
+2022/11/27 22:46:21 mbox note: Internal Error:  gcrypt library error 1 unsupported pk alg.
+2022/11/27 22:46:23 mbox note: Mirror Error:  Setup.ini signature https://mirrors.aliyun.com/cygwin/x86_64/setup.zst.sig from https://mirrors.aliyun.com/cygwin/ failed to verify.
+Possible corrupt mirror?  Setup.ini rejected.
+2022/11/27 22:46:25 mbox note: Internal Error:  gcrypt library error 1 unsupported pk alg.
+2022/11/27 22:46:26 mbox note: Mirror Error:  Setup.ini signature https://mirrors.aliyun.com/cygwin/x86_64/setup.xz.sig from https://mirrors.aliyun.com/cygwin/ failed to verify.
+Possible corrupt mirror?  Setup.ini rejected.
+2022/11/27 22:46:26 mbox note: Internal Error:  gcrypt library error 1 unsupported pk alg.
+2022/11/27 22:46:27 mbox note: Mirror Error:  Setup.ini signature https://mirrors.aliyun.com/cygwin/x86_64/setup.bz2.sig from https://mirrors.aliyun.com/cygwin/ failed to verify.
+Possible corrupt mirror?  Setup.ini rejected.
+2022/11/27 22:46:39 mbox note: Internal Error:  gcrypt library error 1 unsupported pk alg.
+2022/11/27 22:46:40 mbox note: Mirror Error:  Setup.ini signature https://mirrors.aliyun.com/cygwin/x86_64/setup.ini.sig from https://mirrors.aliyun.com/cygwin/ failed to verify.
+Possible corrupt mirror?  Setup.ini rejected.
+2022/11/27 22:46:41 mbox note: Unable to get setup from <https://mirrors.aliyun.com/cygwin/>
+2022/11/27 22:46:42 mbox note: Internal Error:  gcrypt library error 1 unsupported pk alg.
+2022/11/27 22:46:43 mbox note: Mirror Error:  Setup.ini signature http://mirrors.aliyun.com/cygwin/x86_64/setup.zst.sig from http://mirrors.aliyun.com/cygwin/ failed to verify.
+Possible corrupt mirror?  Setup.ini rejected.
+2022/11/27 22:46:45 mbox note: Internal Error:  gcrypt library error 1 unsupported pk alg.
+2022/11/27 22:46:45 mbox note: Mirror Error:  Setup.ini signature http://mirrors.aliyun.com/cygwin/x86_64/setup.xz.sig from http://mirrors.aliyun.com/cygwin/ failed to verify.
+Possible corrupt mirror?  Setup.ini rejected.
+2022/11/27 22:46:47 mbox note: Internal Error:  gcrypt library error 1 unsupported pk alg.
+2022/11/27 22:46:47 mbox note: Mirror Error:  Setup.ini signature http://mirrors.aliyun.com/cygwin/x86_64/setup.bz2.sig from http://mirrors.aliyun.com/cygwin/ failed to verify.
+Possible corrupt mirror?  Setup.ini rejected.
+2022/11/27 22:46:51 mbox note: Internal Error:  gcrypt library error 1 unsupported pk alg.
+2022/11/27 22:46:51 mbox note: Mirror Error:  Setup.ini signature http://mirrors.aliyun.com/cygwin/x86_64/setup.ini.sig from http://mirrors.aliyun.com/cygwin/ failed to verify.
+Possible corrupt mirror?  Setup.ini rejected.
+2022/11/27 22:46:52 mbox note: Unable to get setup from <http://mirrors.aliyun.com/cygwin/>
+2022/11/27 22:46:54 site: http://mirrors.aliyun.com/cygwin/
+2022/11/27 22:46:55 mbox note: Internal Error:  gcrypt library error 1 unsupported pk alg.
+2022/11/27 22:46:55 mbox note: Mirror Error:  Setup.ini signature http://mirrors.aliyun.com/cygwin/x86_64/setup.zst.sig from http://mirrors.aliyun.com/cygwin/ failed to verify.
+Possible corrupt mirror?  Setup.ini rejected.
+2022/11/27 22:46:56 mbox note: Internal Error:  gcrypt library error 1 unsupported pk alg.
+2022/11/27 22:46:56 mbox note: Mirror Error:  Setup.ini signature http://mirrors.aliyun.com/cygwin/x86_64/setup.xz.sig from http://mirrors.aliyun.com/cygwin/ failed to verify.
+Possible corrupt mirror?  Setup.ini rejected.
+2022/11/27 22:46:57 mbox note: Internal Error:  gcrypt library error 1 unsupported pk alg.
+2022/11/27 22:46:57 mbox note: Mirror Error:  Setup.ini signature http://mirrors.aliyun.com/cygwin/x86_64/setup.bz2.sig from http://mirrors.aliyun.com/cygwin/ failed to verify.
+Possible corrupt mirror?  Setup.ini rejected.
+2022/11/27 22:46:57 mbox note: Internal Error:  gcrypt library error 1 unsupported pk alg.
+2022/11/27 22:48:56 mbox note: Mirror Error:  Setup.ini signature http://mirrors.aliyun.com/cygwin/x86_64/setup.ini.sig from http://mirrors.aliyun.com/cygwin/ failed to verify.
+Possible corrupt mirror?  Setup.ini rejected.
+2022/11/27 22:48:57 mbox note: Unable to get setup from <http://mirrors.aliyun.com/cygwin/>
+2022/11/27 22:49:03 site: http://www.cygwin.cn/pub/
+2022/11/27 22:49:04 HTTP status 404 fetching http://www.cygwin.cn/pub/x86_64/setup.zst.sig
+2022/11/27 22:49:04 HTTP status 404 fetching http://www.cygwin.cn/pub/x86_64/setup.zst
+2022/11/27 22:49:04 HTTP status 404 fetching http://www.cygwin.cn/pub/x86_64/setup.xz.sig
+2022/11/27 22:49:04 HTTP status 404 fetching http://www.cygwin.cn/pub/x86_64/setup.xz
+2022/11/27 22:49:04 HTTP status 404 fetching http://www.cygwin.cn/pub/x86_64/setup.bz2.sig
+2022/11/27 22:49:04 HTTP status 404 fetching http://www.cygwin.cn/pub/x86_64/setup.bz2
+2022/11/27 22:49:04 HTTP status 404 fetching http://www.cygwin.cn/pub/x86_64/setup.ini.sig
+2022/11/27 22:49:04 HTTP status 404 fetching http://www.cygwin.cn/pub/x86_64/setup.ini
+2022/11/27 22:49:04 mbox note: Unable to get setup from <http://www.cygwin.cn/pub/>
+2022/11/27 22:49:51 source: network install
+2022/11/27 22:50:27 source: network install
+2022/11/27 22:50:27 root: C:\Tools\cygwin64 system
+2022/11/27 22:50:28 Selected local directory: C:\Tools\cygwin64\local_package
+2022/11/27 22:50:29 net: Preconfig
+2022/11/27 22:50:40 Ending cygwin install
+2022/11/27 22:49:46 Starting cygwin install, version 2.924
+2022/11/27 22:49:46 User has backup/restore rights
+2022/11/27 22:49:46 User has symlink creation right
+2022/11/27 22:49:46 io_stream_cygfile: fopen(/etc/setup/setup.rc) failed 2 No such file or directory
+2022/11/27 22:49:46 Current Directory: C:\Users\DSY19\Desktop
+2022/11/27 22:49:56 source: network install
+2022/11/27 22:50:08 root: C:\Tools\cygwin64 system
+2022/11/27 22:50:20 Selected local directory: C:\Tools\cygwin64\local_package
+2022/11/27 22:50:21 net: Preconfig
+2022/11/27 22:50:35 site: https://mirrors.aliyun.com/cygwin/
+2022/11/27 22:50:37 io_stream_cygfile: fopen(/etc/setup/timestamp) failed 2 No such file or directory
+2022/11/27 22:50:37 io_stream_cygfile: fopen(/etc/setup/installed.db) failed 2 No such file or directory
+2022/11/27 22:50:37 solving: 37 tasks, update: yes, use test packages: no
+2022/11/27 22:51:31 solving: 73 tasks, update: no, use test packages: no
+2022/11/27 22:51:31 Augmented Transaction List:
+2022/11/27 22:51:31    0 install base-cygwin     3.8-1          
+2022/11/27 22:51:31    1 install cygwin          3.3.6-1        
+2022/11/27 22:51:31    2 install libpopt-common  1.18-1         
+2022/11/27 22:51:31    3 install rebase          4.6.1-1        
+2022/11/27 22:51:31    4 install terminfo        6.3-1.20220416 
+2022/11/27 22:51:31    5 install terminfo-extra  6.3-1.20220416 
+2022/11/27 22:51:31    6 install tzdata          2022f-1        
+2022/11/27 22:51:31    7 install zlib0           1.2.13-1       
+2022/11/27 22:51:31    8 install which           2.20-2         
+2022/11/27 22:51:31    9 install run             1.3.4-2        
+2022/11/27 22:51:31   10 install mintty          3.6.2-1        
+2022/11/27 22:51:31   11 install login           1.13-1         
+2022/11/27 22:51:31   12 install libtasn1_6      4.14-1         
+2022/11/27 22:51:31   13 install libsigsegv2     2.10-2         
+2022/11/27 22:51:31   14 install libpipeline1    1.5.6-1        
+2022/11/27 22:51:31   15 install libpcre2_8_0    10.40-1        
+2022/11/27 22:51:31   16 install liblzma5        5.2.8-1        
+2022/11/27 22:51:31   17 install liblz4_1        1.9.4-1        
+2022/11/27 22:51:31   18 install libiconv2       1.17-1         
+2022/11/27 22:51:31   19 install libgmp10        6.2.1-2        
+2022/11/27 22:51:31   20 install libgcc1         11.3.0-1       
+2022/11/27 22:51:31   21 install libffi6         3.2.1-2        
+2022/11/27 22:51:31   22 install libbz2_1        1.0.8-1        
+2022/11/27 22:51:31   23 install libargp         20110921-3     
+2022/11/27 22:51:31   24 install ipc-utils       1.0-2          
+2022/11/27 22:51:31   25 install hostname        3.13-1         
+2022/11/27 22:51:31   26 install editrights      1.03-1         
+2022/11/27 22:51:31   27 install dash            0.5.11.5-1     
+2022/11/27 22:51:31   28 install libncursesw10   6.3-1.20220416 
+2022/11/27 22:51:31   29 install libintl8        0.21.1-2       
+2022/11/27 22:51:31   30 install libstdc++6      11.3.0-1       
+2022/11/27 22:51:31   31 install libmpfr6        4.1.1-1        
+2022/11/27 22:51:31   32 install file            5.41-2         
+2022/11/27 22:51:31   33 install getent          2.18.90-4      
+2022/11/27 22:51:31   34 install _autorebase     001091-1       
+2022/11/27 22:51:31   35 install vim-minimal     8.2.4372-1     
+2022/11/27 22:51:31   36 install ncurses         6.3-1.20220416 
+2022/11/27 22:51:31   37 install libreadline7    8.2-2          
+2022/11/27 22:51:31   38 install less            590-1          
+2022/11/27 22:51:31   39 install sed             4.9-1          
+2022/11/27 22:51:31   40 install libuuid1        2.33.1-2       
+2022/11/27 22:51:31   41 install libsmartcols1   2.33.1-2       
+2022/11/27 22:51:31   42 install libpopt0        1.18-1         
+2022/11/27 22:51:31   43 install libp11-kit0     0.23.20-1      
+2022/11/27 22:51:31   44 install libgdbm6        1.18.1-1       
+2022/11/27 22:51:31   45 install libattr1        2.4.48-2       
+2022/11/27 22:51:31   46 install info            6.8-2          
+2022/11/27 22:51:31   47 install diffutils       3.8-1          
+2022/11/27 22:51:31   48 install alternatives    1.3.30c-10     
+2022/11/27 22:51:31   49 install libblkid1       2.33.1-2       
+2022/11/27 22:51:31   50 install cygutils        1.4.17-1       
+2022/11/27 22:51:31   51 install p11-kit-trust   0.23.20-1      
+2022/11/27 22:51:31   52 install p11-kit         0.23.20-1      
+2022/11/27 22:51:31   53 install coreutils       9.0-1          
+2022/11/27 22:51:31   54 install bash            4.4.12-3       
+2022/11/27 22:51:31   55 install tzcode          2022e-1        
+2022/11/27 22:51:31   56 install libfdisk1       2.33.1-2       
+2022/11/27 22:51:31   57 install zstd            1.5.2-1        
+2022/11/27 22:51:31   58 install xz              5.2.8-1        
+2022/11/27 22:51:31   59 install gzip            1.12-1         
+2022/11/27 22:51:31   60 install groff           1.22.4-1       
+2022/11/27 22:51:31   61 install grep            3.8-2          
+2022/11/27 22:51:31   62 install gawk            5.2.1-1        
+2022/11/27 22:51:31   63 install findutils       4.9.0-1        
+2022/11/27 22:51:31   64 install crypto-policies 20190218-1     
+2022/11/27 22:51:31   65 install ca-certificates 2022.2.54-3    
+2022/11/27 22:51:31   66 install bzip2           1.0.8-1        
+2022/11/27 22:51:31   67 install util-linux      2.33.1-2       
+2022/11/27 22:51:31   68 install base-files      4.3-3          
+2022/11/27 22:51:31   69 install libssl1.1       1.1.1s-1       
+2022/11/27 22:51:31   70 install tar             1.34-1         
+2022/11/27 22:51:31   71 install man-db          2.11.1-1       
+2022/11/27 22:51:31   72 install openssl         1.1.1s-1       
+2022/11/27 22:52:45 solving: 75 tasks, update: no, use test packages: no
+2022/11/27 22:52:45 Augmented Transaction List:
+2022/11/27 22:52:45    0 install base-cygwin               3.8-1          
+2022/11/27 22:52:45    1 install cygwin                    3.3.6-1        
+2022/11/27 22:52:45    2 install libpopt-common            1.18-1         
+2022/11/27 22:52:45    3 install rebase                    4.6.1-1        
+2022/11/27 22:52:45    4 install terminfo                  6.3-1.20220416 
+2022/11/27 22:52:45    5 install terminfo-extra            6.3-1.20220416 
+2022/11/27 22:52:45    6 install tzdata                    2022f-1        
+2022/11/27 22:52:45    7 install gsettings-desktop-schemas 3.24.1-1       
+2022/11/27 22:52:45    8 install dejavu-fonts              2.37-1         
+2022/11/27 22:52:45    9 install libfontconfig-common      2.13.1-2       
+2022/11/27 22:52:45   10 install cygwin-devel              3.3.6-1        
+2022/11/27 22:52:45   11 install w32api-headers            10.0.0-1       
+2022/11/27 22:52:45   12 install windows-default-manifest  6.4-1          
+2022/11/27 22:52:45   13 install libpaper-common           1.1.28-1       
+2022/11/27 22:52:45   14 install hicolor-icon-theme        0.15-1         
+2022/11/27 22:52:45   15 install libtirpc-common           1.3.3-1        
+2022/11/27 22:52:45   16 install libdjvulibre-common       3.5.27-1       
+2022/11/27 22:52:45   17 install gnome-menus               3.13.3-3       
+2022/11/27 22:52:45   18 install xcursor-themes            1.0.6-1        
+2022/11/27 22:52:45   19 install xkeyboard-config          2.37-1         
+2022/11/27 22:52:45   20 install poppler-data              0.4.10-1       
+2022/11/27 22:52:45   21 install publicsuffix-list-dafsa   20221115-1     
+2022/11/27 22:52:45   22 install libgsasl-common           2.2.0-2        
+2022/11/27 22:52:45   23 install libnghttp2_14             1.51.0-1       
+2022/11/27 22:52:45   24 install libntlm0                  1.4-1          
+2022/11/27 22:52:45   25 install libsqlite3_0              3.34.0-1       
+2022/11/27 22:52:45   26 install libnspr4                  4.21-1         
+2022/11/27 22:52:45   27 install libpathplan4              2.50.0-1       
+2022/11/27 22:52:45   28 install libcdt5                   2.50.0-1       
+2022/11/27 22:52:45   29 install libmcpp0                  2.7.2-2        
+2022/11/27 22:52:45   30 install libdbus1_3                1.10.22-1      
+2022/11/27 22:52:45   31 install libltdl7                  2.4.7-1        
+2022/11/27 22:52:45   32 install libdatrie1                0.2.8-1        
+2022/11/27 22:52:45   33 install libXdmcp6                 1.1.3-1        
+2022/11/27 22:52:45   34 install libXau6                   1.0.10-1       
+2022/11/27 22:52:45   35 install libICE6                   1.0.10-1       
+2022/11/27 22:52:45   36 install libatomic1                11.3.0-1       
+2022/11/27 22:52:45   37 install libbrotlicommon1          1.0.9-2        
+2022/11/27 22:52:45   38 install libexpat1                 2.4.1-1        
+2022/11/27 22:52:45   39 install libpcre1                  8.45-1         
+2022/11/27 22:52:45   40 install liblcms2_2                2.13.1-1       
+2022/11/27 22:52:45   41 install libfftw3_3                3.3.10-1       
+2022/11/27 22:52:45   42 install libzstd1                  1.5.2-1        
+2022/11/27 22:52:45   43 install libjbig2                  2.1-2          
+2022/11/27 22:52:45   44 install libdeflate0               1.14-1         
+2022/11/27 22:52:45   45 install libwebp7                  1.2.4-1        
+2022/11/27 22:52:45   46 install libjpeg8                  2.1.4-1        
+2022/11/27 22:52:45   47 install libgif7                   5.2.1-1        
+2022/11/27 22:52:45   48 install libcrypt2                 4.4.20-1       
+2022/11/27 22:52:45   49 install zlib0                     1.2.13-1       
+2022/11/27 22:52:45   50 install which                     2.20-2         
+2022/11/27 22:52:45   51 install run                       1.3.4-2        
+2022/11/27 22:52:45   52 install mintty                    3.6.2-1        
+2022/11/27 22:52:45   53 install login                     1.13-1         
+2022/11/27 22:52:45   54 install libtasn1_6                4.14-1         
+2022/11/27 22:52:45   55 install libsigsegv2               2.10-2         
+2022/11/27 22:52:45   56 install libpipeline1              1.5.6-1        
+2022/11/27 22:52:45   57 install libpcre2_8_0              10.40-1        
+2022/11/27 22:52:45   58 install liblzma5                  5.2.8-1        
+2022/11/27 22:52:45   59 install liblz4_1                  1.9.4-1        
+2022/11/27 22:52:45   60 install libiconv2                 1.17-1         
+2022/11/27 22:52:45   61 install libgmp10                  6.2.1-2        
+2022/11/27 22:52:45   62 install libgcc1                   11.3.0-1       
+2022/11/27 22:52:45   63 install libffi6                   3.2.1-2        
+2022/11/27 22:52:45   64 install libbz2_1                  1.0.8-1        
+2022/11/27 22:52:45   65 install libargp                   20110921-3     
+2022/11/27 22:52:45   66 install ipc-utils                 1.0-2          
+2022/11/27 22:52:45   67 install hostname                  3.13-1         
+2022/11/27 22:52:45   68 install editrights                1.03-1         
+2022/11/27 22:52:45   69 install dash                      0.5.11.5-1     
+2022/11/27 22:52:45   70 install libncursesw10             6.3-1.20220416 
+2022/11/27 22:52:45   71 install w32api-runtime            10.0.0-1       
+2022/11/27 22:52:45   72 install libpaper1                 1.1.28-1       
+2022/11/27 22:52:45   73 install adwaita-icon-theme        3.26.1-1       
+2022/11/27 22:52:45   74 install libcgraph6                2.50.0-1       
+2022/11/27 22:52:45   75 install mcpp                      2.7.2-2        
+2022/11/27 22:52:45   76 install libthai0                  0.1.26-1       
+2022/11/27 22:52:45   77 install libxcb1                   1.15-1         
+2022/11/27 22:52:45   78 install libbrotlidec1             1.0.9-2        
+2022/11/27 22:52:45   79 install libwebpdemux2             1.2.4-1        
+2022/11/27 22:52:45   80 install libwebpmux3               1.2.4-1        
+2022/11/27 22:52:45   81 install libjasper4                2.0.14-1       
+2022/11/27 22:52:45   82 install perl_base                 5.32.1-2       
+2022/11/27 22:52:45   83 install perl_autorebase           5.32.1-2       
+2022/11/27 22:52:45   84 install libfontenc1               1.1.6-1        
+2022/11/27 22:52:45   85 install libpng16                  1.6.37-1       
+2022/11/27 22:52:45   86 install libunistring5             1.1-1          
+2022/11/27 22:52:45   87 install luit                      20220111-1     
+2022/11/27 22:52:45   88 install libintl8                  0.21.1-2       
+2022/11/27 22:52:45   89 install libisl23                  0.25-1         
+2022/11/27 22:52:45   90 install libglapi0                 19.1.6-1       
+2022/11/27 22:52:45   91 install libopenjp2_7              2.5.0-1        
+2022/11/27 22:52:45   92 install libcom_err2               1.44.5-1       
+2022/11/27 22:52:45   93 install libquadmath0              11.3.0-1       
+2022/11/27 22:52:45   94 install libpixman1_0              0.40.0-1       
+2022/11/27 22:52:45   95 install libgomp1                  11.3.0-1       
+2022/11/27 22:52:45   96 install libstdc++6                11.3.0-1       
+2022/11/27 22:52:45   97 install libmpfr6                  4.1.1-1        
+2022/11/27 22:52:45   98 install file                      5.41-2         
+2022/11/27 22:52:45   99 install getent                    2.18.90-4      
+2022/11/27 22:52:45  100 install _autorebase               001091-1       
+2022/11/27 22:52:45  101 install libedit0                  20130712-1     
+2022/11/27 22:52:45  102 install vim-minimal               8.2.4372-1     
+2022/11/27 22:52:45  103 install ncurses                   6.3-1.20220416 
+2022/11/27 22:52:45  104 install libreadline7              8.2-2          
+2022/11/27 22:52:45  105 install less                      590-1          
+2022/11/27 22:52:45  106 install libxcb-xfixes0            1.15-1         
+2022/11/27 22:52:45  107 install libxcb-util1              0.4.0-1        
+2022/11/27 22:52:45  108 install libxcb-icccm4             0.4.1-1        
+2022/11/27 22:52:45  109 install libxcb-ewmh2              0.4.1-1        
+2022/11/27 22:52:45  110 install libxcb-composite0         1.15-1         
+2022/11/27 22:52:45  111 install libxcb-shm0               1.15-1         
+2022/11/27 22:52:45  112 install libxcb-render0            1.15-1         
+2022/11/27 22:52:45  113 install libX11_6                  1.8.1-1        
+2022/11/27 22:52:45  114 install libfreetype6              2.12.1-1       
+2022/11/27 22:52:45  115 install libgpg-error0             1.37-1         
+2022/11/27 22:52:45  116 install libidn2_0                 2.3.4-1        
+2022/11/27 22:52:45  117 install libkrb5support0           1.15.2-2       
+2022/11/27 22:52:45  118 install binutils                  2.39-1         
+2022/11/27 22:52:45  119 install libidn12                  1.41-1         
+2022/11/27 22:52:45  120 install libexif12                 0.6.24-1       
+2022/11/27 22:52:45  121 install sed                       4.9-1          
+2022/11/27 22:52:45  122 install libuuid1                  2.33.1-2       
+2022/11/27 22:52:45  123 install libsmartcols1             2.33.1-2       
+2022/11/27 22:52:45  124 install libpopt0                  1.18-1         
+2022/11/27 22:52:45  125 install libp11-kit0               0.23.20-1      
+2022/11/27 22:52:45  126 install libgdbm6                  1.18.1-1       
+2022/11/27 22:52:45  127 install libattr1                  2.4.48-2       
+2022/11/27 22:52:45  128 install info                      6.8-2          
+2022/11/27 22:52:45  129 install diffutils                 3.8-1          
+2022/11/27 22:52:45  130 install alternatives              1.3.30c-10     
+2022/11/27 22:52:45  131 install libimagequant0            2.10.0-1       
+2022/11/27 22:52:45  132 install libdb5.3                  5.3.28-2       
+2022/11/27 22:52:45  133 install libraw16                  0.18.5-1       
+2022/11/27 22:52:45  134 install libdjvulibre21            3.5.27-1       
+2022/11/27 22:52:45  135 install libEMF1                   1.0.13-1       
+2022/11/27 22:52:45  136 install libgraphite2_3            1.3.14-1       
+2022/11/27 22:52:45  137 install libfpx1                   1.3.1.4-1      
+2022/11/27 22:52:45  138 install libtiff6                  4.4.0-1        
+2022/11/27 22:52:45  139 install libmpc3                   1.2.1-2        
+2022/11/27 22:52:45  140 install libllvm8                  8.0.1-1        
+2022/11/27 22:52:45  141 install libxml2                   2.9.12-2       
+2022/11/27 22:52:45  142 install libxcb-image0             0.4.0-1        
+2022/11/27 22:52:45  143 install libXfixes3                6.0.0-1        
+2022/11/27 22:52:45  144 install libXdamage1               1.1.5-1        
+2022/11/27 22:52:45  145 install libXcomposite1            0.4.5-1        
+2022/11/27 22:52:45  146 install libxkbfile1               1.1.0-1        
+2022/11/27 22:52:45  147 install libXmuu1                  1.1.3-1        
+2022/11/27 22:52:45  148 install xmodmap                   1.0.11-1       
+2022/11/27 22:52:45  149 install libXrender1               0.9.10-1       
+2022/11/27 22:52:45  150 install libXpm4                   3.5.13-1       
+2022/11/27 22:52:45  151 install libXext6                  1.3.4-1        
+2022/11/27 22:52:45  152 install libXfont2_2               2.0.6-1        
+2022/11/27 22:52:45  153 install libming1                  0.4.8-3        
+2022/11/27 22:52:45  154 install libgcrypt20               1.10.1-1       
+2022/11/27 22:52:45  155 install libpsl5                   0.21.1-2       
+2022/11/27 22:52:45  156 install libk5crypto3              1.15.2-2       
+2022/11/27 22:52:45  157 install libSM6                    1.2.3-1        
+2022/11/27 22:52:45  158 install libblkid1                 2.33.1-2       
+2022/11/27 22:52:45  159 install cygutils                  1.4.17-1       
+2022/11/27 22:52:45  160 install p11-kit-trust             0.23.20-1      
+2022/11/27 22:52:45  161 install p11-kit                   0.23.20-1      
+2022/11/27 22:52:45  162 install coreutils                 9.0-1          
+2022/11/27 22:52:45  163 install bash                      4.4.12-3       
+2022/11/27 22:52:45  164 install tzcode                    2022e-1        
+2022/11/27 22:52:45  165 install dri-drivers               19.1.6-1       
+2022/11/27 22:52:45  166 install libglib2.0_0              2.54.3-1       
+2022/11/27 22:52:45  167 install desktop-file-utils        0.23-1         
+2022/11/27 22:52:45  168 install xkbcomp                   1.4.5-1        
+2022/11/27 22:52:45  169 install xrdb                      1.2.1-1        
+2022/11/27 22:52:45  170 install libXcursor1               1.2.1-1        
+2022/11/27 22:52:45  171 install libXi6                    1.8-1          
+2022/11/27 22:52:45  172 install xauth                     1.1.2-1        
+2022/11/27 22:52:45  173 install libXrandr2                1.5.2-1        
+2022/11/27 22:52:45  174 install libXinerama1              1.1.4-1        
+2022/11/27 22:52:45  175 install libkrb5_3                 1.15.2-2       
+2022/11/27 22:52:45  176 install libXt6                    1.2.1-1        
+2022/11/27 22:52:45  177 install libfdisk1                 2.33.1-2       
+2022/11/27 22:52:45  178 install xdg-user-dirs             0.16-1         
+2022/11/27 22:52:45  179 install zstd                      1.5.2-1        
+2022/11/27 22:52:45  180 install xz                        5.2.8-1        
+2022/11/27 22:52:45  181 install gzip                      1.12-1         
+2022/11/27 22:52:45  182 install groff                     1.22.4-1       
+2022/11/27 22:52:45  183 install grep                      3.8-2          
+2022/11/27 22:52:45  184 install gcc-core                  11.3.0-1       
+2022/11/27 22:52:45  185 install gawk                      5.2.1-1        
+2022/11/27 22:52:45  186 install findutils                 4.9.0-1        
+2022/11/27 22:52:45  187 install crypto-policies           20190218-1     
+2022/11/27 22:52:45  188 install ca-certificates           2022.2.54-3    
+2022/11/27 22:52:45  189 install bzip2                     1.0.8-1        
+2022/11/27 22:52:45  190 install gamin                     0.1.10-15      
+2022/11/27 22:52:45  191 install libfam0                   0.1.10-15      
+2022/11/27 22:52:45  192 install xorg-server-common        21.1.4-2       
+2022/11/27 22:52:45  193 install setxkbmap                 1.3.3-1        
+2022/11/27 22:52:45  194 install libgssapi_krb5_2          1.15.2-2       
+2022/11/27 22:52:45  195 install libXmu6                   1.1.3-1        
+2022/11/27 22:52:45  196 install util-linux                2.33.1-2       
+2022/11/27 22:52:45  197 install csih                      0.9.11-1       
+2022/11/27 22:52:45  198 install libfontconfig1            2.13.1-2       
+2022/11/27 22:52:45  199 install base-files                4.3-3          
+2022/11/27 22:52:45  200 install libnss3                   3.45-1         
+2022/11/27 22:52:45  201 install libssl1.0                 1.0.2u+za-1    
+2022/11/27 22:52:45  202 install libssl1.1                 1.1.1s-1       
+2022/11/27 22:52:45  203 install tar                       1.34-1         
+2022/11/27 22:52:45  204 install shared-mime-info          2.2-1          
+2022/11/27 22:52:45  205 install libgsasl18                2.2.0-2        
+2022/11/27 22:52:45  206 install libtirpc3                 1.3.3-1        
+2022/11/27 22:52:45  207 install libXaw7                   1.0.14-1       
+2022/11/27 22:52:45  208 install man-db                    2.11.1-1       
+2022/11/27 22:52:45  209 install dbus                      1.10.22-1      
+2022/11/27 22:52:45  210 install libgs9                    9.55.0-1       
+2022/11/27 22:52:45  211 install libXft2                   2.3.6-1        
+2022/11/27 22:52:45  212 install libzip5                   1.5.1-1        
+2022/11/27 22:52:45  213 install libsasl2_3                2.1.27-1       
+2022/11/27 22:52:45  214 install libssh2_1                 1.10.0-1       
+2022/11/27 22:52:45  215 install openssl                   1.1.1s-1       
+2022/11/27 22:52:45  216 install libfribidi0               0.19.7-1       
+2022/11/27 22:52:45  217 install libatk1.0_0               2.26.1-1       
+2022/11/27 22:52:45  218 install libgts0.7_5               20121130-1     
+2022/11/27 22:52:45  219 install libgnome-menu3_0          3.13.3-3       
+2022/11/27 22:52:45  220 install liblqr1_0                 0.4.2-1        
+2022/11/27 22:52:45  221 install libgdk_pixbuf2.0_0        2.36.11-1      
+2022/11/27 22:52:45  222 install libcroco0.6_3             0.6.12-1       
+2022/11/27 22:52:45  223 install libharfbuzz0              4.2.1-1        
+2022/11/27 22:52:45  224 install libcairo2                 1.17.4-1       
+2022/11/27 22:52:45  225 install xorg-server               21.1.4-2       
+2022/11/27 22:52:45  226 install libplotter2               2.6-5          
+2022/11/27 22:52:45  227 install dbus-x11                  1.10.22-1      
+2022/11/27 22:52:45  228 install xterm                     370-1          
+2022/11/27 22:52:45  229 install libopenldap2              2.6.3-1        
+2022/11/27 22:52:45  230 install gtk-update-icon-cache     3.22.28-1      
+2022/11/27 22:52:45  231 install libraqm0                  0.7.0-1        
+2022/11/27 22:52:45  232 install libpango1.0_0             1.40.14-1      
+2022/11/27 22:52:45  233 install libopenldap2_4_2          2.6.3-1        
+2022/11/27 22:52:45  234 install libcurl4                  7.86.0-2       
+2022/11/27 22:52:45  235 install libgd3                    2.3.3-1        
+2022/11/27 22:52:45  236 install libLASi1                  1.1.1-2        
+2022/11/27 22:52:45  237 install libgtk2.0_0               2.24.32-1      
+2022/11/27 22:52:45  238 install librsvg2_2                2.40.20-1      
+2022/11/27 22:52:45  239 install libpoppler106             21.01.0-1      
+2022/11/27 22:52:45  240 install gtk2.0-engines-pixmap     2.24.32-1      
+2022/11/27 22:52:45  241 install xwin-xdg-menu             20210918-1     
+2022/11/27 22:52:45  242 install gdk-pixbuf2.0-svg         2.40.20-1      
+2022/11/27 22:52:45  243 install libpoppler-glib8          21.01.0-1      
+2022/11/27 22:52:45  244 install adwaita-themes            3.22.3-1       
+2022/11/27 22:52:45  245 install libgvc6                   2.50.0-1       
+2022/11/27 22:52:45  246 install xinit                     1.4.1-1        
+2022/11/27 22:52:45  247 install libMagickCore7_7          7.0.10.27-2    
+2022/11/27 22:52:45  248 install libMagickWand7_7          7.0.10.27-2    
+2022/11/27 22:52:45  249 install libMagickC++7_4           7.0.10.27-2    
+2022/11/27 22:52:45  250 install libpstoedit0              3.78-1         
+2022/11/27 22:52:45  251 install libautotrace3             0.31.1-19      
+2022/11/27 22:52:45  252 install libMagickCore6_6          6.9.10.11-4    
+2022/11/27 22:52:45  253 install libMagickCore6_5          6.9.9.11-3     
+2022/11/27 22:52:45  254 install libMagickWand6_5          6.9.9.11-3     
+2022/11/27 22:52:45  255 install libwraster6               0.95.8-2       
+2022/11/27 22:52:45  256 install libWINGs3                 0.95.8-2       
+2022/11/27 22:52:45  257 install WindowMaker               0.95.8-2       
+2022/11/27 22:53:29 site: https://mirrors.aliyun.com/cygwin/
+2022/11/27 22:53:31 io_stream_cygfile: fopen(/etc/setup/installed.db) failed 2 No such file or directory
+2022/11/27 22:55:42 solving: 10 tasks, update: no, use test packages: no
+2022/11/27 22:55:42 Augmented Transaction List:
+2022/11/27 22:55:42    0 install bind-utils-src                        9.11.9-1       
+2022/11/27 22:55:42    1 install gcc-core-src                          11.3.0-1       
+2022/11/27 22:55:42    2 install gdb-src                               11.2-1         
+2022/11/27 22:55:42    3 install make-src                              4.3-1          
+2022/11/27 22:55:42    4 install mingw64-i686-gcc-core-src             11.3.0-1       
+2022/11/27 22:55:42    5 install mingw64-i686-windows-default-manifest 6.4-1          
+2022/11/27 22:55:42    6 install base-cygwin                           3.8-1          
+2022/11/27 22:55:42    7 install cygwin                                3.3.6-1        
+2022/11/27 22:55:42    8 install rebase                                4.6.1-1        
+2022/11/27 22:55:42    9 install terminfo                              6.3-1.20220416 
+2022/11/27 22:55:42   10 install terminfo-extra                        6.3-1.20220416 
+2022/11/27 22:55:42   11 install tzdata                                2022f-1        
+2022/11/27 22:55:42   12 install mingw64-i686-winpthreads              10.0.0-1       
+2022/11/27 22:55:42   13 install cygwin-devel                          3.3.6-1        
+2022/11/27 22:55:42   14 install w32api-headers                        10.0.0-1       
+2022/11/27 22:55:42   15 install windows-default-manifest              6.4-1          
+2022/11/27 22:55:42   16 install libsource-highlight-common            3.1.8-6        
+2022/11/27 22:55:42   17 install libpopt-common                        1.18-1         
+2022/11/27 22:55:42   18 install libjson-c-common                      0.12-1         
+2022/11/27 22:55:42   19 install libtasn1_6                            4.14-1         
+2022/11/27 22:55:42   20 install libsqlite3_0                          3.34.0-1       
+2022/11/27 22:55:42   21 install liblz4_1                              1.9.4-1        
+2022/11/27 22:55:42   22 install liblwres161                           9.11.9-1       
+2022/11/27 22:55:42   23 install libbz2_1                              1.0.8-1        
+2022/11/27 22:55:42   24 install libatomic1                            11.3.0-1       
+2022/11/27 22:55:42   25 install liblzma5                              5.2.8-1        
+2022/11/27 22:55:42   26 install libexpat1                             2.4.1-1        
+2022/11/27 22:55:42   27 install libargp                               20110921-3     
+2022/11/27 22:55:42   28 install libpcre2_8_0                          10.40-1        
+2022/11/27 22:55:42   29 install libltdl7                              2.4.7-1        
+2022/11/27 22:55:42   30 install libffi6                               3.2.1-2        
+2022/11/27 22:55:42   31 install libcrypt2                             4.4.20-1       
+2022/11/27 22:55:42   32 install libgcc1                               11.3.0-1       
+2022/11/27 22:55:42   33 install libpipeline1                          1.5.6-1        
+2022/11/27 22:55:42   34 install libzstd1                              1.5.2-1        
+2022/11/27 22:55:42   35 install libgmp10                              6.2.1-2        
+2022/11/27 22:55:42   36 install zlib0                                 1.2.13-1       
+2022/11/27 22:55:42   37 install libiconv2                             1.17-1         
+2022/11/27 22:55:42   38 install run                                   1.3.4-2        
+2022/11/27 22:55:42   39 install mintty                                3.6.2-1        
+2022/11/27 22:55:42   40 install login                                 1.13-1         
+2022/11/27 22:55:42   41 install hostname                              3.13-1         
+2022/11/27 22:55:42   42 install libsigsegv2                           2.10-2         
+2022/11/27 22:55:42   43 install editrights                            1.03-1         
+2022/11/27 22:55:42   44 install dash                                  0.5.11.5-1     
+2022/11/27 22:55:42   45 install libmaxminddb0                         1.3.2-1        
+2022/11/27 22:55:42   46 install liblmdb0                              0.9.19-1       
+2022/11/27 22:55:42   47 install which                                 2.20-2         
+2022/11/27 22:55:42   48 install ipc-utils                             1.0-2          
+2022/11/27 22:55:42   49 install libncursesw10                         6.3-1.20220416 
+2022/11/27 22:55:42   50 install mingw64-i686-headers                  10.0.0-1       
+2022/11/27 22:55:42   51 install w32api-runtime                        10.0.0-1       
+2022/11/27 22:55:42   52 install libjson-c2                            0.12-1         
+2022/11/27 22:55:42   53 install getent                                2.18.90-4      
+2022/11/27 22:55:42   54 install libcom_err2                           1.44.5-1       
+2022/11/27 22:55:42   55 install libquadmath0                          11.3.0-1       
+2022/11/27 22:55:42   56 install libgomp1                              11.3.0-1       
+2022/11/27 22:55:42   57 install libstdc++6                            11.3.0-1       
+2022/11/27 22:55:42   58 install libgc1                                8.2.2-1        
+2022/11/27 22:55:42   59 install libmpfr6                              4.1.1-1        
+2022/11/27 22:55:42   60 install libisl23                              0.25-1         
+2022/11/27 22:55:42   61 install file                                  5.41-2         
+2022/11/27 22:55:42   62 install libunistring2                         0.9.10-1       
+2022/11/27 22:55:42   63 install libintl8                              0.21.1-2       
+2022/11/27 22:55:42   64 install _autorebase                           001091-1       
+2022/11/27 22:55:42   65 install libedit0                              20130712-1     
+2022/11/27 22:55:42   66 install less                                  590-1          
+2022/11/27 22:55:42   67 install vim-minimal                           8.2.4372-1     
+2022/11/27 22:55:42   68 install ncurses                               6.3-1.20220416 
+2022/11/27 22:55:42   69 install libreadline7                          8.2-2          
+2022/11/27 22:55:42   70 install mingw64-i686-runtime                  10.0.0-1       
+2022/11/27 22:55:42   71 install libicu61                              61.1-1         
+2022/11/27 22:55:42   72 install libmpc3                               1.2.1-2        
+2022/11/27 22:55:42   73 install libkrb5support0                       1.15.2-2       
+2022/11/27 22:55:42   74 install libp11-kit0                           0.23.20-1      
+2022/11/27 22:55:42   75 install libidn2_0                             2.3.4-1        
+2022/11/27 22:55:42   76 install libattr1                              2.4.48-2       
+2022/11/27 22:55:42   77 install libpopt0                              1.18-1         
+2022/11/27 22:55:42   78 install binutils                              2.39-1         
+2022/11/27 22:55:42   79 install libiconv                              1.17-1         
+2022/11/27 22:55:42   80 install mingw64-i686-binutils                 2.39-1         
+2022/11/27 22:55:42   81 install libuuid1                              2.33.1-2       
+2022/11/27 22:55:42   82 install libsmartcols1                         2.33.1-2       
+2022/11/27 22:55:42   83 install sed                                   4.9-1          
+2022/11/27 22:55:42   84 install libgdbm6                              1.18.1-1       
+2022/11/27 22:55:42   85 install info                                  6.8-2          
+2022/11/27 22:55:42   86 install diffutils                             3.8-1          
+2022/11/27 22:55:42   87 install alternatives                          1.3.30c-10     
+2022/11/27 22:55:42   88 install libxml2                               2.9.12-2       
+2022/11/27 22:55:42   89 install libguile2.2_1                         2.2.7-1        
+2022/11/27 22:55:42   90 install libboost_regex1.66                    1.66.0-1       
+2022/11/27 22:55:42   91 install libk5crypto3                          1.15.2-2       
+2022/11/27 22:55:42   92 install p11-kit-trust                         0.23.20-1      
+2022/11/27 22:55:42   93 install p11-kit                               0.23.20-1      
+2022/11/27 22:55:42   94 install bash                                  4.4.12-3       
+2022/11/27 22:55:42   95 install tzcode                                2022e-1        
+2022/11/27 22:55:42   96 install coreutils                             9.0-1          
+2022/11/27 22:55:42   97 install cygutils                              1.4.17-1       
+2022/11/27 22:55:42   98 install libblkid1                             2.33.1-2       
+2022/11/27 22:55:42   99 install libgdbm_compat4                       1.18.1-1       
+2022/11/27 22:55:42  100 install make                                  4.3-1          
+2022/11/27 22:55:42  101 install libsource-highlight4                  3.1.8-6        
+2022/11/27 22:55:42  102 install libkrb5_3                             1.15.2-2       
+2022/11/27 22:55:42  103 install ca-certificates                       2022.2.54-3    
+2022/11/27 22:55:42  104 install groff                                 1.22.4-1       
+2022/11/27 22:55:42  105 install zstd                                  1.5.2-1        
+2022/11/27 22:55:42  106 install xz                                    5.2.8-1        
+2022/11/27 22:55:42  107 install bzip2                                 1.0.8-1        
+2022/11/27 22:55:42  108 install gzip                                  1.12-1         
+2022/11/27 22:55:42  109 install grep                                  3.8-2          
+2022/11/27 22:55:42  110 install gawk                                  5.2.1-1        
+2022/11/27 22:55:42  111 install findutils                             4.9.0-1        
+2022/11/27 22:55:42  112 install crypto-policies                       20190218-1     
+2022/11/27 22:55:42  113 install mingw64-i686-gcc-core                 11.3.0-1       
+2022/11/27 22:55:42  114 install gcc-core                              11.3.0-1       
+2022/11/27 22:55:42  115 install libfdisk1                             2.33.1-2       
+2022/11/27 22:55:42  116 install libgssapi_krb5_2                      1.15.2-2       
+2022/11/27 22:55:42  117 install tar                                   1.34-1         
+2022/11/27 22:55:42  118 install base-files                            4.3-3          
+2022/11/27 22:55:42  119 install libssl1.1                             1.1.1s-1       
+2022/11/27 22:55:42  120 install util-linux                            2.33.1-2       
+2022/11/27 22:55:42  121 install python39                              3.9.10-1       
+2022/11/27 22:55:42  122 install python39-setuptools                   59.5.0-1       
+2022/11/27 22:55:42  123 install python39-pip                          21.3.1-3       
+2022/11/27 22:55:42  124 install libisc1100                            9.11.9-1       
+2022/11/27 22:55:42  125 install openssl                               1.1.1s-1       
+2022/11/27 22:55:42  126 install man-db                                2.11.1-1       
+2022/11/27 22:55:42  127 install gdb                                   11.2-1         
+2022/11/27 22:55:42  128 install libdns1106                            9.11.9-1       
+2022/11/27 22:55:42  129 install libisccfg163                          9.11.9-1       
+2022/11/27 22:55:42  130 install libirs161                             9.11.9-1       
+2022/11/27 22:55:42  131 install libbind9_161                          9.11.9-1       
+2022/11/27 22:55:42  132 install bind-utils                            9.11.9-1       
+2022/11/27 22:55:56 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/bind/bind-9.11.9-1-src.tar.xz
+2022/11/27 22:56:08 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gcc/gcc-11.3.0-1-src.tar.zst
+2022/11/27 22:56:11 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gdb/gdb-11.2-1-src.tar.xz
+2022/11/27 22:56:11 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/make/make-4.3-1-src.tar.xz
+2022/11/27 22:56:21 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/mingw64-i686-gcc/mingw64-i686-gcc-11.3.0-1-src.tar.zst
+2022/11/27 22:56:21 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/mingw64-i686-windows-default-manifest/mingw64-i686-windows-default-manifest-6.4-1.tar.xz
+2022/11/27 22:56:21 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/base-cygwin/base-cygwin-3.8-1.tar.xz
+2022/11/27 22:56:22 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/cygwin/cygwin-3.3.6-1.tar.xz
+2022/11/27 22:56:22 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/rebase/rebase-4.6.1-1.tar.xz
+2022/11/27 22:56:22 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/ncurses/terminfo/terminfo-6.3-1.20220416.tar.xz
+2022/11/27 22:56:22 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/ncurses/terminfo-extra/terminfo-extra-6.3-1.20220416.tar.xz
+2022/11/27 22:56:22 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/tzdata/tzdata-2022f-1.tar.xz
+2022/11/27 22:56:23 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/mingw64-i686-winpthreads/mingw64-i686-winpthreads-10.0.0-1.tar.xz
+2022/11/27 22:56:23 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/cygwin/cygwin-devel/cygwin-devel-3.3.6-1.tar.xz
+2022/11/27 22:56:24 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/w32api-headers/w32api-headers-10.0.0-1.tar.xz
+2022/11/27 22:56:24 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/windows-default-manifest/windows-default-manifest-6.4-1.tar.xz
+2022/11/27 22:56:24 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/source-highlight/libsource-highlight-common/libsource-highlight-common-3.1.8-6.tar.xz
+2022/11/27 22:56:24 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/popt/libpopt-common/libpopt-common-1.18-1.tar.xz
+2022/11/27 22:56:25 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/json-c/libjson-c-common/libjson-c-common-0.12-1.tar.xz
+2022/11/27 22:56:25 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/libtasn1/libtasn1_6/libtasn1_6-4.14-1.tar.xz
+2022/11/27 22:56:25 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/sqlite3/libsqlite3_0/libsqlite3_0-3.34.0-1.tar.xz
+2022/11/27 22:56:25 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/lz4/liblz4_1/liblz4_1-1.9.4-1.tar.xz
+2022/11/27 22:56:25 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/bind/liblwres161/liblwres161-9.11.9-1.tar.xz
+2022/11/27 22:56:25 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/bzip2/libbz2_1/libbz2_1-1.0.8-1.tar.xz
+2022/11/27 22:56:26 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gcc/libatomic1/libatomic1-11.3.0-1.tar.zst
+2022/11/27 22:56:26 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/xz/liblzma5/liblzma5-5.2.8-1.tar.zst
+2022/11/27 22:56:26 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/expat/libexpat1/libexpat1-2.4.1-1.tar.xz
+2022/11/27 22:56:26 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/libargp/libargp-20110921-3.tar.xz
+2022/11/27 22:56:26 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/pcre2/libpcre2_8_0/libpcre2_8_0-10.40-1.tar.zst
+2022/11/27 22:56:26 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/libtool/libltdl7/libltdl7-2.4.7-1.tar.zst
+2022/11/27 22:56:26 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/libffi/libffi6/libffi6-3.2.1-2.tar.xz
+2022/11/27 22:56:27 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/libxcrypt/libcrypt2/libcrypt2-4.4.20-1.tar.xz
+2022/11/27 22:56:27 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gcc/libgcc1/libgcc1-11.3.0-1.tar.zst
+2022/11/27 22:56:27 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/libpipeline/libpipeline1/libpipeline1-1.5.6-1.tar.xz
+2022/11/27 22:56:27 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/zstd/libzstd1/libzstd1-1.5.2-1.tar.zst
+2022/11/27 22:56:27 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gmp/libgmp10/libgmp10-6.2.1-2.tar.zst
+2022/11/27 22:56:27 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/zlib/zlib0/zlib0-1.2.13-1.tar.zst
+2022/11/27 22:56:28 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/libiconv/libiconv2/libiconv2-1.17-1.tar.xz
+2022/11/27 22:56:28 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/run/run-1.3.4-2.tar.xz
+2022/11/27 22:56:28 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/mintty/mintty-3.6.2-1.tar.xz
+2022/11/27 22:56:28 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/login/login-1.13-1.tar.xz
+2022/11/27 22:56:28 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/hostname/hostname-3.13-1.tar.bz2
+2022/11/27 22:56:29 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/libsigsegv/libsigsegv2/libsigsegv2-2.10-2.tar.xz
+2022/11/27 22:56:29 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/editrights/editrights-1.03-1.tar.xz
+2022/11/27 22:56:29 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/dash/dash-0.5.11.5-1.tar.xz
+2022/11/27 22:56:29 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/libmaxminddb/libmaxminddb0/libmaxminddb0-1.3.2-1.tar.xz
+2022/11/27 22:56:29 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/lmdb/liblmdb0/liblmdb0-0.9.19-1.tar.xz
+2022/11/27 22:56:29 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/which/which-2.20-2.tar.bz2
+2022/11/27 22:56:29 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/ipc-utils/ipc-utils-1.0-2.tar.bz2
+2022/11/27 22:56:29 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/ncurses/libncursesw10/libncursesw10-6.3-1.20220416.tar.xz
+2022/11/27 22:56:31 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/mingw64-i686-headers/mingw64-i686-headers-10.0.0-1.tar.xz
+2022/11/27 22:56:31 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/w32api-runtime/w32api-runtime-10.0.0-1.tar.xz
+2022/11/27 22:56:32 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/json-c/libjson-c2/libjson-c2-0.12-1.tar.xz
+2022/11/27 22:56:32 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/getent/getent-2.18.90-4.tar.xz
+2022/11/27 22:56:32 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/e2fsprogs/libcom_err2/libcom_err2-1.44.5-1.tar.xz
+2022/11/27 22:56:32 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gcc/libquadmath0/libquadmath0-11.3.0-1.tar.zst
+2022/11/27 22:56:32 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gcc/libgomp1/libgomp1-11.3.0-1.tar.zst
+2022/11/27 22:56:32 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gcc/libstdc++6/libstdc++6-11.3.0-1.tar.zst
+2022/11/27 22:56:32 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/libgc/libgc1/libgc1-8.2.2-1.tar.xz
+2022/11/27 22:56:33 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/mpfr/libmpfr6/libmpfr6-4.1.1-1.tar.zst
+2022/11/27 22:56:33 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/isl/libisl23/libisl23-0.25-1.tar.zst
+2022/11/27 22:56:33 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/file/file-5.41-2.tar.xz
+2022/11/27 22:56:33 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/libunistring/libunistring2/libunistring2-0.9.10-1.tar.xz
+2022/11/27 22:56:33 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gettext/libintl8/libintl8-0.21.1-2.tar.xz
+2022/11/27 22:56:33 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/_autorebase/_autorebase-001091-1.tar.zst
+2022/11/27 22:56:33 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/libedit/libedit0/libedit0-20130712-1.tar.xz
+2022/11/27 22:56:33 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/less/less-590-1.tar.xz
+2022/11/27 22:56:34 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/vim/vim-minimal/vim-minimal-8.2.4372-1.tar.xz
+2022/11/27 22:56:34 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/ncurses/ncurses-6.3-1.20220416.tar.xz
+2022/11/27 22:56:34 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/readline/libreadline7/libreadline7-8.2-2.tar.xz
+2022/11/27 22:56:34 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/mingw64-i686-runtime/mingw64-i686-runtime-10.0.0-1.tar.xz
+2022/11/27 22:56:35 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/icu/libicu61/libicu61-61.1-1.tar.xz
+2022/11/27 22:56:36 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/mpclib/libmpc3/libmpc3-1.2.1-2.tar.zst
+2022/11/27 22:56:36 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/krb5/libkrb5support0/libkrb5support0-1.15.2-2.tar.xz
+2022/11/27 22:56:36 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/p11-kit/libp11-kit0/libp11-kit0-0.23.20-1.tar.xz
+2022/11/27 22:56:36 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/libidn2/libidn2_0/libidn2_0-2.3.4-1.tar.xz
+2022/11/27 22:56:36 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/attr/libattr1/libattr1-2.4.48-2.tar.xz
+2022/11/27 22:56:36 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/popt/libpopt0/libpopt0-1.18-1.tar.xz
+2022/11/27 22:56:38 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/binutils/binutils-2.39-1.tar.zst
+2022/11/27 22:56:38 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/libiconv/libiconv-1.17-1.tar.xz
+2022/11/27 22:56:38 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/mingw64-i686-binutils/mingw64-i686-binutils-2.39-1.tar.zst
+2022/11/27 22:56:38 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/util-linux/libuuid1/libuuid1-2.33.1-2.tar.xz
+2022/11/27 22:56:38 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/util-linux/libsmartcols1/libsmartcols1-2.33.1-2.tar.xz
+2022/11/27 22:56:39 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/sed/sed-4.9-1.tar.xz
+2022/11/27 22:56:39 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gdbm/libgdbm6/libgdbm6-1.18.1-1.tar.xz
+2022/11/27 22:56:39 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/texinfo/info/info-6.8-2.tar.xz
+2022/11/27 22:56:39 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/diffutils/diffutils-3.8-1.tar.xz
+2022/11/27 22:56:39 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/alternatives/alternatives-1.3.30c-10.tar.bz2
+2022/11/27 22:56:39 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/libxml2/libxml2-2.9.12-2.tar.xz
+2022/11/27 22:56:40 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/guile2.2/libguile2.2_1/libguile2.2_1-2.2.7-1.tar.xz
+2022/11/27 22:56:40 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/boost/libboost_regex1.66/libboost_regex1.66-1.66.0-1.tar.xz
+2022/11/27 22:56:40 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/krb5/libk5crypto3/libk5crypto3-1.15.2-2.tar.xz
+2022/11/27 22:56:40 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/p11-kit/p11-kit-trust/p11-kit-trust-0.23.20-1.tar.xz
+2022/11/27 22:56:41 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/p11-kit/p11-kit-0.23.20-1.tar.xz
+2022/11/27 22:56:41 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/bash/bash-4.4.12-3.tar.xz
+2022/11/27 22:56:41 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/tzcode/tzcode-2022e-1.tar.xz
+2022/11/27 22:56:41 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/coreutils/coreutils-9.0-1.tar.xz
+2022/11/27 22:56:41 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/cygutils/cygutils-1.4.17-1.tar.xz
+2022/11/27 22:56:42 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/util-linux/libblkid1/libblkid1-2.33.1-2.tar.xz
+2022/11/27 22:56:42 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gdbm/libgdbm_compat4/libgdbm_compat4-1.18.1-1.tar.xz
+2022/11/27 22:56:42 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/make/make-4.3-1.tar.xz
+2022/11/27 22:56:42 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/source-highlight/libsource-highlight4/libsource-highlight4-3.1.8-6.tar.xz
+2022/11/27 22:56:42 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/krb5/libkrb5_3/libkrb5_3-1.15.2-2.tar.xz
+2022/11/27 22:56:43 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/ca-certificates/ca-certificates-2022.2.54-3.tar.zst
+2022/11/27 22:56:43 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/groff/groff-1.22.4-1.tar.xz
+2022/11/27 22:56:44 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/zstd/zstd-1.5.2-1.tar.zst
+2022/11/27 22:56:44 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/xz/xz-5.2.8-1.tar.zst
+2022/11/27 22:56:44 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/bzip2/bzip2-1.0.8-1.tar.xz
+2022/11/27 22:56:44 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gzip/gzip-1.12-1.tar.xz
+2022/11/27 22:56:44 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/grep/grep-3.8-2.tar.xz
+2022/11/27 22:56:44 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gawk/gawk-5.2.1-1.tar.xz
+2022/11/27 22:56:45 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/findutils/findutils-4.9.0-1.tar.xz
+2022/11/27 22:56:45 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/crypto-policies/crypto-policies-20190218-1.tar.xz
+2022/11/27 22:56:48 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/mingw64-i686-gcc/mingw64-i686-gcc-core/mingw64-i686-gcc-core-11.3.0-1.tar.zst
+2022/11/27 22:56:53 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gcc/gcc-core/gcc-core-11.3.0-1.tar.zst
+2022/11/27 22:56:53 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/util-linux/libfdisk1/libfdisk1-2.33.1-2.tar.xz
+2022/11/27 22:56:53 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/krb5/libgssapi_krb5_2/libgssapi_krb5_2-1.15.2-2.tar.xz
+2022/11/27 22:56:53 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/tar/tar-1.34-1.tar.zst
+2022/11/27 22:56:54 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/base-files/base-files-4.3-3.tar.zst
+2022/11/27 22:56:54 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/openssl/libssl1.1/libssl1.1-1.1.1s-1.tar.zst
+2022/11/27 22:56:54 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/util-linux/util-linux-2.33.1-2.tar.xz
+2022/11/27 22:56:55 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/python39/python39-3.9.10-1.tar.xz
+2022/11/27 22:56:56 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-setuptools/python39-setuptools/python39-setuptools-59.5.0-1.tar.xz
+2022/11/27 22:56:56 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-pip/python39-pip/python39-pip-21.3.1-3.tar.xz
+2022/11/27 22:56:56 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/bind/libisc1100/libisc1100-9.11.9-1.tar.xz
+2022/11/27 22:56:57 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/openssl/openssl-1.1.1s-1.tar.zst
+2022/11/27 22:56:57 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/man-db/man-db-2.11.1-1.tar.zst
+2022/11/27 22:56:57 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gdb/gdb-11.2-1.tar.xz
+2022/11/27 22:56:58 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/bind/libdns1106/libdns1106-9.11.9-1.tar.xz
+2022/11/27 22:56:58 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/bind/libisccfg163/libisccfg163-9.11.9-1.tar.xz
+2022/11/27 22:56:58 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/bind/libirs161/libirs161-9.11.9-1.tar.xz
+2022/11/27 22:56:58 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/bind/libbind9_161/libbind9_161-9.11.9-1.tar.xz
+2022/11/27 22:56:59 Downloaded C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/bind/bind-utils/bind-utils-9.11.9-1.tar.xz
+2022/11/27 22:56:59 Registry value set: HKEY_LOCAL_MACHINE\Software\Cygwin\setup\rootdir = "C:\Tools\cygwin64"
+2022/11/27 22:56:59 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/mingw64-i686-windows-default-manifest/mingw64-i686-windows-default-manifest-6.4-1.tar.xz
+2022/11/27 22:56:59 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/base-cygwin/base-cygwin-3.8-1.tar.xz
+2022/11/27 22:56:59 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/cygwin/cygwin-3.3.6-1.tar.xz
+2022/11/27 22:56:59 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/rebase/rebase-4.6.1-1.tar.xz
+2022/11/27 22:56:59 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/ncurses/terminfo/terminfo-6.3-1.20220416.tar.xz
+2022/11/27 22:57:00 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/ncurses/terminfo-extra/terminfo-extra-6.3-1.20220416.tar.xz
+2022/11/27 22:57:10 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/tzdata/tzdata-2022f-1.tar.xz
+2022/11/27 22:57:15 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/mingw64-i686-winpthreads/mingw64-i686-winpthreads-10.0.0-1.tar.xz
+2022/11/27 22:57:15 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/cygwin/cygwin-devel/cygwin-devel-3.3.6-1.tar.xz
+2022/11/27 22:57:16 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/w32api-headers/w32api-headers-10.0.0-1.tar.xz
+2022/11/27 22:57:21 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/windows-default-manifest/windows-default-manifest-6.4-1.tar.xz
+2022/11/27 22:57:21 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/source-highlight/libsource-highlight-common/libsource-highlight-common-3.1.8-6.tar.xz
+2022/11/27 22:57:22 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/popt/libpopt-common/libpopt-common-1.18-1.tar.xz
+2022/11/27 22:57:22 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/json-c/libjson-c-common/libjson-c-common-0.12-1.tar.xz
+2022/11/27 22:57:22 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/libtasn1/libtasn1_6/libtasn1_6-4.14-1.tar.xz
+2022/11/27 22:57:22 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/sqlite3/libsqlite3_0/libsqlite3_0-3.34.0-1.tar.xz
+2022/11/27 22:57:22 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/lz4/liblz4_1/liblz4_1-1.9.4-1.tar.xz
+2022/11/27 22:57:22 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/bind/liblwres161/liblwres161-9.11.9-1.tar.xz
+2022/11/27 22:57:22 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/bzip2/libbz2_1/libbz2_1-1.0.8-1.tar.xz
+2022/11/27 22:57:22 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gcc/libatomic1/libatomic1-11.3.0-1.tar.zst
+2022/11/27 22:57:22 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/xz/liblzma5/liblzma5-5.2.8-1.tar.zst
+2022/11/27 22:57:22 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/expat/libexpat1/libexpat1-2.4.1-1.tar.xz
+2022/11/27 22:57:22 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/libargp/libargp-20110921-3.tar.xz
+2022/11/27 22:57:22 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/pcre2/libpcre2_8_0/libpcre2_8_0-10.40-1.tar.zst
+2022/11/27 22:57:22 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/libtool/libltdl7/libltdl7-2.4.7-1.tar.zst
+2022/11/27 22:57:22 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/libffi/libffi6/libffi6-3.2.1-2.tar.xz
+2022/11/27 22:57:22 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/libxcrypt/libcrypt2/libcrypt2-4.4.20-1.tar.xz
+2022/11/27 22:57:22 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gcc/libgcc1/libgcc1-11.3.0-1.tar.zst
+2022/11/27 22:57:22 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/libpipeline/libpipeline1/libpipeline1-1.5.6-1.tar.xz
+2022/11/27 22:57:22 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/zstd/libzstd1/libzstd1-1.5.2-1.tar.zst
+2022/11/27 22:57:22 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gmp/libgmp10/libgmp10-6.2.1-2.tar.zst
+2022/11/27 22:57:22 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/zlib/zlib0/zlib0-1.2.13-1.tar.zst
+2022/11/27 22:57:22 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/libiconv/libiconv2/libiconv2-1.17-1.tar.xz
+2022/11/27 22:57:22 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/run/run-1.3.4-2.tar.xz
+2022/11/27 22:57:22 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/mintty/mintty-3.6.2-1.tar.xz
+2022/11/27 22:57:23 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/login/login-1.13-1.tar.xz
+2022/11/27 22:57:23 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/hostname/hostname-3.13-1.tar.bz2
+2022/11/27 22:57:23 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/libsigsegv/libsigsegv2/libsigsegv2-2.10-2.tar.xz
+2022/11/27 22:57:23 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/editrights/editrights-1.03-1.tar.xz
+2022/11/27 22:57:23 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/dash/dash-0.5.11.5-1.tar.xz
+2022/11/27 22:57:23 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/libmaxminddb/libmaxminddb0/libmaxminddb0-1.3.2-1.tar.xz
+2022/11/27 22:57:23 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/lmdb/liblmdb0/liblmdb0-0.9.19-1.tar.xz
+2022/11/27 22:57:23 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/which/which-2.20-2.tar.bz2
+2022/11/27 22:57:23 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/ipc-utils/ipc-utils-1.0-2.tar.bz2
+2022/11/27 22:57:23 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/ncurses/libncursesw10/libncursesw10-6.3-1.20220416.tar.xz
+2022/11/27 22:57:23 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/mingw64-i686-headers/mingw64-i686-headers-10.0.0-1.tar.xz
+2022/11/27 22:57:28 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/w32api-runtime/w32api-runtime-10.0.0-1.tar.xz
+2022/11/27 22:57:32 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/json-c/libjson-c2/libjson-c2-0.12-1.tar.xz
+2022/11/27 22:57:32 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/getent/getent-2.18.90-4.tar.xz
+2022/11/27 22:57:32 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/e2fsprogs/libcom_err2/libcom_err2-1.44.5-1.tar.xz
+2022/11/27 22:57:32 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gcc/libquadmath0/libquadmath0-11.3.0-1.tar.zst
+2022/11/27 22:57:32 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gcc/libgomp1/libgomp1-11.3.0-1.tar.zst
+2022/11/27 22:57:32 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gcc/libstdc++6/libstdc++6-11.3.0-1.tar.zst
+2022/11/27 22:57:32 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/libgc/libgc1/libgc1-8.2.2-1.tar.xz
+2022/11/27 22:57:32 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/mpfr/libmpfr6/libmpfr6-4.1.1-1.tar.zst
+2022/11/27 22:57:32 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/isl/libisl23/libisl23-0.25-1.tar.zst
+2022/11/27 22:57:32 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/file/file-5.41-2.tar.xz
+2022/11/27 22:57:32 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/libunistring/libunistring2/libunistring2-0.9.10-1.tar.xz
+2022/11/27 22:57:33 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gettext/libintl8/libintl8-0.21.1-2.tar.xz
+2022/11/27 22:57:33 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/_autorebase/_autorebase-001091-1.tar.zst
+2022/11/27 22:57:33 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/libedit/libedit0/libedit0-20130712-1.tar.xz
+2022/11/27 22:57:33 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/less/less-590-1.tar.xz
+2022/11/27 22:57:33 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/vim/vim-minimal/vim-minimal-8.2.4372-1.tar.xz
+2022/11/27 22:57:33 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/ncurses/ncurses-6.3-1.20220416.tar.xz
+2022/11/27 22:57:33 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/readline/libreadline7/libreadline7-8.2-2.tar.xz
+2022/11/27 22:57:34 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/mingw64-i686-runtime/mingw64-i686-runtime-10.0.0-1.tar.xz
+2022/11/27 22:57:36 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/icu/libicu61/libicu61-61.1-1.tar.xz
+2022/11/27 22:57:39 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/mpclib/libmpc3/libmpc3-1.2.1-2.tar.zst
+2022/11/27 22:57:39 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/krb5/libkrb5support0/libkrb5support0-1.15.2-2.tar.xz
+2022/11/27 22:57:39 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/p11-kit/libp11-kit0/libp11-kit0-0.23.20-1.tar.xz
+2022/11/27 22:57:39 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/libidn2/libidn2_0/libidn2_0-2.3.4-1.tar.xz
+2022/11/27 22:57:39 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/attr/libattr1/libattr1-2.4.48-2.tar.xz
+2022/11/27 22:57:39 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/popt/libpopt0/libpopt0-1.18-1.tar.xz
+2022/11/27 22:57:39 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/binutils/binutils-2.39-1.tar.zst
+2022/11/27 22:57:40 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/libiconv/libiconv-1.17-1.tar.xz
+2022/11/27 22:57:41 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/mingw64-i686-binutils/mingw64-i686-binutils-2.39-1.tar.zst
+2022/11/27 22:57:41 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/util-linux/libuuid1/libuuid1-2.33.1-2.tar.xz
+2022/11/27 22:57:41 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/util-linux/libsmartcols1/libsmartcols1-2.33.1-2.tar.xz
+2022/11/27 22:57:41 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/sed/sed-4.9-1.tar.xz
+2022/11/27 22:57:41 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gdbm/libgdbm6/libgdbm6-1.18.1-1.tar.xz
+2022/11/27 22:57:41 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/texinfo/info/info-6.8-2.tar.xz
+2022/11/27 22:57:42 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/diffutils/diffutils-3.8-1.tar.xz
+2022/11/27 22:57:42 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/alternatives/alternatives-1.3.30c-10.tar.bz2
+2022/11/27 22:57:42 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/libxml2/libxml2-2.9.12-2.tar.xz
+2022/11/27 22:57:43 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/guile2.2/libguile2.2_1/libguile2.2_1-2.2.7-1.tar.xz
+2022/11/27 22:57:51 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/boost/libboost_regex1.66/libboost_regex1.66-1.66.0-1.tar.xz
+2022/11/27 22:57:51 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/krb5/libk5crypto3/libk5crypto3-1.15.2-2.tar.xz
+2022/11/27 22:57:51 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/p11-kit/p11-kit-trust/p11-kit-trust-0.23.20-1.tar.xz
+2022/11/27 22:57:52 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/p11-kit/p11-kit-0.23.20-1.tar.xz
+2022/11/27 22:57:52 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/bash/bash-4.4.12-3.tar.xz
+2022/11/27 22:57:53 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/tzcode/tzcode-2022e-1.tar.xz
+2022/11/27 22:57:54 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/coreutils/coreutils-9.0-1.tar.xz
+2022/11/27 22:57:56 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/cygutils/cygutils-1.4.17-1.tar.xz
+2022/11/27 22:57:56 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/util-linux/libblkid1/libblkid1-2.33.1-2.tar.xz
+2022/11/27 22:57:56 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gdbm/libgdbm_compat4/libgdbm_compat4-1.18.1-1.tar.xz
+2022/11/27 22:57:56 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/make/make-4.3-1.tar.xz
+2022/11/27 22:57:57 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/source-highlight/libsource-highlight4/libsource-highlight4-3.1.8-6.tar.xz
+2022/11/27 22:57:57 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/krb5/libkrb5_3/libkrb5_3-1.15.2-2.tar.xz
+2022/11/27 22:57:57 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/ca-certificates/ca-certificates-2022.2.54-3.tar.zst
+2022/11/27 22:57:57 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/groff/groff-1.22.4-1.tar.xz
+2022/11/27 22:58:00 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/zstd/zstd-1.5.2-1.tar.zst
+2022/11/27 22:58:00 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/xz/xz-5.2.8-1.tar.zst
+2022/11/27 22:58:01 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/bzip2/bzip2-1.0.8-1.tar.xz
+2022/11/27 22:58:01 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gzip/gzip-1.12-1.tar.xz
+2022/11/27 22:58:01 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/grep/grep-3.8-2.tar.xz
+2022/11/27 22:58:01 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gawk/gawk-5.2.1-1.tar.xz
+2022/11/27 22:58:02 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/findutils/findutils-4.9.0-1.tar.xz
+2022/11/27 22:58:02 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/crypto-policies/crypto-policies-20190218-1.tar.xz
+2022/11/27 22:58:02 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/mingw64-i686-gcc/mingw64-i686-gcc-core/mingw64-i686-gcc-core-11.3.0-1.tar.zst
+2022/11/27 22:58:03 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gcc/gcc-core/gcc-core-11.3.0-1.tar.zst
+2022/11/27 22:58:05 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/util-linux/libfdisk1/libfdisk1-2.33.1-2.tar.xz
+2022/11/27 22:58:05 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/krb5/libgssapi_krb5_2/libgssapi_krb5_2-1.15.2-2.tar.xz
+2022/11/27 22:58:05 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/tar/tar-1.34-1.tar.zst
+2022/11/27 22:58:05 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/base-files/base-files-4.3-3.tar.zst
+2022/11/27 22:58:05 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/openssl/libssl1.1/libssl1.1-1.1.1s-1.tar.zst
+2022/11/27 22:58:05 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/util-linux/util-linux-2.33.1-2.tar.xz
+2022/11/27 22:58:06 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/python39/python39-3.9.10-1.tar.xz
+2022/11/27 22:58:25 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-setuptools/python39-setuptools/python39-setuptools-59.5.0-1.tar.xz
+2022/11/27 22:58:28 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/noarch/release/python-pip/python39-pip/python39-pip-21.3.1-3.tar.xz
+2022/11/27 22:58:38 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/bind/libisc1100/libisc1100-9.11.9-1.tar.xz
+2022/11/27 22:58:38 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/openssl/openssl-1.1.1s-1.tar.zst
+2022/11/27 22:58:38 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/man-db/man-db-2.11.1-1.tar.zst
+2022/11/27 22:58:40 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gdb/gdb-11.2-1.tar.xz
+2022/11/27 22:58:42 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/bind/libdns1106/libdns1106-9.11.9-1.tar.xz
+2022/11/27 22:58:42 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/bind/libisccfg163/libisccfg163-9.11.9-1.tar.xz
+2022/11/27 22:58:42 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/bind/libirs161/libirs161-9.11.9-1.tar.xz
+2022/11/27 22:58:42 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/bind/libbind9_161/libbind9_161-9.11.9-1.tar.xz
+2022/11/27 22:58:42 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/bind/bind-utils/bind-utils-9.11.9-1.tar.xz
+2022/11/27 22:58:42 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/bind/bind-9.11.9-1-src.tar.xz
+2022/11/27 22:58:42 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gcc/gcc-11.3.0-1-src.tar.zst
+2022/11/27 22:58:42 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/gdb/gdb-11.2-1-src.tar.xz
+2022/11/27 22:58:42 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/make/make-4.3-1-src.tar.xz
+2022/11/27 22:58:42 Extracting from file://C:\Tools\cygwin64\local_package/https%3a%2f%2fmirrors.aliyun.com%2fcygwin%2f/x86_64/release/mingw64-i686-gcc/mingw64-i686-gcc-11.3.0-1-src.tar.zst
+2022/11/27 22:58:43 Changing gid back to original
+2022/11/27 22:58:43 running: C:\Tools\cygwin64\bin\dash.exe "/etc/postinstall/0p_000_autorebase.dash"
+2022/11/27 22:59:36 running: C:\Tools\cygwin64\bin\dash.exe "/etc/postinstall/0p_update-info-dir.dash"
+2022/11/27 22:59:54 running: C:\Tools\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/000-cygwin-post-install.sh"
+2022/11/27 22:59:56 running: C:\Tools\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/base-files-mketc.sh"
+2022/11/27 23:00:11 running: C:\Tools\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/base-files-profile.sh"
+2022/11/27 23:00:50 running: C:\Tools\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/bash.sh"
+2022/11/27 23:00:57 running: C:\Tools\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/ca-certificates.sh"
+2022/11/27 23:01:10 running: C:\Tools\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/coreutils.sh"
+2022/11/27 23:01:13 running: C:\Tools\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/crypto-policies.sh"
+2022/11/27 23:02:18 running: C:\Tools\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/openssl.sh"
+2022/11/27 23:02:21 running: C:\Tools\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/libxml2.sh"
+2022/11/27 23:02:24 running: C:\Tools\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/man-db.sh"
+2022/11/27 23:02:26 running: C:\Tools\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/mintty.sh"
+2022/11/27 23:02:27 running: C:\Tools\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/p11-kit.sh"
+2022/11/27 23:02:28 running: C:\Tools\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/python39.sh"
+2022/11/27 23:02:30 running: C:\Tools\cygwin64\bin\bash.exe --norc --noprofile "/etc/postinstall/python39-pip.sh"
+2022/11/27 23:02:31 running: C:\Tools\cygwin64\bin\dash.exe "/etc/postinstall/zp_man-db-update-index.dash"
+2022/11/27 23:02:31 Changing gid to Administrators
+2022/11/27 23:04:12 note: Installation Complete
+2022/11/27 23:04:12 Ending cygwin install

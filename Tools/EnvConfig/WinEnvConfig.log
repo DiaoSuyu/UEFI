@@ -1,0 +1,14 @@
+﻿Clearing log file...
+Execution policy is already set to RemoteSigned.
+Setting environment variables
+Getting the current system PATH...
+Current system PATH: C:\Windows;C:\Windows\system32;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\TortoiseGit\bin;C:\Program Files\Python313\;C:\Program Files\Python313\Scripts\;C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build;C:\Program Files\JetBrains\PyCharm Community Edition 2021.2\bin;C:\uefi-work-space\Tools\BuildTools\ASL\;C:\uefi-work-space\Tools\BuildTools\Cygwin64\;C:\uefi-work-space\Tools\BuildTools\NASM\;D:\Windows Kits\10\Windows Performance Toolkit\;D:\Windows Kits\10\Tools\dvl;
+Checking and adding paths...
+Path already exists: C:\Windows
+Path already exists: C:\Windows\system32
+Path already exists: C:\uefi-work-space\Tools\BuildTools\ASL
+Path already exists: C:\uefi-work-space\Tools\BuildTools\Cygwin64
+Path already exists: C:\uefi-work-space\Tools\BuildTools\NASM
+Updated PATH: C:\Windows;C:\Windows\system32;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\TortoiseGit\bin;C:\Program Files\Python313\;C:\Program Files\Python313\Scripts\;C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build;C:\Program Files\JetBrains\PyCharm Community Edition 2021.2\bin;C:\uefi-work-space\Tools\BuildTools\ASL\;C:\uefi-work-space\Tools\BuildTools\Cygwin64\;C:\uefi-work-space\Tools\BuildTools\NASM\;D:\Windows Kits\10\Windows Performance Toolkit\;D:\Windows Kits\10\Tools\dvl;
+Environment variables have been set successfully!
+Process completed, log file has been generated at: C:\uefi-work-space\Tools\EnvConfig\WinEnvConfig.log

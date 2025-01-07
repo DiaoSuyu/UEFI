@@ -1,0 +1,51 @@
+--- origsrc/bind-9.9.6/configure.ac	2014-09-16 14:27:20.000000000 -0500
++++ src/bind-9.9.6/configure.ac	2014-10-12 13:30:24.055416500 -0500
+@@ -100,7 +100,7 @@ AC_SUBST(ARFLAGS)
+ 
+ # The POSIX ln(1) program.  Non-POSIX systems may substitute
+ # "copy" or something.
+-LN=ln
++LN="ln -s"
+ AC_SUBST(LN)
+ 
+ case "$AR" in
+@@ -4138,7 +4138,7 @@ NOM_PATH_FILE(XSLT_DOCBOOK_MAKETOC_XHTML
+ #
+ # Same dance for dblatex
+ #
+-dblatex_xsl_trees="/usr/local/share/xml/docbook/stylesheet/dblatex /usr/pkg/share/xml/docbook/stylesheet/dblatex /usr/share/xml/docbook/stylesheet/dblatex"
++dblatex_xsl_trees="/usr/local/share/xml/docbook/stylesheet/dblatex /usr/pkg/share/xml/docbook/stylesheet/dblatex /usr/share/xml/docbook/stylesheet/dblatex /usr/share/dblatex"
+ NOM_PATH_FILE(XSLT_DBLATEX_STYLE, xsl/docbook.xsl, $dblatex_xsl_trees)
+ NOM_PATH_FILE(XSLT_DBLATEX_FASTBOOK, xsl/latex_book_fast.xsl, $dblatex_xsl_trees)
+ 
+--- origsrc/bind-9.9.6/contrib/dlz/config.dlz.in	2014-09-16 14:27:20.000000000 -0500
++++ src/bind-9.9.6/contrib/dlz/config.dlz.in	2014-10-12 13:45:58.989138000 -0500
+@@ -110,7 +110,7 @@ case "$use_dlz_postgres" in
+ 	*)
+ 		DLZ_ADD_DRIVER(POSTGRES, dlz_postgres_driver,
+ 				[-I$use_dlz_postgres],
+-				[-L$use_dlz_postgres_lib -lpq])
++				[-L$use_dlz_postgres/lib -lpq])
+ 
+ 		AC_MSG_RESULT(
+ [using PostgreSQL from $use_dlz_postgres_lib and $use_dlz_postgres])
+@@ -288,7 +288,7 @@ case "$use_dlz_bdb" in
+ 					then
+ 						break
+ 					fi
+-				elif test -f "$dd/lib/lib${d}.so"
++				elif test -f "$dd/lib/lib${d}.dll.a"
+ 				then
+ 					dlz_bdb_libs="-L${dd}/lib -l${d}"
+ 					break
+@@ -447,8 +447,8 @@ case "$use_dlz_odbc" in
+ 		;;
+ 	*)
+ 		DLZ_ADD_DRIVER(ODBC, dlz_odbc_driver,
+-				[$dlz_odbc_include],
+-				[$dlz_odbc_libs])
++				[-I$use_dlz_odbc/include],
++				[-L$use_dlz_odbc/lib -lodbc])
+ 
+ 		AC_MSG_RESULT([using ODBC from $use_dlz_odbc])
+ 		;;

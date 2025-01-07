@@ -1,0 +1,86 @@
+From 2eca7f5fa97a24997e4d8f900460ba43ae167e97 Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?Petr=20Men=C5=A1=C3=ADk?= <pemensik@redhat.com>
+Date: Tue, 29 Jan 2019 18:07:44 +0100
+Subject: [PATCH] Fallback to ASCII on output IDN conversion error
+
+It is possible dig used ACE encoded name in locale, which does not
+support converting it to unicode. Instead of fatal error, fallback to
+ACE name on output.
+
+(cherry picked from commit 7f4cb8f9584597fea16de6557124ac8b1bd47440)
+
+Modify idna test to fallback to ACE
+
+Test valid A-label on input would be displayed as A-label on output if
+locale does not allow U-label.
+
+(cherry picked from commit 4ce232f8605bdbe0594ebe5a71383c9d4e6f263b)
+
+Emit warning on IDN output failure
+
+Warning is emitted before any dig headers.
+
+(cherry picked from commit 4b410038c531fbb902cd5fb83174eed1f06cb7d7)
+---
+ bin/dig/dighost.c              | 15 +++++++++++++--
+ bin/tests/system/idna/tests.sh | 17 +++++++++++++++++
+ 2 files changed, 30 insertions(+), 2 deletions(-)
+
+diff --git a/bin/dig/dighost.c b/bin/dig/dighost.c
+index bb8702c..d7cfc33 100644
+--- a/bin/dig/dighost.c
++++ b/bin/dig/dighost.c
+@@ -4860,9 +4860,20 @@ idn_ace_to_locale(const char *from, char *to, size_t tolen) {
+ 	 */
+ 	res = idn2_to_unicode_8zlz(utf8_src, &tmp_str, 0);
+ 	if (res != IDN2_OK) {
+-		fatal("Cannot represent '%s' in the current locale (%s), "
+-		      "use +noidnout or a different locale",
++		static bool warned = false;
++
++		res = idn2_to_ascii_8z(utf8_src, &tmp_str, 0);
++		if (res != IDN2_OK) {
++			fatal("Cannot represent '%s' "
++			      "in the current locale nor ascii (%s), "
++			      "use +noidnout or a different locale",
+ 		      from, idn2_strerror(res));
++		} else if (!warned) {
++			fprintf(stderr, ";; Warning: cannot represent '%s' "
++			      "in the current locale",
++			      tmp_str);
++			warned = true;
++		}
+ 	}
+ 
+ 	/*
+diff --git a/bin/tests/system/idna/tests.sh b/bin/tests/system/idna/tests.sh
+index 6637bf6..215a9d5 100644
+--- a/bin/tests/system/idna/tests.sh
++++ b/bin/tests/system/idna/tests.sh
+@@ -244,6 +244,23 @@ idna_enabled_test() {
+     idna_test "$text" "+idnin +noidnout"   "xn--nxasmq6b.com" "xn--nxasmq6b.com."
+     idna_test "$text" "+idnin +idnout"     "xn--nxasmq6b.com" "βόλοσ.com."
+ 
++    # Test of valid A-label in locale that cannot display it
++    #
++    # +noidnout: The string is sent as-is to the server and the returned qname
++    #            is displayed in the same form.
++    # +idnout:   The string is sent as-is to the server and the returned qname
++    #            is displayed as the corresponding A-label.
++    #
++    # The "+[no]idnout" flag has no effect in these cases.
++    text="Checking valid A-label in C locale"
++    label="xn--nxasmq6b.com"
++    LC_ALL=C idna_test "$text" ""                   "$label" "$label."
++    LC_ALL=C idna_test "$text" "+noidnin +noidnout" "$label" "$label."
++    LC_ALL=C idna_test "$text" "+noidnin +idnout"   "$label" "$label."
++    LC_ALL=C idna_test "$text" "+idnin +noidnout"   "$label" "$label."
++    LC_ALL=C idna_test "$text" "+idnin +idnout"     "$label" "$label."
++    LC_ALL=C idna_test "$text" "+noidnin +idnout"   "$label" "$label."
++
+ 
+ 
+     # Tests of invalid A-labels
+-- 
+2.20.1
+

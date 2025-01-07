@@ -1,0 +1,11 @@
+--- origsrc/bind-9.9.6/configure.ac	2014-10-24 11:05:52.821752900 -0500
++++ src/bind-9.9.6/configure.ac	2014-10-24 11:15:43.721287600 -0500
+@@ -1409,7 +1409,7 @@ then
+ 		# LinuxThreads requires some changes to the way we
+ 		# deal with signals.
+ 		#
+-		*-linux*)
++		*-linux*|*-cygwin*)
+ 			AC_DEFINE(HAVE_LINUXTHREADS)
+ 			;;
+ 		#

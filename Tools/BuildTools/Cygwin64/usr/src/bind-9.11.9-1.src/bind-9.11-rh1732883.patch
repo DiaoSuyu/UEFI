@@ -1,0 +1,196 @@
+From 348947b3d573e2187db61fb43919d2260dcfc135 Mon Sep 17 00:00:00 2001
+From: Pavel Zhukov <pzhukov@redhat.com>
+Date: Wed, 24 Jul 2019 17:15:55 +0200
+Subject: [PATCH] Detect system time jumps
+
+In case if system time was changed backward it's possible to have ip
+address dropped by the kernel due to lifetime expirity. Try to detect
+this situation using either monotonic time or saved timestamp and execute
+go_reboot() procedure to request lease extention
+---
+ lib/isc/include/isc/result.h    |  3 ++-
+ lib/isc/include/isc/util.h      |  3 +++
+ lib/isc/result.c                |  2 ++
+ lib/isc/unix/app.c              | 39 +++++++++++++++++++++++++++++----
+ lib/isc/unix/include/isc/time.h | 20 +++++++++++++++++
+ lib/isc/unix/time.c             | 22 +++++++++++++++++++
+ 6 files changed, 84 insertions(+), 5 deletions(-)
+
+diff --git a/lib/isc/include/isc/result.h b/lib/isc/include/isc/result.h
+index 0fd4971..2add549 100644
+--- a/lib/isc/include/isc/result.h
++++ b/lib/isc/include/isc/result.h
+@@ -87,9 +87,10 @@
+ #define ISC_R_CRYPTOFAILURE		65	/*%< cryptography library failure */
+ #define ISC_R_DISCQUOTA			66	/*%< disc quota */
+ #define ISC_R_DISCFULL			67	/*%< disc full */
++#define ISC_R_TIMESHIFTED               68      /*%< system time changed */
+ 
+ /*% Not a result code: the number of results. */
+-#define ISC_R_NRESULTS 			68
++#define ISC_R_NRESULTS 			69
+ 
+ ISC_LANG_BEGINDECLS
+ 
+diff --git a/lib/isc/include/isc/util.h b/lib/isc/include/isc/util.h
+index 973c348..8160dd3 100644
+--- a/lib/isc/include/isc/util.h
++++ b/lib/isc/include/isc/util.h
+@@ -289,6 +289,9 @@ extern void mock_assert(const int result, const char* const expression,
+  * Time
+  */
+ #define TIME_NOW(tp) 	RUNTIME_CHECK(isc_time_now((tp)) == ISC_R_SUCCESS)
++#ifdef CLOCK_BOOTTIME
++#define TIME_MONOTONIC(tp) 	RUNTIME_CHECK(isc_time_boottime((tp)) == ISC_R_SUCCESS)
++#endif
+ 
+ /*%
+  * Alignment
+diff --git a/lib/isc/result.c b/lib/isc/result.c
+index abb6ed2..8c95a93 100644
+--- a/lib/isc/result.c
++++ b/lib/isc/result.c
+@@ -103,6 +103,7 @@ static const char *description[ISC_R_NRESULTS] = {
+ 	"crypto failure",			/*%< 65 */
+ 	"disc quota",				/*%< 66 */
+ 	"disc full",				/*%< 67 */
++        "time changed",                         /*%< 68 */
+ };
+ 
+ static const char *identifier[ISC_R_NRESULTS] = {
+@@ -174,6 +175,7 @@ static const char *identifier[ISC_R_NRESULTS] = {
+ 	"ISC_R_CRYPTOFAILURE",
+ 	"ISC_R_DISCQUOTA",
+ 	"ISC_R_DISCFULL",
++        "ISC_R_TIMESHIFTED",
+ };
+ 
+ #define ISC_RESULT_RESULTSET			2
+diff --git a/lib/isc/unix/app.c b/lib/isc/unix/app.c
+index 7e5a0ee..ceab74e 100644
+--- a/lib/isc/unix/app.c
++++ b/lib/isc/unix/app.c
+@@ -442,15 +442,48 @@ isc__app_ctxonrun(isc_appctx_t *ctx0, isc_mem_t *mctx, isc_task_t *task,
+ static isc_result_t
+ evloop(isc__appctx_t *ctx) {
+ 	isc_result_t result;
++        isc_time_t now;
++#ifdef CLOCK_BOOTTIME
++        isc_time_t monotonic;
++        uint64_t diff  = 0;
++#else
++        isc_time_t prev;
++        TIME_NOW(&prev);
++#endif
++
++
+ 
+ 	while (!ctx->want_shutdown) {
+ 		int n;
+-		isc_time_t when, now;
++		isc_time_t when;
+ 		struct timeval tv, *tvp;
+ 		isc_socketwait_t *swait;
+ 		bool readytasks;
+ 		bool call_timer_dispatch = false;
+-
++                uint64_t us;
++
++#ifdef CLOCK_BOOTTIME
++                // TBD macros for following three lines
++                TIME_NOW(&now);
++                TIME_MONOTONIC(&monotonic);
++                INSIST(now.seconds > monotonic.seconds)
++                us = isc_time_microdiff (&now, &monotonic);
++                if (us < diff){
++                  us = diff - us;
++                  if (us > 1000000){ // ignoring shifts less than one second
++                    return ISC_R_TIMESHIFTED;
++                  };
++                  diff = isc_time_microdiff (&now, &monotonic);
++                } else {
++                  diff = isc_time_microdiff (&now, &monotonic);
++                  // not implemented
++                }
++#else
++                TIME_NOW(&now);
++                if (isc_time_compare (&now, &prev) < 0)
++                  return ISC_R_TIMESHIFTED;
++                TIME_NOW(&prev);
++#endif
+ 		/*
+ 		 * Check the reload (or suspend) case first for exiting the
+ 		 * loop as fast as possible in case:
+@@ -475,8 +508,6 @@ evloop(isc__appctx_t *ctx) {
+ 			if (result != ISC_R_SUCCESS)
+ 				tvp = NULL;
+ 			else {
+-				uint64_t us;
+-
+ 				TIME_NOW(&now);
+ 				us = isc_time_microdiff(&when, &now);
+ 				if (us == 0)
+diff --git a/lib/isc/unix/include/isc/time.h b/lib/isc/unix/include/isc/time.h
+index b864c29..5dd43c9 100644
+--- a/lib/isc/unix/include/isc/time.h
++++ b/lib/isc/unix/include/isc/time.h
+@@ -132,6 +132,26 @@ isc_time_isepoch(const isc_time_t *t);
+  *\li	't' is a valid pointer.
+  */
+ 
++#ifdef CLOCK_BOOTTIME
++isc_result_t
++isc_time_boottime(isc_time_t *t);
++/*%<
++ * Set 't' to monotonic time from previous boot
++ * it's not affected by system time change. It also
++ * includes the time system was suspended
++ *
++ * Requires:
++ *\li	't' is a valid pointer.
++ *
++ * Returns:
++ *
++ *\li	Success
++ *\li	Unexpected error
++ *		Getting the time from the system failed.
++ */
++#endif /* CLOCK_BOOTTIME */
++ 
++
+ isc_result_t
+ isc_time_now(isc_time_t *t);
+ /*%<
+diff --git a/lib/isc/unix/time.c b/lib/isc/unix/time.c
+index 8edc9df..fe0bb91 100644
+--- a/lib/isc/unix/time.c
++++ b/lib/isc/unix/time.c
+@@ -498,3 +498,25 @@ isc_time_formatISO8601ms(const isc_time_t *t, char *buf, unsigned int len) {
+ 			 t->nanoseconds / NS_PER_MS);
+ 	}
+ }
++
++
++#ifdef CLOCK_BOOTTIME
++isc_result_t
++isc_time_boottime(isc_time_t *t) {
++  struct timespec ts;
++  
++  char strbuf[ISC_STRERRORSIZE];
++
++  if (clock_gettime (CLOCK_BOOTTIME, &ts) != 0){
++    isc__strerror(errno, strbuf, sizeof(strbuf));
++    UNEXPECTED_ERROR(__FILE__, __LINE__, "%s", strbuf);
++    return (ISC_R_UNEXPECTED);    
++  }
++
++  t->seconds = ts.tv_sec;
++  t->nanoseconds = ts.tv_nsec;
++
++  return (ISC_R_SUCCESS);
++  
++};
++#endif
+-- 
+2.20.1
+

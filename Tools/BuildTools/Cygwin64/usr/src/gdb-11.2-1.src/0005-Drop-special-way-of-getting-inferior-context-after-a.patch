@@ -1,0 +1,126 @@
+From d871482a92b2bad95cb01c3c33a1d287433d87c5 Mon Sep 17 00:00:00 2001
+From: Jon Turney <jon.turney@dronecode.org.uk>
+Date: Tue, 15 Sep 2020 16:38:06 +0100
+Subject: [PATCH 5/7] Drop special way of getting inferior context after a
+ Cygwin signal
+
+Simplify Cygwin signal handling by dropping the special way of getting
+inferior context after a Cygwin signal.
+
+I think the reason this existed was because previously we were not able
+to unwind through the alternate stack used by _sigfe frames, so without
+the hint of the "user" code IP, the backtrace from a signal was
+unusable.
+
+Now we can unwind through _sigfe frames, drop all this complexity.
+
+(Restoring this specially obtained context to the inferior (as the code
+currently does) skips over the actual signal delivery and handling.
+Cygwin has carried for a long time a patch which clears the ContextFlags
+in the signal context, so we never attempt to restore it to the
+inferior, but that interfers with gdb's ability to modify that context
+e.g. if it decides it wants to turn on FLAG_TRACE_BIT)
+
+v2:
+Update use of DEBUG_EVENTS, changed in 4ef367bf
+---
+ gdb/windows-nat.c | 50 ++++++++++++-----------------------------------
+ 1 file changed, 13 insertions(+), 37 deletions(-)
+
+diff --git a/gdb/windows-nat.c b/gdb/windows-nat.c
+index 5b92dc3a630..8f0ea882082 100644
+--- a/gdb/windows-nat.c
++++ b/gdb/windows-nat.c
+@@ -95,13 +95,6 @@ using namespace windows_nat;
+ #   define CreateProcess CreateProcessW
+ #endif
+ 
+-static int have_saved_context;	/* True if we've saved context from a
+-				   cygwin signal.  */
+-#ifdef __CYGWIN__
+-static CONTEXT saved_context;	/* Contains the saved context from a
+-				   cygwin signal.  */
+-#endif
+-
+ /* If we're not using the old Cygwin header file set, define the
+    following which never should have been in the generic Win32 API
+    headers in the first place since they were our own invention...  */
+@@ -572,19 +565,6 @@ windows_nat_target::fetch_registers (struct regcache *regcache, int r)
+ 
+   if (th->reload_context)
+     {
+-#ifdef __CYGWIN__
+-      if (have_saved_context)
+-	{
+-	  /* Lie about where the program actually is stopped since
+-	     cygwin has informed us that we should consider the signal
+-	     to have occurred at another location which is stored in
+-	     "saved_context.  */
+-	  memcpy (&th->context, &saved_context,
+-		  __COPY_CONTEXT_SIZE);
+-	  have_saved_context = 0;
+-	}
+-      else
+-#endif
+ #ifdef __x86_64__
+       if (wow64_process)
+ 	{
+@@ -936,34 +916,31 @@ windows_nat::handle_output_debug_string (struct target_waitstatus *ourstatus)
+ #ifdef __CYGWIN__
+   else
+     {
+-      /* Got a cygwin signal marker.  A cygwin signal is followed by
+-	 the signal number itself and then optionally followed by the
+-	 thread id and address to saved context within the DLL.  If
+-	 these are supplied, then the given thread is assumed to have
+-	 issued the signal and the context from the thread is assumed
+-	 to be stored at the given address in the inferior.  Tell gdb
+-	 to treat this like a real signal.  */
++      /* Got a cygwin signal marker.  A cygwin signal marker is followed by the
++	 signal number itself, and (since Cygwin 1.7) the thread id, and the
++	 address of a saved context in the inferior (That context has an IP
++	 which is the return address in "user" code of the cygwin internal
++	 signal handling code, but is not otherwise usable).
++
++	 Tell gdb to treat this like the given thread issued a real signal.
++      */
+       char *p;
+       int sig = strtol (s.get () + sizeof (_CYGWIN_SIGNAL_STRING) - 1, &p, 0);
+       gdb_signal gotasig = gdb_signal_from_host (sig);
++      LPCVOID x = 0;
+ 
+       ourstatus->value.sig = gotasig;
+       if (gotasig)
+ 	{
+-	  LPCVOID x;
+-	  SIZE_T n;
+-
+ 	  ourstatus->kind = TARGET_WAITKIND_STOPPED;
+ 	  retval = strtoul (p, &p, 0);
+ 	  if (!retval)
+ 	    retval = current_event.dwThreadId;
+-	  else if ((x = (LPCVOID) (uintptr_t) strtoull (p, NULL, 0))
+-		   && ReadProcessMemory (current_process_handle, x,
+-					 &saved_context,
+-					 __COPY_CONTEXT_SIZE, &n)
+-		   && n == __COPY_CONTEXT_SIZE)
+-	    have_saved_context = 1;
++	  else
++	    x = (LPCVOID) (uintptr_t) strtoull (p, NULL, 0);
+ 	}
++
++      DEBUG_EVENTS ("gdb: cygwin signal %d, thread 0x%x, CONTEXT @ %p", gotasig, retval, x);
+     }
+ #endif
+ 
+@@ -1516,7 +1493,6 @@ windows_nat_target::get_windows_debug_event (int pid,
+ 
+   event_code = current_event.dwDebugEventCode;
+   ourstatus->kind = TARGET_WAITKIND_SPURIOUS;
+-  have_saved_context = 0;
+ 
+   switch (event_code)
+     {
+-- 
+2.33.0
+

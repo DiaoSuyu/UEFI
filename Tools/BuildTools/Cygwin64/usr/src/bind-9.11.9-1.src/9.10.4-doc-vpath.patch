@@ -1,0 +1,64 @@
+--- origsrc/bind-9.10.4-P3/doc/arm/Bv9ARM.conf	2016-09-13 20:23:44.000000000 -0500
++++ src/bind-9.10.4-P3/doc/arm/Bv9ARM.conf	2016-09-29 17:58:56.673058200 -0500
+@@ -1,3 +1,2 @@
+ TexInputs: ../tex//
+-TexStyle:  armstyle
+ XslParam:  ../xsl/arm-param.xsl
+--- origsrc/bind-9.10.4-P3/doc/arm/Makefile.in	2016-09-13 20:23:44.000000000 -0500
++++ src/bind-9.10.4-P3/doc/arm/Makefile.in	2016-09-29 17:59:29.352461800 -0500
+@@ -52,7 +52,7 @@ notes.pdf: notes-wrapper.xml notes.xml r
+ Bv9ARM.html: Bv9ARM-book.xml releaseinfo.xml pkgversion.xml noteversion.xml
+ 	expand Bv9ARM-book.xml | ${XMLLINT} --xinclude - | \
+ 	${XSLTPROC} --stringparam root.filename Bv9ARM \
+-		${top_srcdir}/doc/xsl/isc-docbook-chunk.xsl -
++		${top_builddir}/doc/xsl/isc-docbook-chunk.xsl -
+ 
+ # use xmllint to process include
+ Bv9ARM-all.html: Bv9ARM-book.xml releaseinfo.xml pkgversion.xml noteversion.xml
+@@ -62,4 +62,4 @@ Bv9ARM-all.html: Bv9ARM-book.xml release
+ Bv9ARM.pdf: Bv9ARM-book.xml releaseinfo.xml pkgversion.xml noteversion.xml
+ 	expand Bv9ARM-book.xml | \
+ 	${XSLTPROC} ${top_srcdir}/doc/xsl/pre-latex.xsl - | \
+-	${DBLATEX} -c Bv9ARM.conf -o Bv9ARM.pdf -
++	${DBLATEX} -c Bv9ARM.conf -s $(top_builddir)/doc/tex/armstyle.sty -o Bv9ARM.pdf -
+--- origsrc/bind-9.10.4-P3/make/rules.in	2016-09-13 20:23:44.000000000 -0500
++++ src/bind-9.10.4-P3/make/rules.in	2016-09-29 17:11:30.394564100 -0500
+@@ -333,29 +333,29 @@ ALWAYS_MAKE_SYMTABLE =	@ALWAYS_MAKE_SYMT
+ .SUFFIXES: .docbook .html .1 .2 .3 .4 .5 .6 .7 .8
+ 
+ .docbook.html:
+-	${XSLTPROC} -o $@ ${top_srcdir}/doc/xsl/isc-docbook-html.xsl $<
++	${XSLTPROC} -o $@ ${top_builddir}/doc/xsl/isc-docbook-html.xsl $<
+ 
+ .docbook.1:
+-	${XSLTPROC} -o $@ ${top_srcdir}/doc/xsl/isc-manpage.xsl $<
++	${XSLTPROC} -o $@ ${top_builddir}/doc/xsl/isc-manpage.xsl $<
+ 
+ .docbook.2:
+-	${XSLTPROC} -o $@ ${top_srcdir}/doc/xsl/isc-manpage.xsl $<
++	${XSLTPROC} -o $@ ${top_builddir}/doc/xsl/isc-manpage.xsl $<
+ 
+ .docbook.3:
+-	${XSLTPROC} -o $@ ${top_srcdir}/doc/xsl/isc-manpage.xsl $<
++	${XSLTPROC} -o $@ ${top_builddir}/doc/xsl/isc-manpage.xsl $<
+ 
+ .docbook.4:
+-	${XSLTPROC} -o $@ ${top_srcdir}/doc/xsl/isc-manpage.xsl $<
++	${XSLTPROC} -o $@ ${top_builddir}/doc/xsl/isc-manpage.xsl $<
+ 
+ .docbook.5:
+-	${XSLTPROC} -o $@ ${top_srcdir}/doc/xsl/isc-manpage.xsl $<
++	${XSLTPROC} -o $@ ${top_builddir}/doc/xsl/isc-manpage.xsl $<
+ 
+ .docbook.6:
+-	${XSLTPROC} -o $@ ${top_srcdir}/doc/xsl/isc-manpage.xsl $<
++	${XSLTPROC} -o $@ ${top_builddir}/doc/xsl/isc-manpage.xsl $<
+ 
+ .docbook.7:
+-	${XSLTPROC} -o $@ ${top_srcdir}/doc/xsl/isc-manpage.xsl $<
++	${XSLTPROC} -o $@ ${top_builddir}/doc/xsl/isc-manpage.xsl $<
+ 
+ .docbook.8:
+-	${XSLTPROC} -o $@ ${top_srcdir}/doc/xsl/isc-manpage.xsl $<
++	${XSLTPROC} -o $@ ${top_builddir}/doc/xsl/isc-manpage.xsl $<
+ 

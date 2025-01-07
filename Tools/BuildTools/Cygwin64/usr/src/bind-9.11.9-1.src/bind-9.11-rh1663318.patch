@@ -1,0 +1,48 @@
+From b16a1ff25644bb075f454afe68ee63f6f385ca9c Mon Sep 17 00:00:00 2001
+From: =?UTF-8?q?Petr=20Men=C5=A1=C3=ADk?= <pemensik@redhat.com>
+Date: Wed, 23 Jan 2019 21:11:07 +0100
+Subject: [PATCH] Made RAND_status check optional (broke --disable-crypto-rand)
+MIME-Version: 1.0
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Unlike upstream, skip it also for DHCP.
+
+Disable RAND_status also in non-threaded builds. DHCP is built without
+threads and should not check RAND_status on dns library initialization.
+Lack of entropy is possible state for dhclient, but it must not fail
+even in this case. Because DHCP itself does not require custom random
+generator, leave default RAND_OpenSSL configured. It should help TLS
+connection to LDAP in single DHCP binary, while keeping secure random
+data if needed.
+
+(modified upstream commit 8a98277811ea50035ff37b744fa3dc5b75bee099)
+
+Signed-off-by: Petr Menšík <pemensik@redhat.com>
+---
+ lib/dns/openssl_link.c | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/lib/dns/openssl_link.c b/lib/dns/openssl_link.c
+index 7a233dd..941eb17 100644
+--- a/lib/dns/openssl_link.c
++++ b/lib/dns/openssl_link.c
+@@ -289,6 +289,7 @@ dst__openssl_init(const char *engine) {
+ #endif
+ #endif /* !defined(OPENSSL_NO_ENGINE) */
+ 
++#if defined(ISC_PLATFORM_CRYPTORANDOM) && defined(ISC_PLATFORM_USETHREADS)
+ 	/* Protect ourselves against unseeded PRNG */
+ 	if (RAND_status() != 1) {
+ 		FATAL_ERROR(__FILE__, __LINE__,
+@@ -296,6 +297,7 @@ dst__openssl_init(const char *engine) {
+ 			    "cannot be initialized (see the `PRNG not "
+ 			    "seeded' message in the OpenSSL FAQ)");
+ 	}
++#endif
+ 
+ 	return (ISC_R_SUCCESS);
+ 
+-- 
+2.20.1
+
