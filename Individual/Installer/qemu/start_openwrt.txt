@@ -1,0 +1,1 @@
+qemu-system-i386.exe-m 5120 -smp 4 -M pc -drive file=openwrt-15.05-x86-generic-combined-ext4.img,if=none,id=openwrtdisk –device ich9-ahci,id=ahci -device ide-drive,drive=openwrtdisk,bus=ahci.0 -net nic,vlan=0,macaddr=52:54:00:AF:53:81,model=virtio -net user,vlan=0 -redir tcp:10023::23 -redir tcp:10080::80 –localtime
