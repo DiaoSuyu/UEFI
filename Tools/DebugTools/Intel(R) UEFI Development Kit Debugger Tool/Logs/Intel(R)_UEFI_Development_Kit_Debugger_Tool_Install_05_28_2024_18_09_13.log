@@ -1,0 +1,205 @@
+__________________________________________________________________________
+
+Tue May 28 18:09:13 CST 2024
+
+Free Memory: 13423 kB
+Total Memory: 27424 kB
+
+java.class.path:
+    C:\Users\Administrator\AppData\Local\Temp\I1716890910\InstallerData\IAClasses.zip
+    C:\Users\Administrator\AppData\Local\Temp\I1716890910\InstallerData\Execute.zip
+    C:\Users\Administrator\AppData\Local\Temp\I1716890910\Windows\InstallerData\Execute.zip
+    C:\Users\Administrator\AppData\Local\Temp\I1716890910\InstallerData\Resource1.zip
+    C:\Users\Administrator\AppData\Local\Temp\I1716890910\Windows\InstallerData\Resource1.zip
+    C:\Users\Administrator\AppData\Local\Temp\I1716890910\InstallerData
+    C:\Users\Administrator\AppData\Local\Temp\I1716890910\Windows\InstallerData
+
+ZGUtil.CLASS_PATH:
+    C:\Users\Administrator\AppData\Local\Temp\I1716890910\InstallerData\IAClasses.zip
+    C:\Users\Administrator\AppData\Local\Temp\I1716890910\InstallerData\Execute.zip
+    C:\Users\Administrator\AppData\Local\Temp\I1716890910\InstallerData
+
+sun.boot.class.path:
+    C:\Users\Administrator\AppData\Local\Temp\I1716890910\Windows\resource\jre\lib\resources.jar
+    C:\Users\Administrator\AppData\Local\Temp\I1716890910\Windows\resource\jre\lib\rt.jar
+    C:\Users\Administrator\AppData\Local\Temp\I1716890910\Windows\resource\jre\lib\sunrsasign.jar
+    C:\Users\Administrator\AppData\Local\Temp\I1716890910\Windows\resource\jre\lib\jsse.jar
+    C:\Users\Administrator\AppData\Local\Temp\I1716890910\Windows\resource\jre\lib\jce.jar
+    C:\Users\Administrator\AppData\Local\Temp\I1716890910\Windows\resource\jre\lib\charsets.jar
+    C:\Users\Administrator\AppData\Local\Temp\I1716890910\Windows\resource\jre\lib\jfr.jar
+    C:\Users\Administrator\AppData\Local\Temp\I1716890910\Windows\resource\jre\classes
+
+java.ext.dirs:
+    C:\Users\Administrator\AppData\Local\Temp\I1716890910\Windows\resource\jre\lib\ext
+    C:\Windows\Sun\Java\lib\ext
+
+java.version                  == 1.8.0_05 (Java 1)
+java.vm.name                  == Java HotSpot(TM) Client VM
+java.vm.vendor                == Oracle Corporation
+java.vm.version               == 25.5-b02
+java.vm.specification.name    == Java Virtual Machine Specification
+java.vm.specification.vendor  == Oracle Corporation
+java.vm.specification.version == 1.8
+java.specification.name       == Java Platform API Specification
+java.specification.vendor     == Oracle Corporation
+java.specification.version    == 1.8
+java.vendor                   == Oracle Corporation
+java.vendor.url               == http://java.oracle.com/
+java.class.version            == 52.0
+java.library.path             == C:\Users\Administrator\AppData\Local\Temp\I1716890910\Windows\resource\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Python39\Scripts\;C:\Program Files\Python39\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Software\Git\cmd;C:\Software\TortoiseGit\bin;D:\Windows Kits\10\Windows Performance Toolkit\;D:\UEFIWorkspace\Tools\ASL\;D:\UEFIWorkspace\Tools\cygwin64\;D:\UEFIWorkspace\Tools\NASM\;D:\UEFIWorkspace\Tools\QEMU\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Software\UltraEdit\;C:\Software\PyCharm\PyCharm Community Edition 2024.1\bin;;.
+java.compiler                 == null
+java.home                     == C:\Users\Administrator\AppData\Local\Temp\I1716890910\Windows\resource\jre
+java.io.tmpdir                == C:\Users\ADMINI~1\AppData\Local\Temp\
+os.name                       == Windows 8.1
+os.arch                       == x86
+os.version                    == 6.3
+path.separator                == ;
+file.separator                == \
+file.encoding                 == GBK
+user.name                     == Administrator
+user.home                     == C:\Users\Administrator
+user.dir                      == C:\Users\Administrator\AppData\Local\Temp\I1716890910\Windows
+user.language                 == zh
+user.region                   == null
+__________________________________________________________________________
+
+Installed Feature(s) Application of Intel(R) UEFI Development Kit Debugger Tool
+
+Install Begin: MAY 28, 2024 6:08:33 PM CST
+Install End: MAY 28, 2024 6:08:37 PM CST
+
+Installed by InstallAnywhere 16.5 Premier Build 4860
+
+INSTALLATION WAS CANCELLED BY USER DURING PRE-INSTALLATION
+
+User Interactions
+-----------------
+
+
+#Choose Install Folder
+#---------------------
+USER_INSTALL_DIR=C:\\Program Files (x86)\\Intel\\Intel(R) UEFI Development Kit Debugger Tool
+
+Summary
+-------
+
+Installation:  Cancelled during pre-install.
+
+7 Successes
+0 Warnings
+0 NonFatalErrors
+0 FatalErrors
+
+Action Notes:
+
+None
+
+Install Log Detail:
+
+Check Disk Space:         C:\Program Files (x86)\Intel\Intel(R) UEFI Development Kit Debugger Tool
+                          Status: SUCCESSFUL
+                          Additional Notes: NOTE - Required Disk Space: 157,997,991; Free Disk Space: 809,961,250,816
+
+
+
+Install Action:           Find Component in InstallAnywhere Registry: Check >= 1.3
+                          Status: SUCCESSFUL
+
+Get Registry Entry:       Key: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{B50EDD61-F34A-4D00-822C-B489B7B9D290}
+                          Value Name: UninstallString
+                          Status: SUCCESSFUL
+
+Get Registry Entry:       Key: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{C1FC4D3C-CA63-4C83-9788-A33D13CF12B2}
+                          Value Name: UninstallString
+                          Status: SUCCESSFUL
+
+Get Registry Entry:       Key: HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\{CD167A06-2CD6-4131-9C2F-87A50ABC10F8}
+                          Value Name: UninstallString
+                          Status: SUCCESSFUL
+
+INSTALLATION WAS CANCELLED BY USER DURING PRE-INSTALLATION
+====================STDERR ENTRIES==================
+
+__________________________________________________________________________
+
+InstallAnywhere 2014 SP1
+Version: 16.5
+__________________________________________________________________________
+
+Tue May 28 18:08:32 CST 2024
+
+Free Memory: 10207 kB
+Total Memory: 15872 kB
+
+No Arguments
+
+java.class.path:
+    C:\Users\Administrator\AppData\Local\Temp\I1716890910\InstallerData\IAClasses.zip
+    C:\Users\Administrator\AppData\Local\Temp\I1716890910\InstallerData\Execute.zip
+    C:\Users\Administrator\AppData\Local\Temp\I1716890910\Windows\InstallerData\Execute.zip
+    C:\Users\Administrator\AppData\Local\Temp\I1716890910\InstallerData\Resource1.zip
+    C:\Users\Administrator\AppData\Local\Temp\I1716890910\Windows\InstallerData\Resource1.zip
+    C:\Users\Administrator\AppData\Local\Temp\I1716890910\InstallerData
+    C:\Users\Administrator\AppData\Local\Temp\I1716890910\Windows\InstallerData
+
+ZGUtil.CLASS_PATH:
+    C:\Users\Administrator\AppData\Local\Temp\I1716890910\InstallerData\IAClasses.zip
+    C:\Users\Administrator\AppData\Local\Temp\I1716890910\InstallerData\Execute.zip
+    C:\Users\Administrator\AppData\Local\Temp\I1716890910\InstallerData
+
+sun.boot.class.path:
+    C:\Users\Administrator\AppData\Local\Temp\I1716890910\Windows\resource\jre\lib\resources.jar
+    C:\Users\Administrator\AppData\Local\Temp\I1716890910\Windows\resource\jre\lib\rt.jar
+    C:\Users\Administrator\AppData\Local\Temp\I1716890910\Windows\resource\jre\lib\sunrsasign.jar
+    C:\Users\Administrator\AppData\Local\Temp\I1716890910\Windows\resource\jre\lib\jsse.jar
+    C:\Users\Administrator\AppData\Local\Temp\I1716890910\Windows\resource\jre\lib\jce.jar
+    C:\Users\Administrator\AppData\Local\Temp\I1716890910\Windows\resource\jre\lib\charsets.jar
+    C:\Users\Administrator\AppData\Local\Temp\I1716890910\Windows\resource\jre\lib\jfr.jar
+    C:\Users\Administrator\AppData\Local\Temp\I1716890910\Windows\resource\jre\classes
+
+java.ext.dirs:
+    C:\Users\Administrator\AppData\Local\Temp\I1716890910\Windows\resource\jre\lib\ext
+    C:\Windows\Sun\Java\lib\ext
+
+java.version                  == 1.8.0_05 (Java 1)
+java.vm.name                  == Java HotSpot(TM) Client VM
+java.vm.vendor                == Oracle Corporation
+java.vm.version               == 25.5-b02
+java.vm.specification.name    == Java Virtual Machine Specification
+java.vm.specification.vendor  == Oracle Corporation
+java.vm.specification.version == 1.8
+java.specification.name       == Java Platform API Specification
+java.specification.vendor     == Oracle Corporation
+java.specification.version    == 1.8
+java.vendor                   == Oracle Corporation
+java.vendor.url               == http://java.oracle.com/
+java.class.version            == 52.0
+java.library.path             == C:\Users\Administrator\AppData\Local\Temp\I1716890910\Windows\resource\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Python39\Scripts\;C:\Program Files\Python39\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Software\Git\cmd;C:\Software\TortoiseGit\bin;D:\Windows Kits\10\Windows Performance Toolkit\;D:\UEFIWorkspace\Tools\ASL\;D:\UEFIWorkspace\Tools\cygwin64\;D:\UEFIWorkspace\Tools\NASM\;D:\UEFIWorkspace\Tools\QEMU\;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Software\UltraEdit\;C:\Software\PyCharm\PyCharm Community Edition 2024.1\bin;;.
+java.compiler                 == null
+java.home                     == C:\Users\Administrator\AppData\Local\Temp\I1716890910\Windows\resource\jre
+java.io.tmpdir                == C:\Users\ADMINI~1\AppData\Local\Temp\
+os.name                       == Windows 8.1
+os.arch                       == x86
+os.version                    == 6.3
+path.separator                == ;
+file.separator                == \
+file.encoding                 == GBK
+user.name                     == Administrator
+user.home                     == C:\Users\Administrator
+user.dir                      == C:\Users\Administrator\AppData\Local\Temp\I1716890910\Windows
+user.language                 == zh
+user.region                   == null
+__________________________________________________________________________
+
+
+Loading externalized properties
+
+SHUTDOWN REQUESTED
+System's temporary directory = C:\Users\Administrator\AppData\Local\Temp
+Exiting with exit code: 1000
+8. final log file name=C:\Program Files (x86)\Intel\Intel(R) UEFI Development Kit Debugger Tool\Logs\Intel(R)_UEFI_Development_Kit_Debugger_Tool_Install_05_28_2024_18_09_13.log
+====================STDOUT ENTRIES==================
+
+(X) commiting registry
+(X) shutting down service manager
+(X) cleaning up temporary directories

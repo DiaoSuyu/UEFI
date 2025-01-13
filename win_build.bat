@@ -8,7 +8,7 @@ set CLANG_BIN=%CD%\Tools\BuildTools\Cygwin64\bin
 set NASM_PREFIX=%CD%\Tools\BuildTools\NASM\
 set PYTHON_HOME=%CD%\Tools\BuildTools\Python\Python313
 set PYTHON_COMMAND=%CD%\Tools\BuildTools\Python\Python313\python.exe
-set IASL_PREFIX=%CD%\Tools\BuildTools\ASL
+set IASL_PREFIX=%CD%\Tools\BuildTools\ASL\
 set VS_ROOT_PATH=C:\Program Files\Microsoft Visual Studio\2022\Community
 
 @REM #Rebuild basetools, it will not real rebuild basetools if it has rebuilt

@@ -5,12 +5,11 @@
 ### Build-Win
 
 ```bash
-1. mybuild.bat 
-2. build -p edk2\EmulatorPkg\EmulatorPkg.dsc -t VS2019 -a X64
-3. build -p edk2-libc\AppPkg\AppPkg.dsc -t VS2019 -a X64
-4. build -p edk2\MdeModulePkg\MdeModulePkg.dsc -m edk2\MdeModulePkg\Application\HelloWorld\HelloWorld.inf -t VS2019 -a X64
-5. build -p edk2\OvmfPkg\OvmfPkgX64.dsc -t VS2019 -a X64 -b NOOPT -D SOURCE_DEBUG_ENABLE
-6. build -p edk2\SamModulePkg\SamModulePkg.dsc -t VS2019 -a X64
+1. build -p edk2\EmulatorPkg\EmulatorPkg.dsc -t VS2022 -a X64
+2. build -p edk2-libc\AppPkg\AppPkg.dsc -t VS2022 -a X64
+3. build -p edk2\MdeModulePkg\MdeModulePkg.dsc -m edk2\MdeModulePkg\Application\HelloWorld\HelloWorld.inf -t VS2022 -a X64
+4. build -p edk2\OvmfPkg\OvmfPkgX64.dsc -t VS2022 -a X64 -b NOOPT -D SOURCE_DEBUG_ENABLE
+5. build -p edk2\SamModulePkg\SamModulePkg.dsc -t VS2022 -a X64
 ```
 
 ### Git-Win
@@ -23,7 +22,6 @@ git submodule update --init --recursive # 递归初始化所有子模块
 git submodule sync --recursive   # 递归更新化所有子模块
 git submodule add https://XXX XXX  # 在.gitmodules内添加子模块
 curl -O https://i-blog.csdnimg.cn/blog_migrate/d2eb3272b3f263a94aa4f04e48466116.png 使用git bash下载文件
-
 
 如果子模块更新有问题：
 1. 检查 .gitmodules 文件
@@ -57,9 +55,9 @@ qemu-system-x86_64.exe -L . -bios OVMF.fd -hdd dsydbg.vhd -serial pipe:qemu_pipe
 ### Insufficient permissions
 
 ```bash
-uefi-work-space$ ./init.sh
-bash: ./init.sh: Permission denied
-chmod +x init.sh
+./linux_init.sh
+bash: ./linux_init.sh: Permission denied
+chmod +x linux_init.sh
 ```
 
 ### Git-Linux

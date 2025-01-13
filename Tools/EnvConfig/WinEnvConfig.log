@@ -1,14 +1,10 @@
 ﻿Clearing log file...
 Execution policy is already set to RemoteSigned.
-Setting environment variables
 Getting the current system PATH...
-Current system PATH: C:\Windows;C:\Windows\system32;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\TortoiseGit\bin;C:\Program Files\Python313\;C:\Program Files\Python313\Scripts\;C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build;C:\Program Files\JetBrains\PyCharm Community Edition 2021.2\bin;C:\uefi-work-space\Tools\BuildTools\ASL\;C:\uefi-work-space\Tools\BuildTools\Cygwin64\;C:\uefi-work-space\Tools\BuildTools\NASM\;D:\Windows Kits\10\Windows Performance Toolkit\;D:\Windows Kits\10\Tools\dvl;
+Current system PATH: C:\Program Files\Python39\Scripts\;C:\Program Files\Python39\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Software\Git\cmd;D:\Windows Kits\10\Tools\dvl;D:\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\Hostx86\x64;
 Checking and adding paths...
 Path already exists: C:\Windows
 Path already exists: C:\Windows\system32
-Path already exists: C:\uefi-work-space\Tools\BuildTools\ASL
-Path already exists: C:\uefi-work-space\Tools\BuildTools\Cygwin64
-Path already exists: C:\uefi-work-space\Tools\BuildTools\NASM
-Updated PATH: C:\Windows;C:\Windows\system32;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\TortoiseGit\bin;C:\Program Files\Python313\;C:\Program Files\Python313\Scripts\;C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin;C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Auxiliary\Build;C:\Program Files\JetBrains\PyCharm Community Edition 2021.2\bin;C:\uefi-work-space\Tools\BuildTools\ASL\;C:\uefi-work-space\Tools\BuildTools\Cygwin64\;C:\uefi-work-space\Tools\BuildTools\NASM\;D:\Windows Kits\10\Windows Performance Toolkit\;D:\Windows Kits\10\Tools\dvl;
+Updated PATH: C:\Program Files\Python39\Scripts\;C:\Program Files\Python39\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Software\Git\cmd;D:\Windows Kits\10\Tools\dvl;D:\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin;C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\Hostx86\x64;
 Environment variables have been set successfully!
-Process completed, log file has been generated at: C:\uefi-work-space\Tools\EnvConfig\WinEnvConfig.log
+Process completed, log file has been generated at: C:\github\uefi-work-space\Tools\EnvConfig\WinEnvConfig.log

@@ -1,0 +1,76 @@
+;
+; Installation Inf For Ajays USB2.0 Debug Cable Driver
+;
+; Copyright (c) 2010 - 2012, Intel Corporation. All rights reserved.<BR>
+; This software and associated documentation (if any) is furnished
+; under a license and may only be used or copied in accordance
+; with the terms of the license. Except as permitted by such
+; license, no part of this software or documentation may be
+; reproduced, stored in a retrieval system, or transmitted in any
+; form or by any means without the express written consent of
+; Intel Corporation.
+;
+
+
+[Version]
+Signature="$Windows NT$"
+Class=USB
+provider=%VENDOR%
+DriverVer=05/03/2012,1.2.0.0
+CatalogFile.NTx86  = usb2dbg.cat
+CatalogFile.NTIA64 = usb2dbg.cat
+CatalogFile.NTAMD64 = usb2dbg.cat
+
+[SourceDisksNames]
+1=%Disk_Description%,,,
+
+[SourceDisksFiles]
+usb2dbg.sys = 1
+
+[Manufacturer]
+%MfgName%=Intel, NTx86, NTia64, NTamd64
+
+[Intel.NTx86]
+%USB\VID_0525&PID_127a.DeviceDesc%=USB2DBG.Dev, USB\VID_0525&PID_127a
+
+[Intel.NTia64]
+%USB\VID_0525&PID_127a.DeviceDesc%=USB2DBG.Dev, USB\VID_0525&PID_127a
+
+[Intel.NTamd64]
+%USB\VID_0525&PID_127a.DeviceDesc%=USB2DBG.Dev, USB\VID_0525&PID_127a
+
+[DestinationDirs]
+USB2DBG.Files.Ext = 10,System32\Drivers
+
+[USB2DBG.Dev.NT]
+CopyFiles=USB2DBG.Files.Ext
+
+[USB2DBG.Dev.NT.Services]
+Addservice = USB2DBG, 0x00000002, USB2DBG.AddService
+
+[USB2DBG.AddService]
+DisplayName    = %USB2DBG.SvcDesc%
+ServiceType    = 1                  ; SERVICE_KERNEL_DRIVER
+StartType      = 3                  ; SERVICE_DEMAND_START
+ErrorControl   = 1                  ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %10%\System32\Drivers\usb2dbg.sys
+AddReg         = USB2DBG.AddReg
+LoadOrderGroup = Base
+
+[USB2DBG.AddReg]
+HKR,,DevLoader,,*ntkern
+HKR,,NTMPDriver,,usb2dbg.sys
+HKR,"Parameters","MaximumTransferSize",0x10001,4096
+HKR,"Parameters","DebugLevel",0x10001,1
+
+[USB2DBG.Files.Ext]
+usb2dbg.sys
+
+;---------------------------------------------------------------;
+
+[Strings]
+VENDOR="Intel"
+MfgName="Intel"
+Disk_Description="Usb2Dbg Installation Disk"
+USB\VID_0525&PID_127a.DeviceDesc="Usb2.0 Debug Cable - Ajays Technology"
+USB2DBG.SvcDesc="Usb2.0 Debug Device Driver"

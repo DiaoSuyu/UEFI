@@ -2,23 +2,23 @@
 	path = acpica
 	url = https://github.com/DiaoSuYu/acpica
 [submodule "edk2-libc"]
-	path = edk2-libc
-	url = https://github.com/DiaoSuYu/edk2-libc
+    path = edk2-libc
+    url = https://github.com/DiaoSuYu/edk2-libc
 [submodule "edk2"]
-	path = edk2
-	url = https://github.com/DiaoSuYu/edk2
+    path = edk2
+    url = https://github.com/DiaoSuYu/edk2
 [submodule "Individual/Doc/Robin/uefi-practical-programming"]
-	path = Individual/Doc/Robin/uefi-practical-programming
-	url = https://github.com/DiaoSuYu/uefi-practical-programming
+    path = Individual/Doc/Robin/uefi-practical-programming
+    url = https://github.com/DiaoSuYu/uefi-practical-programming
 [submodule "Individual/Doc/Robin/uefi-explorer"]
-	path = Individual/Doc/Robin/uefi-explorer
-	url = https://gitee.com/luobing4365/uefi-explorer
+    path = Individual/Doc/Robin/uefi-explorer
+    url = https://gitee.com/luobing4365/uefi-explorer
 [submodule "Individual/Doc/Kostr/UEFI-Lessons"]
-	path = Individual/Doc/Kostr/UEFI-Lessons
-	url = https://github.com/DiaoSuYu/UEFI-Lessons
+    path = Individual/Doc/Kostr/UEFI-Lessons
+    url = https://github.com/DiaoSuYu/UEFI-Lessons
 [submodule "Individual/Doc/jiangwei/edk2-beni"]
-	path = Individual/Doc/jiangwei/edk2-beni
-	url = https://gitee.com/jiangwei0512/edk2-beni
+    path = Individual/Doc/jiangwei/edk2-beni
+    url = https://gitee.com/jiangwei0512/edk2-beni
 [submodule "Tools/DebugTools/binarly-io/efiXplorer"]
-	path = Tools/DebugTools/binarly-io/efiXplorer
-	url = https://github.com/DiaoSuYu/efiXplorer
+    path = Tools/DebugTools/binarly-io/efiXplorer
+    url = https://github.com/DiaoSuYu/efiXplorer

@@ -1,5 +1,8 @@
-# Set log file path
-$logFile = "C:\uefi-work-space\Tools\EnvConfig\WinEnvConfig.log"
+# Get the current script's directory
+$currentPath = Get-Location
+
+# Set log file path in the current running path
+$logFile = Join-Path -Path $currentPath -ChildPath "WinEnvConfig.log"
 
 # Clear log file
 "Clearing log file..." | Out-File -FilePath $logFile -Encoding UTF8
@@ -25,8 +28,8 @@ if ($currentExecutionPolicy -ne 'RemoteSigned') {
 
 # Define paths to be added to PATH variable
 $newPaths = @(
-	"C:\Windows",
-	"C:\Windows\system32"
+    "C:\Windows",
+    "C:\Windows\system32"
     #"C:\uefi-work-space\Tools\BuildTools\ASL",
     #"C:\uefi-work-space\Tools\BuildTools\Cygwin64",
     #"C:\uefi-work-space\Tools\BuildTools\NASM"

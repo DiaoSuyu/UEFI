@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<registry install_date="2024-05-28 18:09:51" version="1.1" last_modified="2024-05-28 18:09:52">
+	<products>
+		<product name="Intel(R) UEFI Development Kit Debugger Tool" id="f684c3cc-1f0a-11b2-8f2b-948d0fd48e49" upgrade_id="f684c3cc-1f0a-11b2-8f2b-948d0fd48e49" version="1.5.0.2" copyright="2012 - 2015" info_url="http://firmware.intel.com/develop/intel-uefi-tools-and-utilities/intel-uefi-development-kit-debugger-tool" support_url="http://firmware.intel.com/develop/intel-uefi-tools-and-utilities/intel-uefi-development-kit-debugger-tool" location="C:\Program Files (x86)\Intel\Intel(R) UEFI Development Kit Debugger Tool" last_modified="2024-05-28 18:09:51">
+		<![CDATA[]]>
+			<vendor name="Intel Corporation" id="f684c3cb-1f0a-11b2-8f2b-948d0fd48e49" home_page="http://firmware.intel.com" email=""/>
+			<feature short_name="Application" name="Application" last_modified="2024-05-28 18:09:51">
+			<![CDATA[This installs the Application feature.]]>
+				<component ref_id="f684c3fe-1f0a-11b2-8f54-948d0fd48e49" version="1.5.0.0" location="C:\Program Files (x86)\Intel\Intel(R) UEFI Development Kit Debugger Tool\Uninstaller.exe"/>
+				<component ref_id="f684c3fd-1f0a-11b2-8f52-948d0fd48e49" version="1.5.0.0" location="C:\Program Files (x86)\Intel\Intel(R) UEFI Development Kit Debugger Tool\SoftDebugger.ini.template"/>
+				<component ref_id="f684c3ff-1f0a-11b2-8f56-948d0fd48e49" version="1.5.0.0" location="C:\Program Files (x86)\Intel\Intel(R) UEFI Development Kit Debugger Tool\jre"/>
+			</feature>
+		</product>
+	</products>
+	<components>
+		<component id="f684c3fe-1f0a-11b2-8f54-948d0fd48e49" version="1.5.0.0" name="InstallAnywhere Uninstall Component" location="C:\Program Files (x86)\Intel\Intel(R) UEFI Development Kit Debugger Tool\Uninstaller.exe" vendor="Intel Corporation">
+			<resource keyfile="false" name="Intel(R)_UEFI_Development_Kit_Debugger_Tool_Install_05_28_2024_18_09_51.log" location="C:\Program Files (x86)\Intel\Intel(R) UEFI Development Kit Debugger Tool\Logs\Intel(R)_UEFI_Development_Kit_Debugger_Tool_Install_05_28_2024_18_09_51.log" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="win_reg_entry" location="$INSTALLED$|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Intel(R) UEFI Development Kit Debugger Tool|983103||STRING|$DELETE$|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Intel(R) UEFI Development Kit Debugger Tool|983103|" type="win_reg_entry" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="win_reg_entry" location="$INSTALLED$|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Intel(R) UEFI Development Kit Debugger Tool|131103|DisplayName|STRING|Intel(R) UEFI Development Kit Debugger Tool$DELETE$|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Intel(R) UEFI Development Kit Debugger Tool|131103|DisplayName" type="win_reg_entry" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="uninstaller.jar" location="C:\Program Files (x86)\Intel\Intel(R) UEFI Development Kit Debugger Tool\uninstaller.jar" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="jre" location="C:\Program Files (x86)\Intel\Intel(R) UEFI Development Kit Debugger Tool\jre" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="true" name="Uninstaller.exe" location="C:\Program Files (x86)\Intel\Intel(R) UEFI Development Kit Debugger Tool\Uninstaller.exe" type="executable" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Uninstaller.lax" location="C:\Program Files (x86)\Intel\Intel(R) UEFI Development Kit Debugger Tool\Uninstaller.lax" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="resource" location="C:\Program Files (x86)\Intel\Intel(R) UEFI Development Kit Debugger Tool\resource" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="iawin32.dll" location="C:\Program Files (x86)\Intel\Intel(R) UEFI Development Kit Debugger Tool\resource\iawin32.dll" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="win64_32_x64.exe" location="C:\Program Files (x86)\Intel\Intel(R) UEFI Development Kit Debugger Tool\resource\win64_32_x64.exe" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="remove.exe" location="C:\Program Files (x86)\Intel\Intel(R) UEFI Development Kit Debugger Tool\resource\remove.exe" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="invoker.exe" location="C:\Program Files (x86)\Intel\Intel(R) UEFI Development Kit Debugger Tool\resource\invoker.exe" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="win_reg_entry" location="$INSTALLED$|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Intel(R) UEFI Development Kit Debugger Tool|131103|DisplayName|STRING|Intel(R) UEFI Development Kit Debugger Tool$DELETE$|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Intel(R) UEFI Development Kit Debugger Tool|131103|DisplayName" type="win_reg_entry" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="win_reg_entry" location="$INSTALLED$|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Intel(R) UEFI Development Kit Debugger Tool|131103|UninstallString|STRING|&quot;C:\Program Files (x86)\Intel\Intel(R) UEFI Development Kit Debugger Tool\Uninstaller.exe&quot;$DELETE$|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Intel(R) UEFI Development Kit Debugger Tool|131103|UninstallString" type="win_reg_entry" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="win_reg_entry" location="$INSTALLED$|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Intel(R) UEFI Development Kit Debugger Tool|131103|Publisher|STRING|Intel Corporation$DELETE$|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Intel(R) UEFI Development Kit Debugger Tool|131103|Publisher" type="win_reg_entry" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="win_reg_entry" location="$INSTALLED$|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Intel(R) UEFI Development Kit Debugger Tool|131103|URLInfoAbout|STRING|http://firmware.intel.com$DELETE$|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Intel(R) UEFI Development Kit Debugger Tool|131103|URLInfoAbout" type="win_reg_entry" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="win_reg_entry" location="$INSTALLED$|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Intel(R) UEFI Development Kit Debugger Tool|131103|URLUpdateInfo|STRING|http://firmware.intel.com/develop/intel-uefi-tools-and-utilities/intel-uefi-development-kit-debugger-tool$DELETE$|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Intel(R) UEFI Development Kit Debugger Tool|131103|URLUpdateInfo" type="win_reg_entry" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="win_reg_entry" location="$INSTALLED$|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Intel(R) UEFI Development Kit Debugger Tool|131103|ProductID|STRING|f684c3cc-1f0a-11b2-8f2b-948d0fd48e49$DELETE$|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Intel(R) UEFI Development Kit Debugger Tool|131103|ProductID" type="win_reg_entry" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="win_reg_entry" location="$INSTALLED$|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Intel(R) UEFI Development Kit Debugger Tool|131103|InstallLocation|STRING|C:\Program Files (x86)\Intel\Intel(R) UEFI Development Kit Debugger Tool$DELETE$|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Intel(R) UEFI Development Kit Debugger Tool|131103|InstallLocation" type="win_reg_entry" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="win_reg_entry" location="$INSTALLED$|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Intel(R) UEFI Development Kit Debugger Tool|131103|InstallDate|STRING|Tue May 28 18:09:51 CST 2024$DELETE$|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Intel(R) UEFI Development Kit Debugger Tool|131103|InstallDate" type="win_reg_entry" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="win_reg_entry" location="$INSTALLED$|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Intel(R) UEFI Development Kit Debugger Tool|131103|HelpLink|STRING|http://firmware.intel.com/develop/intel-uefi-tools-and-utilities/intel-uefi-development-kit-debugger-tool$DELETE$|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Intel(R) UEFI Development Kit Debugger Tool|131103|HelpLink" type="win_reg_entry" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="win_reg_entry" location="$INSTALLED$|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Intel(R) UEFI Development Kit Debugger Tool|131103|DisplayVersion|STRING|1.5.0.2$DELETE$|HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Intel(R) UEFI Development Kit Debugger Tool|131103|DisplayVersion" type="win_reg_entry" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Intel(R) UEFI Development Kit Debugger Tool" location="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Intel(R) UEFI Development Kit Debugger Tool" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="Intel(R) UEFI Development Kit Debugger Tool" location="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Intel(R) UEFI Development Kit Debugger Tool" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="etc" location="C:\etc" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="udev" location="C:\etc\udev" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="rules.d" location="C:\etc\udev\rules.d" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="rules.d" location="/etc/udev/rules.d" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="regid.2012-09.com.intel_f684c3c8-1f0a-11b2-8f26-948d0fd48e49.swidtag" location="C:\Program Files (x86)\Intel\Intel(R) UEFI Development Kit Debugger Tool\regid.2012-09.com.intel_f684c3c8-1f0a-11b2-8f26-948d0fd48e49.swidtag" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="regid.2012-09.com.intel_f684c3c8-1f0a-11b2-8f26-948d0fd48e49.swidtag" location="C:\ProgramData\regid.2012-09.com.intel_f684c3c8-1f0a-11b2-8f26-948d0fd48e49.swidtag" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ZGWin32LaunchHelper.exe" location="C:\Program Files (x86)\Intel\Intel(R) UEFI Development Kit Debugger Tool\resource\ZGWin32LaunchHelper.exe" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name=".com.zerog.registry.xml" location="C:\Program Files (x86)\Intel\Intel(R) UEFI Development Kit Debugger Tool\.com.zerog.registry.xml" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+		</component>
+		<component id="f684c3ff-1f0a-11b2-8f56-948d0fd48e49" version="1.5.0.0" name="InstallAnywhere VM Component" location="C:\Program Files (x86)\Intel\Intel(R) UEFI Development Kit Debugger Tool\jre" vendor="Intel Corporation">
+			<resource keyfile="true" name="jre" location="C:\Program Files (x86)\Intel\Intel(R) UEFI Development Kit Debugger Tool\jre" type="post_processed_dir" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[true]]>
+			</resource>
+		</component>
+		<component id="f684c3fd-1f0a-11b2-8f52-948d0fd48e49" version="1.5.0.0" name="Windows" location="C:\Program Files (x86)\Intel\Intel(R) UEFI Development Kit Debugger Tool\SoftDebugger.ini.template" vendor="Intel Corporation">
+			<resource keyfile="false" name="usb" location="C:\Program Files (x86)\Intel\Intel(R) UEFI Development Kit Debugger Tool\usb" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="win7-x64" location="C:\Program Files (x86)\Intel\Intel(R) UEFI Development Kit Debugger Tool\usb\win7-x64" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="DriverInstall.exe" location="C:\Program Files (x86)\Intel\Intel(R) UEFI Development Kit Debugger Tool\usb\win7-x64\DriverInstall.exe" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="usb2dbg.cat" location="C:\Program Files (x86)\Intel\Intel(R) UEFI Development Kit Debugger Tool\usb\win7-x64\usb2dbg.cat" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="usb2dbg.inf" location="C:\Program Files (x86)\Intel\Intel(R) UEFI Development Kit Debugger Tool\usb\win7-x64\usb2dbg.inf" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="usb2dbg.sys" location="C:\Program Files (x86)\Intel\Intel(R) UEFI Development Kit Debugger Tool\usb\win7-x64\usb2dbg.sys" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="msvcr120.dll" location="C:\Program Files (x86)\Intel\Intel(R) UEFI Development Kit Debugger Tool\usb\win7-x64\msvcr120.dll" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="winxp-x86" location="C:\Program Files (x86)\Intel\Intel(R) UEFI Development Kit Debugger Tool\usb\winxp-x86" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="DriverInstall.exe" location="C:\Program Files (x86)\Intel\Intel(R) UEFI Development Kit Debugger Tool\usb\winxp-x86\DriverInstall.exe" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="usb2dbg.cat" location="C:\Program Files (x86)\Intel\Intel(R) UEFI Development Kit Debugger Tool\usb\winxp-x86\usb2dbg.cat" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="usb2dbg.inf" location="C:\Program Files (x86)\Intel\Intel(R) UEFI Development Kit Debugger Tool\usb\winxp-x86\usb2dbg.inf" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="usb2dbg.sys" location="C:\Program Files (x86)\Intel\Intel(R) UEFI Development Kit Debugger Tool\usb\winxp-x86\usb2dbg.sys" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="msvcr120.dll" location="C:\Program Files (x86)\Intel\Intel(R) UEFI Development Kit Debugger Tool\usb\winxp-x86\msvcr120.dll" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="SoftDebugger.exe" location="C:\Program Files (x86)\Intel\Intel(R) UEFI Development Kit Debugger Tool\SoftDebugger.exe" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="SoftDebuggerPS.dll" location="C:\Program Files (x86)\Intel\Intel(R) UEFI Development Kit Debugger Tool\SoftDebuggerPS.dll" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="msvcr120.dll" location="C:\Program Files (x86)\Intel\Intel(R) UEFI Development Kit Debugger Tool\msvcr120.dll" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="msvcp120.dll" location="C:\Program Files (x86)\Intel\Intel(R) UEFI Development Kit Debugger Tool\msvcp120.dll" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="eXdi.exe" location="C:\Program Files (x86)\Intel\Intel(R) UEFI Development Kit Debugger Tool\eXdi.exe" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="eXdips.dll" location="C:\Program Files (x86)\Intel\Intel(R) UEFI Development Kit Debugger Tool\eXdips.dll" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="python27.dll" location="C:\Program Files (x86)\Intel\Intel(R) UEFI Development Kit Debugger Tool\python27.dll" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="UdkExtension.dll" location="C:\Program Files (x86)\Intel\Intel(R) UEFI Development Kit Debugger Tool\UdkExtension.dll" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="EULA.rtf" location="C:\Program Files (x86)\Intel\Intel(R) UEFI Development Kit Debugger Tool\EULA.rtf" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="py" location="C:\Program Files (x86)\Intel\Intel(R) UEFI Development Kit Debugger Tool\py" type="directory" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[false]]>
+			</resource>
+			<resource keyfile="false" name="mtrr.py" location="C:\Program Files (x86)\Intel\Intel(R) UEFI Development Kit Debugger Tool\py\mtrr.py" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="pci.py" location="C:\Program Files (x86)\Intel\Intel(R) UEFI Development Kit Debugger Tool\py\pci.py" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="DumpHobs.py" location="C:\Program Files (x86)\Intel\Intel(R) UEFI Development Kit Debugger Tool\py\DumpHobs.py" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="DumpS3Script.py" location="C:\Program Files (x86)\Intel\Intel(R) UEFI Development Kit Debugger Tool\py\DumpS3Script.py" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="DumpVariable.py" location="C:\Program Files (x86)\Intel\Intel(R) UEFI Development Kit Debugger Tool\py\DumpVariable.py" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="ShowEfiDevicePath.py" location="C:\Program Files (x86)\Intel\Intel(R) UEFI Development Kit Debugger Tool\py\ShowEfiDevicePath.py" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="mmio.py" location="C:\Program Files (x86)\Intel\Intel(R) UEFI Development Kit Debugger Tool\py\mmio.py" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+			<resource keyfile="false" name="Change Configurations.lnk" location="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Intel(R) UEFI Development Kit Debugger Tool\Change Configurations.lnk" type="shortcut" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[]]>
+			</resource>
+			<resource keyfile="false" name="Start WinDbg with Intel UDK Debugger Tool.lnk" location="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Intel(R) UEFI Development Kit Debugger Tool\Start WinDbg with Intel UDK Debugger Tool.lnk" type="shortcut" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[]]>
+			</resource>
+			<resource keyfile="false" name="Uninstall Intel(R) UEFI Development Kit Debugger Tool.lnk" location="C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Intel(R) UEFI Development Kit Debugger Tool\Uninstall Intel(R) UEFI Development Kit Debugger Tool.lnk" type="shortcut" uninstall="true" rollbackEnabledCancel="true">
+			<![CDATA[]]>
+			</resource>
+			<resource keyfile="false" name="SoftDebugger.ini" location="C:\Program Files (x86)\Intel\Intel(R) UEFI Development Kit Debugger Tool\SoftDebugger.ini" type="file" uninstall="true" rollbackEnabledCancel="true"/>
+		</component>
+	</components>
+</registry>
