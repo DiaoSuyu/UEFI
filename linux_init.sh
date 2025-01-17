@@ -14,11 +14,16 @@ else
     echo "Python is already mapped to python3."
 fi
 
-# Update submodule
-git submodule update --init --recursive
+# Update submodule in root path
+git submodule update --init
+
+# Update submodule in edk2
+cd edk2
+git submodule update --init
 
 # Build edk2 basetools
-make -C edk2/BaseTools
+make -C BaseTools
 
 # Build ACPICA
+cd ..
 make -C acpica

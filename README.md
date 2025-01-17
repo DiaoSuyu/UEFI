@@ -15,11 +15,13 @@ set VS_ROOT_PATH=C:\Program Files\Microsoft Visual Studio\2022\Community
 - Run the following steps of command to finish the configuration
 
 ```shell
-1. update submodule
-git submodule update --init --recursive
-2. set environment variable to system path
-run uefi-work-space\Tools\EnvConfig\WinEnvConfig.ps1 in PowerShare with administrator
-3. run win_build.bat in CMD with administrator
+# 1. update submodule in root path and edk2
+cd UEFI: git submodule update --init
+cd edk2: git submodule update --init
+# 2. set environment variable to system path(in PowerShell with administrator)
+./uefi-work-space/Tools/EnvConfig/WinEnvConfig.ps1
+# 3. set build variable(in CMD/PowerShell)
+./win_build.bat
 ```
 
 ## Environment Variable Configuration under linux

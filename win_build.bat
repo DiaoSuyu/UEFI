@@ -1,4 +1,4 @@
-@REM #Set Environment
+@REM # Set Environment
 set WORKSPACE=%CD%
 set EDK_TOOLS_PATH=%CD%\edk2\BaseTools
 set CONF_PATH=%CD%\edk2\Conf
@@ -11,11 +11,11 @@ set PYTHON_COMMAND=%CD%\Tools\BuildTools\Python\Python313\python.exe
 set IASL_PREFIX=%CD%\Tools\BuildTools\ASL\
 set VS_ROOT_PATH=C:\Program Files\Microsoft Visual Studio\2022\Community
 
-@REM #Rebuild basetools, it will not real rebuild basetools if it has rebuilt
+@REM # Rebuild basetools, it will not real rebuild basetools if it has rebuilt
 edk2\edksetup.bat Rebuild
 
-@REM #Run edk setup
+@REM # Run edk setup
 edk2\edksetup.bat
 
-@REM #Set environment variable of 'Visual Studio C++ Compiler and Tools'
+@REM # Set environment variable of 'Visual Studio C++ Compiler and Tools'
 "%VS_ROOT_PATH%\VC\Auxiliary\Build\vcvarsall.bat" x64
