@@ -11,9 +11,6 @@ set PYTHON_COMMAND=%CD%\Tools\BuildTools\Python\Python313\python.exe
 set IASL_PREFIX=%CD%\Tools\BuildTools\ASL\
 set VS_ROOT_PATH=C:\Program Files\Microsoft Visual Studio\2022\Community
 
-@REM # Rebuild basetools, it will not real rebuild basetools if it has rebuilt
-edk2\edksetup.bat Rebuild
-
 @REM # Run edk setup
 edk2\edksetup.bat
 

@@ -4,7 +4,7 @@
 sudo apt update
  
 # Install the required tools
-sudo apt install git python3 uuid-dev nasm bison flex build-essential x11proto-xext-dev libx11-dev libxext-dev qemu qemu-system qemu-kvm
+sudo apt install git python3 uuid-dev nasm bison flex build-essential
 
 # Check if python already points to python3
 if ! command -v python &>/dev/null; then

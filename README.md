@@ -12,28 +12,35 @@
 set VS_ROOT_PATH=C:\Program Files\Microsoft Visual Studio\2022\Community
 ```
 
-- Run the following steps of command to finish the configuration
+- Check your git install path and update `GIT_ROOT_PATH` in the `win_init.bat`, like below:
 
 ```shell
-# 1. update submodule in root path and edk2
-cd UEFI: git submodule update --init
-cd edk2: git submodule update --init
-# 2. set environment variable to system path(in PowerShell with administrator)
-./uefi-work-space/Tools/EnvConfig/WinEnvConfig.ps1
-# 3. set build variable(in CMD/PowerShell)
-./win_build.bat
+set GIT_ROOT_PATH=C:\Software\Git
+```
+
+- Run `win_init.bat` with administrator privileges, only in the first time when you clone this repository
+
+```shell
+# set system path, download submodule and make build tool
+win_init.bat
+```
+
+- Run `win_build.bat` to set Environment variable
+
+```shell
+win_build.bat
 ```
 
 ## Environment Variable Configuration under linux
 
-- Run linux_init.sh, only in the first time when you clone this repository
+- Run `linux_init.sh`, only in the first time when you clone this repository
 
 ```shell
-# download source and make build tool
+# install essential tools, download submodule and make build tool
 source linux_init.sh
 ```
 
-- Run linux_build.sh to set Environment variable
+- Run `linux_build.sh` to set Environment variable
 
 ```shell
 source linux_build.sh
