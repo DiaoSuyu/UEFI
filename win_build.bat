@@ -11,6 +11,9 @@ set PYTHON_COMMAND=%CD%\Tools\BuildTools\Python\Python313\python.exe
 set IASL_PREFIX=%CD%\Tools\BuildTools\ASL\
 set VS_ROOT_PATH=C:\Program Files\Microsoft Visual Studio\2022\Community
 
+@REM # Update submodule in root path
+git submodule update --init
+
 @REM # Run edk setup
 edk2\edksetup.bat
 
