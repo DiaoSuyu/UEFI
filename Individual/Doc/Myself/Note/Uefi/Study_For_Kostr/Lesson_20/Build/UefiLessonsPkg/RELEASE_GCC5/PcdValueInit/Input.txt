@@ -1,0 +1,13 @@
+DEFAULT.STANDARD.gUefiLessonsPkgTokenSpaceGuid.PcdArrayWithFixedSize|UINT8[12]|{0x01,0x02,0x03}
+DEFAULT.STANDARD.gUefiLessonsPkgTokenSpaceGuid.PcdArrayWithFixedSize_1|UINT32[3]|{0x11,0x12}
+DEFAULT.STANDARD.gUefiLessonsPkgTokenSpaceGuid.PcdArrayWithFixedSize_2|UINT32[3]|{0x44,0x33,0x22,0x11,0x88,0x77,0x66,0x55,0xCC,0xBB,0xAA,0x99}
+DEFAULT.STANDARD.gUefiLessonsPkgTokenSpaceGuid.PcdArrayWithFixedSize_3|UINT32[3]|{CODE({0x11223344,0x55667788,0x99aabbcc})}
+DEFAULT.STANDARD.gUefiLessonsPkgTokenSpaceGuid.PcdArrayWithFixedSize_4|CustomStruct[2]|{0x0}
+DEFAULT.STANDARD.gUefiLessonsPkgTokenSpaceGuid.PcdCustomStruct_Type1|CustomStruct|{0x00}
+DEFAULT.STANDARD.gUefiLessonsPkgTokenSpaceGuid.PcdCustomStruct_Type2|CustomStruct|{CODE(
+    {
+      0x11,{0x22334455,0x66778899},{
+        {0xf1740707,0x691d,0x4203,{0xbf,0xab,0x99,0xe1,0x32,0xfa,0x41,0x66}},{0x0048,0x0065,0x006c,0x006c,0x006f,0x0000}
+      },{{0x1,0x7,0xF}}
+    }
+   )}
