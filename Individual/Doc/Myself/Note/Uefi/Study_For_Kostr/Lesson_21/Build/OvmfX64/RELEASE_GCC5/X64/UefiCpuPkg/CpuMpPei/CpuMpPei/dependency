@@ -1,0 +1,13 @@
+
+
+-include /media/sf_VirtualBoxShare/UEFI/Build/OvmfX64/RELEASE_GCC5/X64/UefiCpuPkg/CpuMpPei/CpuMpPei/OUTPUT/AutoGen.obj.deps
+
+-include /media/sf_VirtualBoxShare/UEFI/Build/OvmfX64/RELEASE_GCC5/X64/UefiCpuPkg/CpuMpPei/CpuMpPei/OUTPUT/CpuBist.obj.deps
+
+-include /media/sf_VirtualBoxShare/UEFI/Build/OvmfX64/RELEASE_GCC5/X64/UefiCpuPkg/CpuMpPei/CpuMpPei/OUTPUT/CpuMp2Pei.obj.deps
+
+-include /media/sf_VirtualBoxShare/UEFI/Build/OvmfX64/RELEASE_GCC5/X64/UefiCpuPkg/CpuMpPei/CpuMpPei/OUTPUT/CpuMpPei.obj.deps
+
+-include /media/sf_VirtualBoxShare/UEFI/Build/OvmfX64/RELEASE_GCC5/X64/UefiCpuPkg/CpuMpPei/CpuMpPei/OUTPUT/CpuPaging.obj.deps
+
+               

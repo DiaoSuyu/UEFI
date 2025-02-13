@@ -1,0 +1,9 @@
+
+
+-include /media/sf_VirtualBoxShare/UEFI/Build/OvmfX64/RELEASE_GCC5/X64/OvmfPkg/Library/LoadLinuxLib/LoadLinuxLib/OUTPUT/X64/JumpToKernel.obj.deps
+
+-include /media/sf_VirtualBoxShare/UEFI/Build/OvmfX64/RELEASE_GCC5/X64/OvmfPkg/Library/LoadLinuxLib/LoadLinuxLib/OUTPUT/Linux.obj.deps
+
+-include /media/sf_VirtualBoxShare/UEFI/Build/OvmfX64/RELEASE_GCC5/X64/OvmfPkg/Library/LoadLinuxLib/LoadLinuxLib/OUTPUT/LinuxGdt.obj.deps
+
+               

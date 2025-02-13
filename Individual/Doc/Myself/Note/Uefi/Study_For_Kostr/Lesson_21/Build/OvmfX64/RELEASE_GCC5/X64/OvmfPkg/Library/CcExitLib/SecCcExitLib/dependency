@@ -1,0 +1,15 @@
+
+
+-include /media/sf_VirtualBoxShare/UEFI/Build/OvmfX64/RELEASE_GCC5/X64/OvmfPkg/Library/CcExitLib/SecCcExitLib/OUTPUT/X64/TdVmcallCpuid.obj.deps
+
+-include /media/sf_VirtualBoxShare/UEFI/Build/OvmfX64/RELEASE_GCC5/X64/OvmfPkg/Library/CcExitLib/SecCcExitLib/OUTPUT/CcExitLib.obj.deps
+
+-include /media/sf_VirtualBoxShare/UEFI/Build/OvmfX64/RELEASE_GCC5/X64/OvmfPkg/Library/CcExitLib/SecCcExitLib/OUTPUT/CcExitVcHandler.obj.deps
+
+-include /media/sf_VirtualBoxShare/UEFI/Build/OvmfX64/RELEASE_GCC5/X64/OvmfPkg/Library/CcExitLib/SecCcExitLib/OUTPUT/CcExitVeHandler.obj.deps
+
+-include /media/sf_VirtualBoxShare/UEFI/Build/OvmfX64/RELEASE_GCC5/X64/OvmfPkg/Library/CcExitLib/SecCcExitLib/OUTPUT/CcInstruction.obj.deps
+
+-include /media/sf_VirtualBoxShare/UEFI/Build/OvmfX64/RELEASE_GCC5/X64/OvmfPkg/Library/CcExitLib/SecCcExitLib/OUTPUT/SecCcExitVcHandler.obj.deps
+
+               

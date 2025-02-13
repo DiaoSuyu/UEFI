@@ -1,0 +1,75 @@
+[Defines]
+  INF_VERSION                    = 1.25
+  BASE_NAME                      = PCDLesson
+  FILE_GUID                      = 19460a32-9899-44bc-9619-2e55a4dd9367
+  MODULE_TYPE                    = UEFI_APPLICATION
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = UefiMain
+
+[Sources]
+  PCDLesson.c
+
+[Packages]
+  MdePkg/MdePkg.dec
+  UefiLessonsPkg/UefiLessonsPkg.dec
+
+[LibraryClasses]
+  UefiApplicationEntryPoint   # MdePkg/MdePkg.dec
+  UefiLib                     # MdePkg/MdePkg.dec
+
+[FixedPcd]
+  # Simple PCDs
+  gUefiLessonsPkgTokenSpaceGuid.PcdInt8
+  gUefiLessonsPkgTokenSpaceGuid.PcdInt16
+  gUefiLessonsPkgTokenSpaceGuid.PcdInt32
+  gUefiLessonsPkgTokenSpaceGuid.PcdInt64
+  gUefiLessonsPkgTokenSpaceGuid.PcdBool
+
+  # Expressions in initialization values
+  gUefiLessonsPkgTokenSpaceGuid.PcdExpression
+  gUefiLessonsPkgTokenSpaceGuid.PcdExpression_1
+  gUefiLessonsPkgTokenSpaceGuid.PcdExpression_2
+  gUefiLessonsPkgTokenSpaceGuid.PcdExpression_3
+
+  # String PCDs
+  gUefiLessonsPkgTokenSpaceGuid.PcdAsciiStr
+  gUefiLessonsPkgTokenSpaceGuid.PcdUCS2Str
+
+  # Byte Array PCDs
+  gUefiLessonsPkgTokenSpaceGuid.PcdArray
+
+  # GUID PCDs
+  gUefiLessonsPkgTokenSpaceGuid.PcdGuidInBytes
+  gUefiLessonsPkgTokenSpaceGuid.PcdGuid
+
+  # DEVICE_PATH PCDs
+  gUefiLessonsPkgTokenSpaceGuid.PcdDevicePath
+
+  # Using integer casts PCDs
+  gUefiLessonsPkgTokenSpaceGuid.PcdIntCasts
+
+  # LABEL and OFFSET_OF
+  gUefiLessonsPkgTokenSpaceGuid.PcdWithLabels
+
+  # Combined array initialization PCDs
+  gUefiLessonsPkgTokenSpaceGuid.PcdArrayExt
+
+  # Custom types PCDs
+  gUefiLessonsPkgTokenSpaceGuid.PcdCustomStruct_Type1
+  gUefiLessonsPkgTokenSpaceGuid.PcdCustomStruct_Type2
+
+  # Array with fixed sizes PCDs
+  gUefiLessonsPkgTokenSpaceGuid.PcdArrayWithFixedSize
+  gUefiLessonsPkgTokenSpaceGuid.PcdArrayWithFixedSize_1
+  gUefiLessonsPkgTokenSpaceGuid.PcdArrayWithFixedSize_2
+  gUefiLessonsPkgTokenSpaceGuid.PcdArrayWithFixedSize_3
+  gUefiLessonsPkgTokenSpaceGuid.PcdArrayWithFixedSize_4
+
+  # INF override PCDs
+  gUefiLessonsPkgTokenSpaceGuid.PcdInt32Override|43
+
+[FeaturePcd]
+  gUefiLessonsPkgTokenSpaceGuid.PcdFeatureFlag
+
+[PatchPcd]
+  gUefiLessonsPkgTokenSpaceGuid.PcdPatchableInt32

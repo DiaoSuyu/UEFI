@@ -1,0 +1,11 @@
+
+
+-include /media/sf_VirtualBoxShare/UEFI/Build/OvmfX64/RELEASE_GCC5/X64/MdeModulePkg/Universal/StatusCodeHandler/Pei/StatusCodeHandlerPei/OUTPUT/AutoGen.obj.deps
+
+-include /media/sf_VirtualBoxShare/UEFI/Build/OvmfX64/RELEASE_GCC5/X64/MdeModulePkg/Universal/StatusCodeHandler/Pei/StatusCodeHandlerPei/OUTPUT/MemoryStausCodeWorker.obj.deps
+
+-include /media/sf_VirtualBoxShare/UEFI/Build/OvmfX64/RELEASE_GCC5/X64/MdeModulePkg/Universal/StatusCodeHandler/Pei/StatusCodeHandlerPei/OUTPUT/SerialStatusCodeWorker.obj.deps
+
+-include /media/sf_VirtualBoxShare/UEFI/Build/OvmfX64/RELEASE_GCC5/X64/MdeModulePkg/Universal/StatusCodeHandler/Pei/StatusCodeHandlerPei/OUTPUT/StatusCodeHandlerPei.obj.deps
+
+               

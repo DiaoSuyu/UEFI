@@ -1,0 +1,14 @@
+-I/media/sf_VirtualBoxShare/UEFI/edk2/UefiCpuPkg/Library/CpuExceptionHandlerLib/X64
+-I/media/sf_VirtualBoxShare/UEFI/edk2/UefiCpuPkg/Library/CpuExceptionHandlerLib
+-I/media/sf_VirtualBoxShare/UEFI/Build/OvmfX64/RELEASE_GCC5/X64/UefiCpuPkg/Library/CpuExceptionHandlerLib/PeiCpuExceptionHandlerLib/DEBUG
+-I/media/sf_VirtualBoxShare/UEFI/edk2/MdePkg
+-I/media/sf_VirtualBoxShare/UEFI/edk2/MdePkg/Include
+-I/media/sf_VirtualBoxShare/UEFI/edk2/MdePkg/Test/UnitTest/Include
+-I/media/sf_VirtualBoxShare/UEFI/edk2/MdePkg/Test/Mock/Include
+-I/media/sf_VirtualBoxShare/UEFI/edk2/MdePkg/Library/MipiSysTLib/mipisyst/library/include
+-I/media/sf_VirtualBoxShare/UEFI/edk2/MdePkg/Include/X64
+-I/media/sf_VirtualBoxShare/UEFI/edk2/MdeModulePkg
+-I/media/sf_VirtualBoxShare/UEFI/edk2/MdeModulePkg/Include
+-I/media/sf_VirtualBoxShare/UEFI/edk2/MdeModulePkg/Test/Mock/Include
+-I/media/sf_VirtualBoxShare/UEFI/edk2/UefiCpuPkg
+-I/media/sf_VirtualBoxShare/UEFI/edk2/UefiCpuPkg/Include

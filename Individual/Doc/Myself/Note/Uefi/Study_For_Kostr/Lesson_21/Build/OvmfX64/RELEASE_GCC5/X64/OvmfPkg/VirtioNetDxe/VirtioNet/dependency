@@ -1,0 +1,35 @@
+
+
+-include /media/sf_VirtualBoxShare/UEFI/Build/OvmfX64/RELEASE_GCC5/X64/OvmfPkg/VirtioNetDxe/VirtioNet/OUTPUT/AutoGen.obj.deps
+
+-include /media/sf_VirtualBoxShare/UEFI/Build/OvmfX64/RELEASE_GCC5/X64/OvmfPkg/VirtioNetDxe/VirtioNet/OUTPUT/ComponentName.obj.deps
+
+-include /media/sf_VirtualBoxShare/UEFI/Build/OvmfX64/RELEASE_GCC5/X64/OvmfPkg/VirtioNetDxe/VirtioNet/OUTPUT/DriverBinding.obj.deps
+
+-include /media/sf_VirtualBoxShare/UEFI/Build/OvmfX64/RELEASE_GCC5/X64/OvmfPkg/VirtioNetDxe/VirtioNet/OUTPUT/EntryPoint.obj.deps
+
+-include /media/sf_VirtualBoxShare/UEFI/Build/OvmfX64/RELEASE_GCC5/X64/OvmfPkg/VirtioNetDxe/VirtioNet/OUTPUT/Events.obj.deps
+
+-include /media/sf_VirtualBoxShare/UEFI/Build/OvmfX64/RELEASE_GCC5/X64/OvmfPkg/VirtioNetDxe/VirtioNet/OUTPUT/SnpGetStatus.obj.deps
+
+-include /media/sf_VirtualBoxShare/UEFI/Build/OvmfX64/RELEASE_GCC5/X64/OvmfPkg/VirtioNetDxe/VirtioNet/OUTPUT/SnpInitialize.obj.deps
+
+-include /media/sf_VirtualBoxShare/UEFI/Build/OvmfX64/RELEASE_GCC5/X64/OvmfPkg/VirtioNetDxe/VirtioNet/OUTPUT/SnpMcastIpToMac.obj.deps
+
+-include /media/sf_VirtualBoxShare/UEFI/Build/OvmfX64/RELEASE_GCC5/X64/OvmfPkg/VirtioNetDxe/VirtioNet/OUTPUT/SnpReceive.obj.deps
+
+-include /media/sf_VirtualBoxShare/UEFI/Build/OvmfX64/RELEASE_GCC5/X64/OvmfPkg/VirtioNetDxe/VirtioNet/OUTPUT/SnpReceiveFilters.obj.deps
+
+-include /media/sf_VirtualBoxShare/UEFI/Build/OvmfX64/RELEASE_GCC5/X64/OvmfPkg/VirtioNetDxe/VirtioNet/OUTPUT/SnpSharedHelpers.obj.deps
+
+-include /media/sf_VirtualBoxShare/UEFI/Build/OvmfX64/RELEASE_GCC5/X64/OvmfPkg/VirtioNetDxe/VirtioNet/OUTPUT/SnpShutdown.obj.deps
+
+-include /media/sf_VirtualBoxShare/UEFI/Build/OvmfX64/RELEASE_GCC5/X64/OvmfPkg/VirtioNetDxe/VirtioNet/OUTPUT/SnpStart.obj.deps
+
+-include /media/sf_VirtualBoxShare/UEFI/Build/OvmfX64/RELEASE_GCC5/X64/OvmfPkg/VirtioNetDxe/VirtioNet/OUTPUT/SnpStop.obj.deps
+
+-include /media/sf_VirtualBoxShare/UEFI/Build/OvmfX64/RELEASE_GCC5/X64/OvmfPkg/VirtioNetDxe/VirtioNet/OUTPUT/SnpTransmit.obj.deps
+
+-include /media/sf_VirtualBoxShare/UEFI/Build/OvmfX64/RELEASE_GCC5/X64/OvmfPkg/VirtioNetDxe/VirtioNet/OUTPUT/SnpUnsupported.obj.deps
+
+               
