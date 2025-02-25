@@ -1,15 +1,16 @@
 @REM # Set Environment
 set WORKSPACE=%CD%
-set EDK_TOOLS_PATH=%CD%\edk2\BaseTools
-set CONF_PATH=%CD%\edk2\Conf
-set PACKAGES_PATH=%CD%\edk2;%CD%\edk2-libc
-set CYGWIN_HOME=%CD%\Tools\BuildTools\Cygwin64
-set CLANG_BIN=%CD%\Tools\BuildTools\Cygwin64\bin
-set NASM_PREFIX=%CD%\Tools\BuildTools\NASM\
-set PYTHON_HOME=%CD%\Tools\BuildTools\Python\Python313
-set PYTHON_COMMAND=%CD%\Tools\BuildTools\Python\Python313\python.exe
-set IASL_PREFIX=%CD%\Tools\BuildTools\ASL\
-set VS_ROOT_PATH=C:\Program Files\Microsoft Visual Studio\2022\Community
+set EDK_TOOLS_PATH=%WORKSPACE%\edk2\BaseTools
+set CONF_PATH=%WORKSPACE%\edk2\Conf
+set PACKAGES_PATH=%WORKSPACE%\edk2;%CD%\edk2-libc
+set CYGWIN_HOME=%WORKSPACE%\Tools\BuildTools\Cygwin64
+set CLANG_BIN=%WORKSPACE%\Tools\BuildTools\Cygwin64\bin
+set NASM_PREFIX=%WORKSPACE%\Tools\BuildTools\NASM\
+set PYTHON_HOME=%WORKSPACE%\Tools\BuildTools\Python\Python313
+set PYTHON_COMMAND=%WORKSPACE%\Tools\BuildTools\Python\Python313\python.exe
+set IASL_PREFIX=%WORKSPACE%\Tools\BuildTools\ASL\
+@REM # Please Set this to your actual path
+set VS_ROOT_PATH=C:\Program Files\Microsoft Visual Studio\2022\Community 
 
 @REM # Update submodule in root path
 git submodule update --init

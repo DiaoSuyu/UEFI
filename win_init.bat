@@ -2,12 +2,13 @@
 @REM # Without this, the script would use the value of variables at the time the loop or block is entered, rather than during execution.
 setlocal EnableDelayedExpansion
 
-@REM # Set Git environment, modify 'GIT_ROOT_PATH' to your actual path
-set GIT_ROOT_PATH=C:\Software\Git
-set GIT_CMD_COMMAND=%GIT_ROOT_PATH%\cmd\git.exe
+@REM # Set Git environment
+set WORKSPACE=%CD%
+set GIT_ROOT_PATH=%WORKSPACE%\Tools\BuildTools\Git
+set GIT_CMD_PATH=%GIT_ROOT_PATH%\cmd
 
 @REM # Define system path that you want to add
-set "NEW_PATH=C:\Windows C:\Windows\system32"
+set "NEW_PATH=C:\Windows C:\Windows\system32 %GIT_CMD_PATH%"
 
 @REM # Get current system path
 for /f "tokens=*" %%a in ('powershell -Command "[System.Environment]::GetEnvironmentVariable('Path', 'Machine')"') do set "CURRENT_PATH=%%a"
@@ -36,11 +37,11 @@ if not "!UPDATED_PATH!"=="!CURRENT_PATH!" (
 )
 
 @REM # Update submodule in root
-%GIT_CMD_COMMAND% submodule update --init
+git submodule update --init
 
 @REM # Update submodule in edk2
 cd edk2
-%GIT_CMD_COMMAND% submodule update --init
+git submodule update --init
 
 @REM # Rebuild basetools, it will not real rebuild basetools if it has rebuilt
 edksetup.bat Rebuild
