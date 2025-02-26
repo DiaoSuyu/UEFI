@@ -31,18 +31,20 @@ win_build.bat
 
 ### 1.2 Linux
 
-- Run `linux_init.sh`, only in the first time when you clone this repository
+- 1). Run `linux_init.sh`, only in the first time when you clone this repository
 
 ```shell
 # install essential tools, download submodule and make build tool
 source linux_init.sh
 ```
 
-- Run `linux_build.sh` to set Environment variable
+- 2). Run `linux_build.sh` to set Environment variable
 
 ```shell
 source linux_build.sh
 ```
+
+- 3). Start your Build
 
 ## 2. Folders
 
