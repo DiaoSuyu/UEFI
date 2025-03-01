@@ -1,0 +1,201 @@
+FS0:\> SimpleClassUser.efi
+Error! Can't find any handle with gSimpleClassProtocolGuid: Not Found
+
+FS0:\> load SimpleClassProtocol.efi
+Hello from SimpleClassProtocol driver, handle = 6374B18
+Image 'FS0:\SimpleClassProtocol.efi' loaded at 6358000 - Success
+
+FS0:\> SimpleClassUser.efi
+Handle = 6374B18
+Number before = 0
+Number after = 5
+
+FS0:\> dh
+Handle dump
+01: LoadedImage(DxeCore) 
+02: Decompress 
+03: FirmwareVolume2 DevicePath(..F8EB-4F34-AAEA-3EE4AF6516A1)) FirmwareVolumeBlock 
+04: EE4E5898-3914-4259-9D6E-DC7BD79403CF 
+05: ImageDevicePath(..AD6B-4F3A-B60B-F59899003443)) LoadedImage(DevicePathDxe) 
+06: DevicePathFromText DevicePathToText DevicePathUtilities 
+07: ImageDevicePath(..87AB-47F9-A3FE-D50B76D89541)) LoadedImage(PcdDxe) 
+08: GetPcdInfo GetPcdInfoProtocol Pcd Pcd 
+09: BB00A5CA-08CE-462F-A537-43C74A825CA4 ImageDevicePath(..7BCE-40AF-B5BB-47E3611EB5C2)) LoadedImage(TdxDxe) 
+0A: ImageDevicePath(..B23F-4B92-BC8E-FB01CE5907B7)) LoadedImage(FvbServicesRuntimeDxe) 
+0B: DevicePath(..d(0xB,0xFFC00000,0xFFC83FFF)) FirmwareVolumeBlock 
+0C: ImageDevicePath(..A7EB-4730-8C8E-CC466A9ECC3C)) LoadedImage(ReportStatusCodeRouterRuntimeDxe) 
+0D: SmartCardReader RscHandler 
+0E: ImageDevicePath(..43B7-4784-95B1-F4226CB40CEE)) LoadedImage(RuntimeDxe) 
+0F: RuntimeArch 
+10: ImageDevicePath(..7FD6-4665-8646-88E33EF71DFC)) LoadedImage(SecurityStubDxe) 
+11: SecurityArch Security2Arch 
+12: DeferredImageLoad 
+13: DebugSupport 96F46153-97A7-4793-ACC1-FA19BF78EA97 EBCInterpreter ImageDevicePath(..73D0-11D4-B06B-00AA00BD6DE7)) LoadedImage(EbcDxe) 
+14: AAEACCFD-F27B-4C17-B610-75CA1F2DFB52 
+15: ImageDevicePath(..C1BC-49F8-875F-54A5D542443F)) LoadedImage(CpuIo2Dxe) 
+16: CpuIo2 
+17: ImageDevicePath(..9517-440E-9FDE-3BE44CEE2136)) LoadedImage(CpuDxe) 
+18: F4560CF6-40EC-4B4A-A192-BF1D57D0B189 CpuArch 
+19: MpService 
+1A: IncompatiblePciDeviceSupport ImageDevicePath(..A776-4EE1-B643-1FEFF2B615BB)) LoadedImage(IncompatiblePciDeviceSupportDxe) 
+1B: PciHotPlugInit ImageDevicePath(..A9BE-426D-A6CC-B22FE51D9224)) LoadedImage(PciHotPlugInitDxe) 
+1C: ImageDevicePath(..FF36-4E10-93CF-A82159E777C5)) LoadedImage(ResetSystemRuntimeDxe) 
+1D: 2DF6BA0B-7092-440D-BD04-FB091EC3F3C1 695D7835-8D47-4C11-AB22-FA8ACCE7AE7A ResetNotification ResetArch 
+1E: ImageDevicePath(..A563-4561-B858-D8476F9DEFC4)) LoadedImage(Metronome) 
+1F: MetronomeArch 
+20: ImageDevicePath(..BFBD-4882-9ECE-C80BB1C4783B)) LoadedImage(HiiDatabase) 
+21: HiiImageEx HIIImage ConfigKeywordHandler HIIConfigRouting HIIDatabase HIIString HIIFont 
+22: ImageDevicePath(..8E38-4A08-9E8F-54F784652F6B)) LoadedImage(AcpiTableDxe) 
+23: AcpiSdt AcpiTable 
+24: BD445D79-B7AD-4F04-9AD8-29BD2040EB3C ImageDevicePath(..FBAA-4F4E-9264-501A2C249581)) LoadedImage(S3SaveStateDxe) 
+25: S3SaveState 
+26: ImageDevicePath(..229D-4F4D-AA37-9895E6C9EABA)) LoadedImage(DpcDxe) 
+27: 480F8AE9-0C46-4AA9-BC89-DB9FBA619806 
+28: ImageDevicePath(..EA43-440D-949A-AF3BE365C0FC)) LoadedImage(IoMmuDxe) 
+29: F8775D50-8ABD-4ADF-92AC-853E51F6C8DC 
+2A: ImageDevicePath(..D428-4500-80E6-04A5798241ED)) LoadedImage(VirtHstiDxe) 
+2B: AdapterInfo(AdapterInfo) 
+2C: ImageDevicePath(..7068-4FF5-B462-9822B4AD8D60)) LoadedImage(VariableRuntimeDxe) 
+2D: VariableWriteArch 81D1675C-86F6-48DF-BD95-9A6E4F0925C3 VariableArch AF23B340-97B4-4685-8D4F-A3F28169B21D CD3D0A05-9E24-437C-A891-1EE053DB7638 
+2E: ImageDevicePath(..4E0E-4BE4-B14C-340EB4AA5891)) LoadedImage(StatusCodeHandlerRuntimeDxe) 
+2F: ImageDevicePath(..F9DE-4D07-B22F-51F77A0E7C41)) LoadedImage(LocalApicTimerDxe) 
+30: TimerArch 
+31: ImageDevicePath(..5E79-4176-9E51-9BB268A17DD1)) LoadedImage(PciHostBridgeDxe) 
+32: PciEnumerationComplete PciHostBridgeResourceAllocation 
+33: PCIRootBridgeIO(PciRootBridgeIo) DevicePath(PciRoot(0x0)) 
+34: ImageDevicePath(..B1D3-4EF8-957C-8048606FF671)) LoadedImage(SetupBrowser) 
+35: HIIFormBrowser2 
+36: 1F73B18D-4630-43C1-A1DE-6F80855D7DA4 A770C357-B693-4E6D-A6CF-D21C728E550B 
+37: ImageDevicePath(..0737-49BC-81B5-6889CD57D9EA)) LoadedImage(SmbiosDxe) 
+38: Smbios 
+39: ImageDevicePath(..E778-4D94-AEFA-C5DD2B77E186)) LoadedImage(QemuFwCfgAcpiPlatform) 
+3A: ImageDevicePath(..548B-4B2B-81EF-1BA08D4A3CEC)) LoadedImage(BootScriptExecutorDxe) 
+3B: HiiPackageList ImageDevicePath(..37E7-48FC-97F7-9B1047749C69)) LoadedImage(LogoDxe) 
+3C: 53CD299F-2BC1-40C0-8C07-23F64FDB30E0 
+3D: ImageDevicePath(..4F72-49E8-986F-2CD899DFFE5D)) LoadedImage(FaultTolerantWriteDxe) 
+3E: 3EBD9E82-2C78-4DE6-9786-8D4BFCB7C881 
+3F: ShellDynamicCommand HiiPackageList ImageDevicePath(..5933-4007-8950-5749169D3DC5)) LoadedImage(VariablePolicyDynamicCommand) 
+40: ShellDynamicCommand HiiPackageList ImageDevicePath(..F51B-4B6F-85C4-31873C281BCA)) LoadedImage(LinuxInitrdDynamicShellCommand) 
+41: ImageDevicePath(..8DA9-4773-B6E4-A47826A833E1)) LoadedImage(PcRtc) 
+42: RealTimeClockArch 
+43: ImageDevicePath(..71AE-4C36-B2A3-DCEB0EB2B7D8)) LoadedImage(WatchdogTimer) 
+44: WatchdogTimerArch 
+45: ImageDevicePath(..D07F-4964-801E-7BD3B7888652)) LoadedImage(MonotonicCounterRuntimeDxe) 
+46: MonotonicCounterArch 
+47: ImageDevicePath(..13F2-4B21-8A23-53D3F714B840)) LoadedImage(CapsuleRuntimeDxe) 
+48: CapsuleArch 
+49: ImageDevicePath(..0DD1-4787-84F1-F48D537DCACF)) LoadedImage(DriverHealthManagerDxe) 
+4A: HIIConfigAccess DevicePath(..0DD1-4787-84F1-F48D537DCACF)) 
+4B: ImageDevicePath(..EC75-4855-A54D-809C75241F6C)) LoadedImage(BdsDxe) 
+4C: BdsArch 
+4D: ImageDevicePath(..12B3-4305-A417-BB1A4F94081E)) LoadedImage(RamDiskDxe) 
+4E: HIIConfigAccess DevicePath(..12B3-4305-A417-BB1A4F94081E)) 
+4F: HIIConfigAccess DevicePath(..3581-4A55-8E73-2B769AAA30C5)) 
+50: 28A03FF4-12B3-4305-A417-BB1A4F94081E RamDisk 
+51: ImageDevicePath(..058E-4B55-A54B-F02F83A24707)) LoadedImage(DisplayEngine) 
+52: HiiPopup 9BBE29E9-FDA1-41EC-AD52-452213742D2E 
+53: ImageDevicePath(..5FF3-4F4B-B580-24ED0D06747A)) LoadedImage(SmbiosPlatformDxe) 
+54: HIIConfigAccess DevicePath(..4007-435E-9098-8970935504B2)) ImageDevicePath(..4007-435E-9098-8970935504B2)) LoadedImage(PlatformDxe) 
+55: ComponentName2 ComponentName DriverBinding ImageDevicePath(..9FB3-11D4-9A3A-0090273FC14D)) LoadedImage(PciBusDxe) 
+56: PciHotPlugRequest 
+57: ComponentName2 ComponentName DriverBinding ImageDevicePath(..7CAF-4FAC-A542-E050B767E3A7)) LoadedImage(VirtioPciDeviceDxe) 
+58: ComponentName2 ComponentName DriverBinding ImageDevicePath(..1D40-4651-956D-F0BD9879D527)) LoadedImage(Virtio10) 
+59: ComponentName2 ComponentName DriverBinding ImageDevicePath(..3CA9-4F93-BA2E-4780ED3E03B5)) LoadedImage(VirtioBlkDxe) 
+5A: ComponentName2 ComponentName DriverBinding ImageDevicePath(..83C0-4AAF-8480-442D11DF6CEA)) LoadedImage(VirtioScsiDxe) 
+5B: ComponentName2 ComponentName DriverBinding ImageDevicePath(..EBA4-49F6-9681-C697FF0B649E)) LoadedImage(VirtioSerialDxe) 
+5C: ComponentName2 ComponentName DriverBinding ImageDevicePath(..9C7C-44CC-AFAA-E87D7689B113)) LoadedImage(VirtioKeyboardDxe) 
+5D: ComponentName2 ComponentName DriverBinding ImageDevicePath(..4FDF-4E55-A45B-E123F84D456A)) LoadedImage(ConPlatformDxe) 
+5E: ComponentName2 ComponentName DriverBinding 
+5F: ComponentName2 ComponentName DriverBinding ImageDevicePath(..CF6D-477C-A5A8-B4844E3DE281)) LoadedImage(ConSplitterDxe) 
+60: ComponentName2 ComponentName DriverBinding 
+61: ComponentName2 ComponentName DriverBinding 
+62: ComponentName2 ComponentName DriverBinding 
+63: ComponentName2 ComponentName DriverBinding 
+64: AbsolutePointer SimplePointer SimpleTextInEx SimpleTextIn 
+65: GraphicsOutput(GraphicsOutput) SimpleTextOut 
+66: SimpleTextOut 
+67: ComponentName2 ComponentName DriverBinding ImageDevicePath(..4B24-11D5-9A5A-0090273FC14D)) LoadedImage(GraphicsConsoleDxe) 
+68: ComponentName2 ComponentName DriverBinding ImageDevicePath(..A40F-4875-977F-5B93FF237FC6)) LoadedImage(TerminalDxe) 
+69: ComponentName2 ComponentName DriverBinding ImageDevicePath(..AD98-40E9-9093-ACA2B5A253C4)) LoadedImage(DiskIoDxe) 
+6A: ComponentName2 ComponentName DriverBinding ImageDevicePath(..FEFF-4AAE-BD7B-38A070A3B609)) LoadedImage(PartitionDxe) 
+6B: ImageDevicePath(..50FB-4FE8-8E4E-AB74D2C1A600)) LoadedImage(EnglishDxe) 
+6C: UnicodeCollation2 UnicodeCollation 
+6D: ComponentName2 ComponentName DriverBinding ImageDevicePath(..D0F7-4F21-A3EF-9E64B7CDCE8B)) LoadedImage(ScsiBus) 
+6E: ComponentName2 ComponentName DriverBinding ImageDevicePath(..3740-4CCE-AD62-BD172CECCA35)) LoadedImage(ScsiDisk) 
+6F: ComponentName2 ComponentName DriverBinding ImageDevicePath(..274C-43B2-83EA-DAC673035A59)) LoadedImage(SataController) 
+70: ComponentName2 ComponentName DriverBinding ImageDevicePath(..D397-4986-87BD-A6DD8B22F455)) LoadedImage(AtaAtapiPassThruDxe) 
+71: ComponentName2 ComponentName DriverBinding ImageDevicePath(..B1D4-453F-8507-38816676D7F6)) LoadedImage(AtaBusDxe) 
+72: SupportedEfiSpecVersion(0x00020028) ComponentName2 ComponentName DriverBinding ImageDevicePath(..53CF-46A3-A6A9-73C34A6E5EE3)) LoadedImage(NvmExpressDxe) 
+73: ComponentName2 ComponentName DriverBinding ImageDevicePath(..85EB-4D63-9DCC-6E0FC90FFD55)) LoadedImage(SioBusDxe) 
+74: ComponentName2 ComponentName DriverBinding ImageDevicePath(..D453-4EE3-ADA7-391A1B05AC17)) LoadedImage(PciSioSerialDxe) 
+75: ComponentName2 ComponentName DriverBinding ImageDevicePath(..821F-4744-BF06-6D30F7730F8D)) LoadedImage(Ps2KeyboardDxe) 
+76: ImageDevicePath(..BB0A-43F0-A843-5BE8B14F8CCD)) LoadedImage(BootGraphicsResourceTableDxe) 
+77: 4B5DC1DF-1EAA-48B2-A7E9-EAC489A00B5C CDEA2BD3-FC25-4C1C-B97C-B31186064990 
+78: ComponentName2 ComponentName DriverBinding ImageDevicePath(..B6B7-44C3-AF35-6BC705CD2B1F)) LoadedImage(Fat) 
+79: ComponentName2 ComponentName DriverBinding ImageDevicePath(..8F91-4B0A-BD76-E1E78F9422E4)) LoadedImage(UdfDxe) 
+7A: ComponentName2 DriverBinding ImageDevicePath(..8B83-488E-AEC9-24C78610289C)) LoadedImage(VirtioFsDxe) 
+7B: ImageDevicePath(..2AC7-4AC0-9B92-03A7541422FF)) LoadedImage(Hash2DxeCrypto) 
+7C: Hash2ServiceBinding 
+7D: ComponentName2 ComponentName DriverBinding ImageDevicePath(..82F1-4E0B-A516-8A655D371524)) LoadedImage(VirtioNetDxe) 
+7E: ComponentName2 ComponentName DriverBinding ImageDevicePath(..2EE0-4BAE-9EB6-7464125E1EF7)) LoadedImage(UhciDxe) 
+7F: ComponentName2 ComponentName DriverBinding ImageDevicePath(..8F2A-4DB0-9991-6F856594777E)) LoadedImage(EhciDxe) 
+80: ComponentName2 ComponentName DriverBinding ImageDevicePath(..A759-412C-ADE4-DCD03E7F7C28)) LoadedImage(XhciDxe) 
+81: ComponentName2 ComponentName DriverBinding ImageDevicePath(..A063-11D4-9A3A-0090273FC14D)) LoadedImage(UsbBusDxe) 
+82: ComponentName2 ComponentName DriverBinding ImageDevicePath(..9ECF-43B7-8219-94E7FC713DFE)) LoadedImage(UsbKbDxe) 
+83: ComponentName2 ComponentName DriverBinding ImageDevicePath(..42C0-4BCD-8540-9BCC6711F83E)) LoadedImage(UsbMassStorageDxe) 
+84: ComponentName2 ComponentName DriverBinding ImageDevicePath(..B9A1-4770-90C4-DF41C38986BE)) LoadedImage(QemuVideoDxe) 
+85: ComponentName2 DriverBinding ImageDevicePath(..CD97-4CC5-8714-7F6312701A8A)) LoadedImage(VirtioGpuDxe) 
+86: ComponentName2 ComponentName DriverBinding ImageDevicePath(..CBAC-4BBA-B70F-18221415665A)) LoadedImage(VirtioRngDxe) 
+87: PCIIO DevicePath(PciRoot(0x0)/Pci(0x0,0x0)) 
+88: 864E1CA8-85EB-4D63-9DCC-6E0FC90FFD55 PCIIO DevicePath(PciRoot(0x0)/Pci(0x1,0x0)) 
+89: 0167CCC4-D0F7-4F21-A3EF-9E64B7CDCE8B 19DF145A-B1D4-453F-8507-38816676D7F6 ExtendedSCSIPassThru AtaPassThru IdeControllerInit PCIIO DevicePath(PciRoot(0x0)/Pci(0x1,0x1)) 
+8A: PCIIO DevicePath(PciRoot(0x0)/Pci(0x1,0x3)) 
+8B: PCIIO DevicePath(PciRoot(0x0)/Pci(0x2,0x0)) 
+8C: BusSpecificDriverOverride LoadFile2 PCIIO DevicePath(PciRoot(0x0)/Pci(0x3,0x0)) 
+8D: 928939B2-4235-462F-9580-F6A2B2C21A4F 
+8E: ConsoleOut SimpleTextOut GraphicsOutput(GraphicsOutput) DevicePath(..0x2,0x0)/AcpiAdr(0x80010100)) 
+8F: DxeSmmReadyToLock 
+90: FA20568B-548B-4B2B-81EF-1BA08D4A3CEC 
+91: ComponentName2 DriverBinding ImageDevicePath(..0x0)/Offset(0x10C00,0x26DFF)) LoadedImage(Offset(0x10C00,0x26DFF)) 
+92: Sio DevicePath(..x0)/Pci(0x1,0x0)/Serial(0x0)) 
+93: Sio DevicePath(..x0)/Pci(0x1,0x0)/Serial(0x1)) 
+94: ConsoleIn SimpleTextInEx SimpleTextIn Sio DevicePath(..i(0x1,0x0)/Acpi(PNP0303,0x0)) 
+95: SerialIO DevicePath(..rial(0x0)/Uart(115200,8,N,1)) 
+96: ConsoleIn StdErr ConsoleOut DevicePath(..Uart(115200,8,N,1)/VenUtf8()) SimpleTextOut SimpleTextInEx SimpleTextIn 
+97: DiskIO2 DiskIO StorageSecurityCommand DiskInfo BlockIo2 BlockIO DevicePath(..t(0x0)/Pci(0x1,0x1)/Ata(0x0)) 
+98: DiskIO2 DiskIO DiskInfo BlockIo2 BlockIO SCSIIO DevicePath(..t(0x0)/Pci(0x1,0x1)/Ata(0x0)) 
+99: SimpleFileSystem DiskIO2 DiskIO PartitionInfo BlockIo2 BlockIO DevicePath(..ta(0x0)/HD(1,MBR,0xBE1AFDFA)) 
+9A: 6F6C7323-2077-7523-6E68-656C7066756C ComponentName2 NetworkInterfaceIdentifier31 NetworkInterfaceIdentifier DevicePath(..3,0x0)/MAC(525400123456,0x1)) SimpleNetwork 
+9B: HIIConfigAccess DevicePath(..6CAC-7FD7-E29C-483F736A9E1E)) 
+9C: Shell ShellParameters SimpleTextOut ImageDevicePath(..9E3E-4F1C-AD65-E05268D0B4D1)) LoadedImage(Shell) 
+9D: ImageDevicePath(..FA)/\SimpleClassProtocol.efi) LoadedImage(\SimpleClassProtocol.efi) 
+9E: B5510EEA-6F11-4E4B-AD0F-35CE17BD7A67 
+
+FS0:\> SimpleClassUser.efi
+Handle = 6374B18
+Number before = 5
+Number after = 10
+
+FS0:\> load SimpleClassProtocol.efi
+Hello from SimpleClassProtocol driver, handle = 634D798
+Image 'FS0:\SimpleClassProtocol.efi' loaded at 6347000 - Success
+
+FS0:\> dh
+Handle dump
+01: LoadedImage(DxeCore) 
+02: Decompress 
+03: FirmwareVolume2 DevicePath(..F8EB-4F34-AAEA-3EE4AF6516A1)) FirmwareVolumeBlock 
+04: EE4E5898-3914-4259-9D6E-DC7BD79403CF 
+...
+9D: ImageDevicePath(..FA)/\SimpleClassProtocol.efi) LoadedImage(\SimpleClassProtocol.efi) 
+9E: B5510EEA-6F11-4E4B-AD0F-35CE17BD7A67
+A0: ImageDevicePath(..FA)/\SimpleClassProtocol.efi) LoadedImage(\SimpleClassProtocol.efi) 
+A1: B5510EEA-6F11-4E4B-AD0F-35CE17BD7A67
+
+FS0:\> SimpleClassUser.efi
+Handle = 6374B18
+Number before = 10
+Number after = 15
+Handle = 634D798
+Number before = 0
+Number after = 5

@@ -20,3 +20,6 @@
 
 [Protocols]
   gEfiPciRootBridgeIoProtocolGuid   # MdePkg/MdePkg.dec
+
+[BuildOptions]
+  MSFT:*_*_*_CC_FLAGS = /wd4244
