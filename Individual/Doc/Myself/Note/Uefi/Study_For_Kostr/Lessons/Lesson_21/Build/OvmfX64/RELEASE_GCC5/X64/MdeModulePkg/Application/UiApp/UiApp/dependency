@@ -1,0 +1,17 @@
+
+
+-include /media/sf_VirtualBoxShare/UEFI/Build/OvmfX64/RELEASE_GCC5/X64/MdeModulePkg/Application/UiApp/UiApp/DEBUG/FrontPageVfr.c.deps
+
+-include /media/sf_VirtualBoxShare/UEFI/Build/OvmfX64/RELEASE_GCC5/X64/MdeModulePkg/Application/UiApp/UiApp/OUTPUT/AutoGen.obj.deps
+
+-include /media/sf_VirtualBoxShare/UEFI/Build/OvmfX64/RELEASE_GCC5/X64/MdeModulePkg/Application/UiApp/UiApp/OUTPUT/FrontPage.obj.deps
+
+-include /media/sf_VirtualBoxShare/UEFI/Build/OvmfX64/RELEASE_GCC5/X64/MdeModulePkg/Application/UiApp/UiApp/OUTPUT/FrontPageCustomizedUi.obj.deps
+
+-include /media/sf_VirtualBoxShare/UEFI/Build/OvmfX64/RELEASE_GCC5/X64/MdeModulePkg/Application/UiApp/UiApp/OUTPUT/FrontPageCustomizedUiSupport.obj.deps
+
+-include /media/sf_VirtualBoxShare/UEFI/Build/OvmfX64/RELEASE_GCC5/X64/MdeModulePkg/Application/UiApp/UiApp/OUTPUT/FrontPageVfr.obj.deps
+
+-include /media/sf_VirtualBoxShare/UEFI/Build/OvmfX64/RELEASE_GCC5/X64/MdeModulePkg/Application/UiApp/UiApp/OUTPUT/String.obj.deps
+
+               

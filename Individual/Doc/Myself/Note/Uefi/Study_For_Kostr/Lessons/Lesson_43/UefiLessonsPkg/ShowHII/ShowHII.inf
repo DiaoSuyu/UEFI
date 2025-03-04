@@ -1,0 +1,25 @@
+## @file
+#  ShowHII: need to modify
+#
+##
+
+[Defines]
+  INF_VERSION                    = 1.25
+  BASE_NAME                      = ShowHII
+  FILE_GUID                      = 5cbbf821-7080-44ac-90cf-319872e73200
+  MODULE_TYPE                    = UEFI_APPLICATION
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = UefiMain
+
+[Sources]
+  ShowHII.c
+
+[Packages]
+  MdePkg/MdePkg.dec
+
+[LibraryClasses]
+  UefiApplicationEntryPoint
+  UefiLib
+
+[Protocols]
+  gEfiHiiDatabaseProtocolGuid

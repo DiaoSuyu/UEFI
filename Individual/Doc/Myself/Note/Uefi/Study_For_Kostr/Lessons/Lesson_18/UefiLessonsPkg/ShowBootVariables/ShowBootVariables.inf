@@ -1,0 +1,19 @@
+[Defines]
+  INF_VERSION                    = 1.25
+  BASE_NAME                      = ShowBootVariables
+  FILE_GUID                      = 98fd6221-c7a1-411b-9243-64a5f88eaa2d
+  MODULE_TYPE                    = UEFI_APPLICATION
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = ShellCEntryLib
+
+[Sources]
+  ShowBootVariables.c
+
+[Packages]
+  MdePkg/MdePkg.dec
+  SamModulePkg/SamModulePkg.dec
+
+[LibraryClasses]
+  UefiLib          # MdePkg/MdePkg.dec
+  ShellCEntryLib
+  CommonLib        # SamModulePkg.dec

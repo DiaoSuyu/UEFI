@@ -1,0 +1,17 @@
+[Defines]
+  INF_VERSION                    = 1.25
+  BASE_NAME                      = SimpleShellApp
+  FILE_GUID                      = d0d8dd68-b898-4523-9612-bec5557dd8a5
+  MODULE_TYPE                    = UEFI_APPLICATION
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = ShellCEntryLib
+
+[Sources]
+  SimpleShellApp.c
+
+[Packages]
+  MdePkg/MdePkg.dec
+
+[LibraryClasses]
+  UefiLib          # MdePkg/MdePkg.dec
+  ShellCEntryLib

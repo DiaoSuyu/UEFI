@@ -1,0 +1,25 @@
+[Defines]
+  INF_VERSION                    = 1.25
+  BASE_NAME                      = ListPCI
+  FILE_GUID                      = 54cdc489-8091-4961-83e9-9583c5cb9848
+  MODULE_TYPE                    = UEFI_APPLICATION
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = UefiMain
+
+[Sources]
+  ListPCI.c
+
+[Packages]
+  ShellPkg/ShellPkg.dec
+  MdePkg/MdePkg.dec
+
+[LibraryClasses]
+  ShellLib                    # ShellPkg/ShellPkg.dec
+  UefiApplicationEntryPoint   # MdePkg/MdePkg.dec
+  UefiLib                     # MdePkg/MdePkg.dec
+
+[Protocols]
+  gEfiPciRootBridgeIoProtocolGuid   # MdePkg/MdePkg.dec
+
+[BuildOptions]
+  MSFT:*_*_*_CC_FLAGS = /wd4244

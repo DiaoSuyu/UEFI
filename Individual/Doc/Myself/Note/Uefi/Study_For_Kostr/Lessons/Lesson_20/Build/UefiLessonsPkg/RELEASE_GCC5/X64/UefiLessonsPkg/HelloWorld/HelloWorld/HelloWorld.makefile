@@ -1,0 +1,1 @@
+/media/sf_Share/UEFI/Build/UefiLessonsPkg/RELEASE_GCC5/X64/UefiLessonsPkg/HelloWorld/HelloWorld/GNUmakefile

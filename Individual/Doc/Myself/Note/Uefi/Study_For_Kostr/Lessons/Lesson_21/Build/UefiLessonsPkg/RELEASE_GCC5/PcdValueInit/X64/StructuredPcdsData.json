@@ -1,0 +1,105 @@
+{
+  "gUefiLessonsPkgTokenSpaceGuid_PcdCustomStruct_Type1": {
+    "DefaultValueFromDec": "{0x00}",
+    "DefaultValues": {
+      "": {
+        "Val8": [
+          "0x11",
+          "UefiLessonsPkg/UefiLessonsPkg.dec",
+          78
+        ],
+        "Val32[0]": [
+          "0x22334455",
+          "UefiLessonsPkg/UefiLessonsPkg.dec",
+          79
+        ],
+        "Val32[1]": [
+          "0x66778899",
+          "UefiLessonsPkg/UefiLessonsPkg.dec",
+          80
+        ],
+        "ValStruct.Guid": [
+          "{0x07, 0x07, 0x74, 0xF1, 0x1D, 0x69, 0x03, 0x42, 0xBF, 0xAB, 0x99, 0xE1, 0x32, 0xFA, 0x41, 0x66}",
+          "UefiLessonsPkg/UefiLessonsPkg.dec",
+          81
+        ],
+        "ValStruct.Name": [
+          "{0x48,0x00,0x65,0x00,0x6C,0x00,0x6C,0x00,0x6F,0x00}",
+          "UefiLessonsPkg/UefiLessonsPkg.dec",
+          82
+        ],
+        "ValUnion.BitFields.Field1": [
+          "0x1",
+          "UefiLessonsPkg/UefiLessonsPkg.dec",
+          83
+        ],
+        "ValUnion.BitFields.Field2": [
+          "0x7",
+          "UefiLessonsPkg/UefiLessonsPkg.dec",
+          84
+        ],
+        "ValUnion.BitFields.Field3": [
+          "0xF",
+          "UefiLessonsPkg/UefiLessonsPkg.dec",
+          85
+        ]
+      }
+    },
+    "PcdFieldValueFromComm": {},
+    "PcdFieldValueFromFdf": {},
+    "DefaultFromDSC": null,
+    "PcdFiledValueFromDscComponent": {}
+  },
+  "gUefiLessonsPkgTokenSpaceGuid_PcdCustomStruct_Type2": {
+    "DefaultValueFromDec": "{CODE(\n    {\n      0x11,\n      {0x22334455, 0x66778899},\n      {\n        {0xf1740707, 0x691d, 0x4203, {0xbf, 0xab, 0x99, 0xe1, 0x32, 0xfa, 0x41, 0x66}},\n        {0x0048, 0x0065, 0x006c, 0x006c, 0x006f, 0x0000}\n      },\n      {{0x1, 0x7, 0xF}}\n    }\n   )}",
+    "DefaultValues": {},
+    "PcdFieldValueFromComm": {},
+    "PcdFieldValueFromFdf": {},
+    "DefaultFromDSC": null,
+    "PcdFiledValueFromDscComponent": {}
+  },
+  "gUefiLessonsPkgTokenSpaceGuid_PcdArrayWithFixedSize": {
+    "DefaultValueFromDec": "{0x01, 0x02, 0x03}",
+    "DefaultValues": {},
+    "PcdFieldValueFromComm": {},
+    "PcdFieldValueFromFdf": {},
+    "DefaultFromDSC": null,
+    "PcdFiledValueFromDscComponent": {}
+  },
+  "gUefiLessonsPkgTokenSpaceGuid_PcdArrayWithFixedSize_1": {
+    "DefaultValueFromDec": "{0x11, 0x12}",
+    "DefaultValues": {},
+    "PcdFieldValueFromComm": {},
+    "PcdFieldValueFromFdf": {},
+    "DefaultFromDSC": null,
+    "PcdFiledValueFromDscComponent": {}
+  },
+  "gUefiLessonsPkgTokenSpaceGuid_PcdArrayWithFixedSize_2": {
+    "DefaultValueFromDec": "{0x44, 0x33, 0x22, 0x11, 0x88, 0x77, 0x66, 0x55, 0xCC, 0xBB, 0xAA, 0x99}",
+    "DefaultValues": {},
+    "PcdFieldValueFromComm": {},
+    "PcdFieldValueFromFdf": {},
+    "DefaultFromDSC": null,
+    "PcdFiledValueFromDscComponent": {}
+  },
+  "gUefiLessonsPkgTokenSpaceGuid_PcdArrayWithFixedSize_3": {
+    "DefaultValueFromDec": "{CODE({0x11223344, 0x55667788, 0x99aabbcc})}",
+    "DefaultValues": {},
+    "PcdFieldValueFromComm": {},
+    "PcdFieldValueFromFdf": {},
+    "DefaultFromDSC": null,
+    "PcdFiledValueFromDscComponent": {}
+  },
+  "gUefiLessonsPkgTokenSpaceGuid_PcdArrayWithFixedSize_4": {
+    "DefaultValueFromDec": "{0x0}",
+    "DefaultValues": {},
+    "PcdFieldValueFromComm": {},
+    "PcdFieldValueFromFdf": {},
+    "DefaultFromDSC": null,
+    "PcdFiledValueFromDscComponent": {}
+  },
+  "CC_FLAGS": "CFLAGS += -Wno-pointer-to-int-cast -Wno-unused-variable ",
+  "OBJECTS": {
+    "/media/sf_VirtualBoxShare/UEFI/edk2/UefiLessonsPkg/Include/CustomPcdTypes.h": 1739410536.812434
+  }
+}

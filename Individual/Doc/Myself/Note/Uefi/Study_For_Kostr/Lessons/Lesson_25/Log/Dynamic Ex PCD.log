@@ -1,0 +1,316 @@
+Individual/Doc/Myself/Note/UEFI/Study_For_Kostr/Lesson_24/PCD_TABLE_parser/parse_pcd_db \
+--peidb "Build/OvmfX64/RELEASE_GCC5/X64/MdeModulePkg/Universal/PCD/Pei/Pcd/OUTPUT/PEIPcdDataBase.raw" \
+--dxedb "Build/OvmfX64/RELEASE_GCC5/X64/MdeModulePkg/Universal/PCD/Dxe/Pcd/OUTPUT/DXEPcdDataBase.raw" | less
+
+
+
+PEI PCD DB
+
+Available SKUs: 0x0
+_____
+
+LocalTokenNumberTable:
+
+1:
+Token type = Data
+Datum type = UINT8 (Bool)
+0 - unitialized
+
+2:
+Token type = Data
+Datum type = UINT64
+0 - unitialized
+
+3:
+Token type = Data
+Datum type = UINT64
+0 - unitialized
+
+4:
+Token type = Data
+Datum type = UINT64
+0 - unitialized
+
+5:
+Token type = Data
+Datum type = UINT64
+0 - unitialized
+
+6:
+Token type = Data
+Datum type = UINT8 (Bool)
+0 - unitialized
+
+7:
+Token type = Data
+Datum type = UINT64
+0 - unitialized
+
+8:
+Token type = Data
+Datum type = UINT64
+0 - unitialized
+
+9:
+Token type = Data
+Datum type = UINT32
+0 - unitialized
+
+10:
+Token type = Data
+Datum type = UINT32
+0 - unitialized
+
+11:
+Token type = Data
+Datum type = UINT32
+Value:
+0x00000040 (=64)
+
+12:
+Token type = Data
+Datum type = UINT64
+0 - unitialized
+
+13:
+Token type = Data
+Datum type = UINT8 (Bool)
+0 - unitialized
+
+14:
+Token type = Data
+Datum type = UINT16
+0 - unitialized
+
+15:
+Token type = Data
+Datum type = UINT64
+0 - unitialized
+
+16:
+Token type = Data
+Datum type = UINT64
+0 - unitialized
+
+17:
+Token type = Data
+Datum type = UINT64
+0 - unitialized
+
+18:
+Token type = Data
+Datum type = UINT64
+0 - unitialized
+
+19:
+Token type = Data
+Datum type = UINT64
+0 - unitialized
+
+20:
+Token type = Data
+Datum type = UINT64
+Value:
+0x0000000800000000 (=34359738368)
+
+21:
+Token type = Data
+Datum type = UINT8 (Bool)
+0 - unitialized
+
+22:
+Token type = Data
+Datum type = UINT16
+Value:
+0x0008 (=8)
+
+23:
+Token type = String
+Datum type = Pointer
+DynamicEx Token = 0x00030005
+DynamicEx GUID  = a1aff049-fdeb-442a-b32013ab4cb72bbc [gEfiMdeModulePkgTokenSpaceGuid]
+CurrentSize = 1
+MaxSize     = 1
+Value:
+00                                               | .
+
+24:
+Token type = Data
+Datum type = UINT16
+DynamicEx Token = 0x00030004
+DynamicEx GUID  = a1aff049-fdeb-442a-b32013ab4cb72bbc [gEfiMdeModulePkgTokenSpaceGuid]
+0 - unitialized
+
+25:
+Token type = Data
+Datum type = UINT64
+DynamicEx Token = 0x00030006
+DynamicEx GUID  = a1aff049-fdeb-442a-b32013ab4cb72bbc [gEfiMdeModulePkgTokenSpaceGuid]
+0 - unitialized
+_____
+
+DXE PCD DB
+
+Available SKUs: 0x0
+_____
+
+LocalTokenNumberTable:
+
+26:
+Token type = Data
+Datum type = UINT32
+0 - unitialized
+
+27:
+Token type = Data
+Datum type = UINT32
+0 - unitialized
+
+28:
+Token type = Data
+Datum type = UINT32
+0 - unitialized
+
+29:
+Token type = Data
+Datum type = UINT64
+0 - unitialized
+
+30:
+Token type = Data
+Datum type = UINT32
+0 - unitialized
+
+31:
+Token type = Data
+Datum type = UINT64
+0 - unitialized
+
+32:
+Token type = Data
+Datum type = UINT64
+0 - unitialized
+
+33:
+Token type = Data
+Datum type = UINT64
+0 - unitialized
+
+34:
+Token type = Data
+Datum type = UINT64
+0 - unitialized
+
+35:
+Token type = Data
+Datum type = UINT32
+Value:
+0x00000280 (=640)
+
+36:
+Token type = Data
+Datum type = UINT32
+Value:
+0x000001e0 (=480)
+
+37:
+Token type = Data
+Datum type = UINT8
+0 - unitialized
+
+38:
+Token type = Data
+Datum type = UINT16
+Value:
+0x0208 (=520)
+
+39:
+Token type = Data
+Datum type = UINT8 (Bool)
+0 - unitialized
+
+40:
+Token type = Data
+Datum type = UINT32
+Value:
+0x00000500 (=1280)
+
+41:
+Token type = Data
+Datum type = UINT32
+Value:
+0x00000320 (=800)
+
+42:
+Token type = Data
+Datum type = UINT32
+Value:
+0x3b9aca00 (=1000000000)
+
+43:
+Token type = Data
+Datum type = UINT16
+0 - unitialized
+
+44:
+Token type = Data
+Datum type = UINT8
+Value:
+0x01 (=1)
+
+45:
+Token type = Data
+Datum type = UINT8
+Value:
+0x01 (=1)
+
+46:
+Token type = Data
+Datum type = UINT32
+0 - unitialized
+
+47:
+Token type = Data
+Datum type = UINT64
+0 - unitialized
+
+48:
+Token type = Data
+Datum type = UINT32
+Value:
+0xffffffff (=4294967295)
+
+49:
+Token type = Data
+Datum type = UINT32
+Value:
+0xcafecafe (=3405695742)
+
+50:
+Token type = Data
+Datum type = UINT64
+0 - unitialized
+
+51:
+Token type = Data
+Datum type = UINT8 (Bool)
+0 - unitialized
+
+52:
+Token type = Data
+Datum type = UINT8 (Bool)
+0 - unitialized
+
+53:
+Token type = Data
+Datum type = UINT8
+0 - unitialized
+
+54:
+Token type = Data
+Datum type = UINT32
+DynamicEx Token = 0xaf35f3b2
+DynamicEx GUID  = 150cab53-ad47-4385-b5ddbcfc76bacaf0 [gUefiLessonsPkgTokenSpaceGuid]
+Value:
+0xbabebabe (=3133061822)
+_____

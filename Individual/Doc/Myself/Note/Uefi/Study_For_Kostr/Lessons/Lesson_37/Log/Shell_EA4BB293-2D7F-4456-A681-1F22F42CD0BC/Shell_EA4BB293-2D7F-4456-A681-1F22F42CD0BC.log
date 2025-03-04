@@ -1,0 +1,26 @@
+FS0:\> acpiview -l
+'acpiview' is not recognized as an internal or external command, operable program, or script file.
+
+FS0:\> Shell_EA4BB293-2D7F-4456-A681-1F22F42CD0BC.efi
+UEFI Interactive Shell v2.2
+EDK II
+UEFI v2.70 (EDK II, 0x00010000)
+Mapping table
+      FS0: Alias(s):HD0a1:;BLK1:
+          PciRoot(0x0)/Pci(0x1,0x1)/Ata(0x0)/HD(1,MBR,0xBE1AFDFA,0x3F,0xFBFC1)
+     BLK0: Alias(s):
+          PciRoot(0x0)/Pci(0x1,0x1)/Ata(0x0)
+     BLK2: Alias(s):
+          PciRoot(0x0)/Pci(0x1,0x1)/Ata(0x0)
+Press ESC in 4 seconds to skip startup.nsh or any other key to continue.
+FS0:\> acpiview -l
+
+Installed Table(s):
+           1. RSDP
+           2. XSDT
+           3. FACP
+           4. FACS
+           5. DSDT
+           6. APIC
+           7. HPET
+           8. BGRT
