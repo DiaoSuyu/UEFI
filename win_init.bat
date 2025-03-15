@@ -4,11 +4,10 @@ setlocal EnableDelayedExpansion
 
 @REM # Set Git environment
 set WORKSPACE=%CD%
-set GIT_ROOT_PATH=%WORKSPACE%\Tools\BuildTools\Git
-set GIT_CMD_PATH=%GIT_ROOT_PATH%\cmd
+set GIT_COMMAND=%WORKSPACE%\Tools\BuildTools\Git\cmd\git.exe
 
 @REM # Define system path that you want to add
-set "NEW_PATH=C:\Windows C:\Windows\system32 %GIT_CMD_PATH%"
+set "NEW_PATH=C:\Windows C:\Windows\system32
 
 @REM # Get current system path
 for /f "tokens=*" %%a in ('powershell -Command "[System.Environment]::GetEnvironmentVariable('Path', 'Machine')"') do set "CURRENT_PATH=%%a"
@@ -37,11 +36,11 @@ if not "!UPDATED_PATH!"=="!CURRENT_PATH!" (
 )
 
 @REM # Update submodule in root
-git submodule update --init
+%GIT_COMMAND% submodule update --init
 
 @REM # Update submodule in edk2
 cd edk2
-git submodule update --init
+%GIT_COMMAND% submodule update --init
 
 @REM # Rebuild basetools, it will not real rebuild basetools if it has rebuilt
 edksetup.bat Rebuild
