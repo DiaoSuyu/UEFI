@@ -1,0 +1,24 @@
+## @file
+#  HIIDebug: This is used for study HII
+#
+##
+
+[Defines]
+  INF_VERSION                    = 1.25
+  BASE_NAME                      = HIIDebug
+  FILE_GUID                      = 82c7eed5-6ade-4a5d-b0d1-cc6262cc3f5a
+  MODULE_TYPE                    = UEFI_APPLICATION
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = UefiMain
+
+[Sources]
+  HIIDebug.c
+
+[Packages]
+  MdeModulePkg/MdeModulePkg.dec
+  MdePkg/MdePkg.dec
+
+[LibraryClasses]
+  HiiLib
+  UefiApplicationEntryPoint
+  UefiLib

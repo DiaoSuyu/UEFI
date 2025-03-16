@@ -1,1 +1,0 @@
-/media/sf_VirtualBoxShare/UEFI/Build/UefiLessonsPkg/RELEASE_GCC5/X64/ShellPkg/Library/UefiShellCEntryLib/UefiShellCEntryLib/GNUmakefile

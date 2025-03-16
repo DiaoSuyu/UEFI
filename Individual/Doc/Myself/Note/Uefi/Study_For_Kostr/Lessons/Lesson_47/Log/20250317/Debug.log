@@ -1,0 +1,1315 @@
+FS0:\> ShowHII.efi
+PackageList[0000]: GUID = F74D20EE-37E7-48FC-97F7-9B1047749C69; size = 0x2EE9
+    Package[0000]: type = IMAGES; size = 0x2ED1
+    Package[0001]: type = END; size = 0x4
+PackageList[0001]: GUID = 17D0EF2A-5933-4007-8950-5749169D3DC5; size = 0x1405
+    Package[0000]: type = STRINGS; size = 0x13ED
+    Package[0001]: type = END; size = 0x4
+PackageList[0002]: GUID = 2F30DA26-F51B-4B6F-85C4-31873C281BCA; size = 0xA93
+    Package[0000]: type = STRINGS; size = 0xA7B
+    Package[0001]: type = END; size = 0x4
+PackageList[0003]: GUID = EBF8ED7C-0DD1-4787-84F1-F48D537DCACF; size = 0x46C
+    Package[0000]: type = FORMS; size = 0x82
+    Package[0001]: type = FORMS; size = 0x82
+    Package[0002]: type = STRINGS; size = 0x199
+    Package[0003]: type = STRINGS; size = 0x19B
+    Package[0004]: type = DEVICE_PATH; size = 0x1C
+    Package[0005]: type = END; size = 0x4
+PackageList[0004]: GUID = FE561596-E6BF-41A6-8376-C72B719874D0; size = 0x93F
+    Package[0000]: type = FORMS; size = 0xF5
+    Package[0001]: type = STRINGS; size = 0x40A
+    Package[0002]: type = STRINGS; size = 0x40C
+    Package[0003]: type = DEVICE_PATH; size = 0x1C
+    Package[0004]: type = END; size = 0x4
+PackageList[0005]: GUID = 2A46715F-3581-4A55-8E73-2B769AAA30C5; size = 0x6B0
+    Package[0000]: type = FORMS; size = 0x143
+    Package[0001]: type = STRINGS; size = 0x539
+    Package[0002]: type = DEVICE_PATH; size = 0x1C
+    Package[0003]: type = END; size = 0x4
+PackageList[0006]: GUID = 99FDC8FD-849B-4EBA-AD13-FB9699C90A4D; size = 0x6FE
+    Package[0000]: type = STRINGS; size = 0x340
+    Package[0001]: type = STRINGS; size = 0x3A6
+    Package[0002]: type = END; size = 0x4
+PackageList[0007]: GUID = E38C1029-E38F-45B9-8F0D-E2E60BC9B262; size = 0x15DA
+    Package[0000]: type = STRINGS; size = 0xA88
+    Package[0001]: type = STRINGS; size = 0xB3A
+    Package[0002]: type = END; size = 0x4
+PackageList[0008]: GUID = D9DCC5DF-4007-435E-9098-8970935504B2; size = 0x855
+    Package[0000]: type = FORMS; size = 0x1F6
+    Package[0001]: type = STRINGS; size = 0x62B
+    Package[0002]: type = DEVICE_PATH; size = 0x1C
+    Package[0003]: type = END; size = 0x4
+PackageList[0009]: GUID = F5F219D3-7006-4648-AC8D-D61DFB7BC6AD; size = 0x14EC
+    Package[0000]: type = SIMPLE_FONTS; size = 0x14D4
+    Package[0001]: type = END; size = 0x4
+PackageList[0010]: GUID = 74780525-20E3-8141-7F32-264FA28F3C90; size = 0xFD2
+    Package[0000]: type = FORMS; size = 0x243
+    Package[0001]: type = STRINGS; size = 0xD24
+    Package[0002]: type = DEVICE_PATH; size = 0x53
+    Package[0003]: type = END; size = 0x4
+PackageList[0011]: GUID = F95A7CCC-4C55-4426-A7B4-DC8961950BAE; size = 0x139F5
+    Package[0000]: type = STRINGS; size = 0x139DD
+    Package[0001]: type = END; size = 0x4
+PackageList[0012]: GUID = DEC5DAA4-6781-4820-9C63-A7B0E4F1DB31; size = 0x8677
+    Package[0000]: type = STRINGS; size = 0x865F
+    Package[0001]: type = END; size = 0x4
+PackageList[0013]: GUID = 4344558D-4EF9-4725-B1E4-3376E8D6974F; size = 0x83BD
+    Package[0000]: type = STRINGS; size = 0x83A5
+    Package[0001]: type = END; size = 0x4
+PackageList[0014]: GUID = 0AF0B742-63EC-45BD-8DB6-71AD7F2FE8E8; size = 0xCB04
+    Package[0000]: type = STRINGS; size = 0xCAEC
+    Package[0001]: type = END; size = 0x4
+PackageList[0015]: GUID = 25F200AA-D3CB-470A-BF51-E7D162D22E6F; size = 0x1E324
+    Package[0000]: type = STRINGS; size = 0x1E30C
+    Package[0001]: type = END; size = 0x4
+PackageList[0016]: GUID = 5F5F605D-1583-4A2D-A6B2-EB12DAB4A2B6; size = 0x3048
+    Package[0000]: type = STRINGS; size = 0x3030
+    Package[0001]: type = END; size = 0x4
+PackageList[0017]: GUID = F3D301BB-F4A5-45A8-B0B7-FA999C6237AE; size = 0x26B7
+    Package[0000]: type = STRINGS; size = 0x269F
+    Package[0001]: type = END; size = 0x4
+PackageList[0018]: GUID = 7C04A583-9E3E-4F1C-AD65-E05268D0B4D1; size = 0x5CB
+    Package[0000]: type = STRINGS; size = 0x5B3
+    Package[0001]: type = END; size = 0x4
+
+FS0:\> HIIDebug.efi
+=== HiiDataBasePrivateDataPointer List Start ===
+Address                        = 0x06C90180
+Signature                      = H i D p
+DatabaseList.ForwardLink       = 0x06CA7C38
+DatabaseList.BackLink          = 0x0617BE38
+DatabaseNotifyList.ForwardLink = 0x06C90198
+DatabaseNotifyList.BackLink    = 0x06C90198
+HiiFont                        = 0x07E7A440
+HiiImage                       = 0x07E7A440
+HiiImageEx                     = 0x07E7A440
+HiiString                      = 0x07E7A440
+HiiDatabase                    = 0x07E7A440
+ConfigRouting                  = 0x07E7A440
+ConfigKeywordHandler           = 0x07E7A4B0
+HiiHandleList.ForwardLink      = 0x06CA7CA0
+HiiHandleList.BackLink         = 0x0617BEA0
+HiiHandleCount                 = 0x00000013
+FontInfoList.ForwardLink       = 0x06C902F8
+FontInfoList.BackLink          = 0x06C902F8
+Attribute                      = 0x00000007
+CurrentLayoutGuid              = 0x07E7A440
+CurrentLayout                  = 0x00000000
+=== HiiDataBasePrivateDataPointer List End ===
+
+=== HiiDataBaseRecordPointer List Start ===
+Number = 0001, Address                   = 0x06CA7C18
+               Signature                 = h i d r
+               PackageList               = 0x06CA7F18
+                           PackageListGuid             = F74D20EE-37E7-48FC-97F7-9B1047749C69
+                           PackageLength               = 0x00002EE9
+                           === GuidPkgHdr List: Empty! ===
+                           === FormPkgHdr List: Empty! ===
+                           === KeyboardLayoutHdr List: Empty! ===
+                           === StringPkgHdr List: Empty! ===
+                           === FontPkgHdr List: Empty! ===
+                           ImagePkg                    = 0x06CA7E98
+                           === SimpleFontPkgHdr List: Empty! ===
+                           DevicePathPkg               = 0x00000000
+               DriverHandle              = 0x00000000
+               Handle                    = 0x06CA7C98
+               DatabaseEntry.ForwardLink = 0x06C92638
+               DatabaseEntry.BackLink    = 0x06C90188
+Number = 0002, Address                   = 0x06C92618
+               Signature                 = h i d r
+               PackageList               = 0x06C92098
+                           PackageListGuid             = 17D0EF2A-5933-4007-8950-5749169D3DC5
+                           PackageLength               = 0x00001405
+                           === GuidPkgHdr List: Empty! ===
+                           === FormPkgHdr List: Empty! ===
+                           === KeyboardLayoutHdr List: Empty! ===
+                           === StringPkgHdr List Start ===
+                           Number = 0001, Address = 0x06C929B0
+                           StringPkgHdrCurrentLink.ForwardLink = 0x06C920E0
+                           StringPkgHdrCurrentLink.BackLink    = 0x06C920E0
+                           === StringPkgHdr List End ===
+                           === FontPkgHdr List: Empty! ===
+                           ImagePkg                    = 0x00000000
+                           === SimpleFontPkgHdr List: Empty! ===
+                           DevicePathPkg               = 0x00000000
+               DriverHandle              = 0x00000000
+               Handle                    = 0x06C92698
+               DatabaseEntry.ForwardLink = 0x06C91EB8
+               DatabaseEntry.BackLink    = 0x06CA7C38
+Number = 0003, Address                   = 0x06C91E98
+               Signature                 = h i d r
+               PackageList               = 0x06C91A98
+                           PackageListGuid             = 2F30DA26-F51B-4B6F-85C4-31873C281BCA
+                           PackageLength               = 0x00000A93
+                           === GuidPkgHdr List: Empty! ===
+                           === FormPkgHdr List: Empty! ===
+                           === KeyboardLayoutHdr List: Empty! ===
+                           === StringPkgHdr List Start ===
+                           Number = 0001, Address = 0x06C91C30
+                           StringPkgHdrCurrentLink.ForwardLink = 0x06C91AE0
+                           StringPkgHdrCurrentLink.BackLink    = 0x06C91AE0
+                           === StringPkgHdr List End ===
+                           === FontPkgHdr List: Empty! ===
+                           ImagePkg                    = 0x00000000
+                           === SimpleFontPkgHdr List: Empty! ===
+                           DevicePathPkg               = 0x00000000
+               DriverHandle              = 0x00000000
+               Handle                    = 0x06C91B98
+               DatabaseEntry.ForwardLink = 0x06C3EFB8
+               DatabaseEntry.BackLink    = 0x06C92638
+Number = 0004, Address                   = 0x06C3EF98
+               Signature                 = h i d r
+               PackageList               = 0x06C3F498
+                           PackageListGuid             = EBF8ED7C-0DD1-4787-84F1-F48D537DCACF
+                           PackageLength               = 0x0000046C
+                           === GuidPkgHdr List: Empty! ===
+                           === FormPkgHdr List Start ===
+                           Number = 0001, Address = 0x06C3ED30
+                           FormPkgHdrCurrentLink.ForwardLink = 0x06C3EEB0
+                           FormPkgHdrCurrentLink.BackLink    = 0x06C3F4C0
+                           Number = 0002, Address = 0x06C3EEB0
+                           FormPkgHdrCurrentLink.ForwardLink = 0x06C3F4C0
+                           FormPkgHdrCurrentLink.BackLink    = 0x06C3ED30
+                           === FormPkgHdr List End ===
+                           === KeyboardLayoutHdr List: Empty! ===
+                           === StringPkgHdr List Start ===
+                           Number = 0001, Address = 0x06C3ECB0
+                           StringPkgHdrCurrentLink.ForwardLink = 0x06C3EBB0
+                           StringPkgHdrCurrentLink.BackLink    = 0x06C3F4E0
+                           Number = 0002, Address = 0x06C3EBB0
+                           StringPkgHdrCurrentLink.ForwardLink = 0x06C3F4E0
+                           StringPkgHdrCurrentLink.BackLink    = 0x06C3ECB0
+                           === StringPkgHdr List End ===
+                           === FontPkgHdr List: Empty! ===
+                           ImagePkg                    = 0x00000000
+                           === SimpleFontPkgHdr List: Empty! ===
+                           DevicePathPkg               = 0x06C3EC18
+               DriverHandle              = 0x06C3F698
+               Handle                    = 0x06C3F598
+               DatabaseEntry.ForwardLink = 0x06C1A838
+               DatabaseEntry.BackLink    = 0x06C91EB8
+Number = 0005, Address                   = 0x06C1A818
+               Signature                 = h i d r
+               PackageList               = 0x06C18E98
+                           PackageListGuid             = FE561596-E6BF-41A6-8376-C72B719874D0
+                           PackageLength               = 0x0000093F
+                           === GuidPkgHdr List: Empty! ===
+                           === FormPkgHdr List Start ===
+                           Number = 0001, Address = 0x06C1A8B0
+                           FormPkgHdrCurrentLink.ForwardLink = 0x06C18EC0
+                           FormPkgHdrCurrentLink.BackLink    = 0x06C18EC0
+                           === FormPkgHdr List End ===
+                           === KeyboardLayoutHdr List: Empty! ===
+                           === StringPkgHdr List Start ===
+                           Number = 0001, Address = 0x06C18DB0
+                           StringPkgHdrCurrentLink.ForwardLink = 0x06C17EB0
+                           StringPkgHdrCurrentLink.BackLink    = 0x06C18EE0
+                           Number = 0002, Address = 0x06C17EB0
+                           StringPkgHdrCurrentLink.ForwardLink = 0x06C18EE0
+                           StringPkgHdrCurrentLink.BackLink    = 0x06C18DB0
+                           === StringPkgHdr List End ===
+                           === FontPkgHdr List: Empty! ===
+                           ImagePkg                    = 0x00000000
+                           === SimpleFontPkgHdr List: Empty! ===
+                           DevicePathPkg               = 0x06C18C18
+               DriverHandle              = 0x06C1A718
+               Handle                    = 0x06C18F98
+               DatabaseEntry.ForwardLink = 0x06C17938
+               DatabaseEntry.BackLink    = 0x06C3EFB8
+Number = 0006, Address                   = 0x06C17918
+               Signature                 = h i d r
+               PackageList               = 0x06C17498
+                           PackageListGuid             = 2A46715F-3581-4A55-8E73-2B769AAA30C5
+                           PackageLength               = 0x000006B0
+                           === GuidPkgHdr List: Empty! ===
+                           === FormPkgHdr List Start ===
+                           Number = 0001, Address = 0x06C16FB0
+                           FormPkgHdrCurrentLink.ForwardLink = 0x06C174C0
+                           FormPkgHdrCurrentLink.BackLink    = 0x06C174C0
+                           === FormPkgHdr List End ===
+                           === KeyboardLayoutHdr List: Empty! ===
+                           === StringPkgHdr List Start ===
+                           Number = 0001, Address = 0x06C179B0
+                           StringPkgHdrCurrentLink.ForwardLink = 0x06C174E0
+                           StringPkgHdrCurrentLink.BackLink    = 0x06C174E0
+                           === StringPkgHdr List End ===
+                           === FontPkgHdr List: Empty! ===
+                           ImagePkg                    = 0x00000000
+                           === SimpleFontPkgHdr List: Empty! ===
+                           DevicePathPkg               = 0x06C16E98
+               DriverHandle              = 0x06C17418
+               Handle                    = 0x06C17818
+               DatabaseEntry.ForwardLink = 0x06C188B8
+               DatabaseEntry.BackLink    = 0x06C1A838
+Number = 0007, Address                   = 0x06C18898
+               Signature                 = h i d r
+               PackageList               = 0x06C15E98
+                           PackageListGuid             = 99FDC8FD-849B-4EBA-AD13-FB9699C90A4D
+                           PackageLength               = 0x000006FE
+                           === GuidPkgHdr List: Empty! ===
+                           === FormPkgHdr List: Empty! ===
+                           === KeyboardLayoutHdr List: Empty! ===
+                           === StringPkgHdr List Start ===
+                           Number = 0001, Address = 0x06C18930
+                           StringPkgHdrCurrentLink.ForwardLink = 0x06C15DB0
+                           StringPkgHdrCurrentLink.BackLink    = 0x06C15EE0
+                           Number = 0002, Address = 0x06C15DB0
+                           StringPkgHdrCurrentLink.ForwardLink = 0x06C15EE0
+                           StringPkgHdrCurrentLink.BackLink    = 0x06C18930
+                           === StringPkgHdr List End ===
+                           === FontPkgHdr List: Empty! ===
+                           ImagePkg                    = 0x00000000
+                           === SimpleFontPkgHdr List: Empty! ===
+                           DevicePathPkg               = 0x00000000
+               DriverHandle              = 0x06C16998
+               Handle                    = 0x06C15F98
+               DatabaseEntry.ForwardLink = 0x06C15E38
+               DatabaseEntry.BackLink    = 0x06C17938
+Number = 0008, Address                   = 0x06C15E18
+               Signature                 = h i d r
+               PackageList               = 0x06C03918
+                           PackageListGuid             = E38C1029-E38F-45B9-8F0D-E2E60BC9B262
+                           PackageLength               = 0x000015DA
+                           === GuidPkgHdr List: Empty! ===
+                           === FormPkgHdr List: Empty! ===
+                           === KeyboardLayoutHdr List: Empty! ===
+                           === StringPkgHdr List Start ===
+                           Number = 0001, Address = 0x06C186B0
+                           StringPkgHdrCurrentLink.ForwardLink = 0x06C03DB0
+                           StringPkgHdrCurrentLink.BackLink    = 0x06C03960
+                           Number = 0002, Address = 0x06C03DB0
+                           StringPkgHdrCurrentLink.ForwardLink = 0x06C03960
+                           StringPkgHdrCurrentLink.BackLink    = 0x06C186B0
+                           === StringPkgHdr List End ===
+                           === FontPkgHdr List: Empty! ===
+                           ImagePkg                    = 0x00000000
+                           === SimpleFontPkgHdr List: Empty! ===
+                           DevicePathPkg               = 0x00000000
+               DriverHandle              = 0x06C16998
+               Handle                    = 0x06C03C98
+               DatabaseEntry.ForwardLink = 0x069E54B8
+               DatabaseEntry.BackLink    = 0x06C188B8
+Number = 0009, Address                   = 0x069E5498
+               Signature                 = h i d r
+               PackageList               = 0x069E4918
+                           PackageListGuid             = D9DCC5DF-4007-435E-9098-8970935504B2
+                           PackageLength               = 0x00000855
+                           === GuidPkgHdr List: Empty! ===
+                           === FormPkgHdr List Start ===
+                           Number = 0001, Address = 0x069E3FB0
+                           FormPkgHdrCurrentLink.ForwardLink = 0x069E4940
+                           FormPkgHdrCurrentLink.BackLink    = 0x069E4940
+                           === FormPkgHdr List End ===
+                           === KeyboardLayoutHdr List: Empty! ===
+                           === StringPkgHdr List Start ===
+                           Number = 0001, Address = 0x069E5530
+                           StringPkgHdrCurrentLink.ForwardLink = 0x069E4960
+                           StringPkgHdrCurrentLink.BackLink    = 0x069E4960
+                           === StringPkgHdr List End ===
+                           === FontPkgHdr List: Empty! ===
+                           ImagePkg                    = 0x00000000
+                           === SimpleFontPkgHdr List: Empty! ===
+                           DevicePathPkg               = 0x068AFF98
+               DriverHandle              = 0x06C01618
+               Handle                    = 0x069E4C98
+               DatabaseEntry.ForwardLink = 0x069D1AB8
+               DatabaseEntry.BackLink    = 0x06C15E38
+Number = 0010, Address                   = 0x069D1A98
+               Signature                 = h i d r
+               PackageList               = 0x069D0018
+                           PackageListGuid             = F5F219D3-7006-4648-AC8D-D61DFB7BC6AD
+                           PackageLength               = 0x000014EC
+                           === GuidPkgHdr List: Empty! ===
+                           === FormPkgHdr List: Empty! ===
+                           === KeyboardLayoutHdr List: Empty! ===
+                           === StringPkgHdr List: Empty! ===
+                           === FontPkgHdr List: Empty! ===
+                           ImagePkg                    = 0x00000000
+                           === SimpleFontPkgHdr List Start ===
+                           Number = 0001, Address = 0x069D1B28
+                           SimpleFontPkgHdrCurrentLink.ForwardLink = 0x069D0088
+                           SimpleFontPkgHdrCurrentLink.BackLink    = 0x069D0088
+                           === SimpleFontPkgHdr List End ===
+                           DevicePathPkg               = 0x00000000
+               DriverHandle              = 0x00000000
+               Handle                    = 0x069D0F98
+               DatabaseEntry.ForwardLink = 0x06803538
+               DatabaseEntry.BackLink    = 0x069E54B8
+Number = 0011, Address                   = 0x06803518
+               Signature                 = h i d r
+               PackageList               = 0x06803218
+                           PackageListGuid             = FCD7CDA3-FAAE-B5D3-DDAA-04F3EE5B738B
+                           PackageLength               = 0x00000FD2
+                           === GuidPkgHdr List: Empty! ===
+                           === FormPkgHdr List Start ===
+                           Number = 0001, Address = 0x068033B0
+                           FormPkgHdrCurrentLink.ForwardLink = 0x06803240
+                           FormPkgHdrCurrentLink.BackLink    = 0x06803240
+                           === FormPkgHdr List End ===
+                           === KeyboardLayoutHdr List: Empty! ===
+                           === StringPkgHdr List Start ===
+                           Number = 0001, Address = 0x06802FB0
+                           StringPkgHdrCurrentLink.ForwardLink = 0x06803260
+                           StringPkgHdrCurrentLink.BackLink    = 0x06803260
+                           === StringPkgHdr List End ===
+                           === FontPkgHdr List: Empty! ===
+                           ImagePkg                    = 0x00000000
+                           === SimpleFontPkgHdr List: Empty! ===
+                           DevicePathPkg               = 0x06802F18
+               DriverHandle              = 0x06803198
+               Handle                    = 0x06803318
+               DatabaseEntry.ForwardLink = 0x0674FAB8
+               DatabaseEntry.BackLink    = 0x069D1AB8
+Number = 0012, Address                   = 0x0674FA98
+               Signature                 = h i d r
+               PackageList               = 0x0618F598
+                           PackageListGuid             = F95A7CCC-4C55-4426-A7B4-DC8961950BAE
+                           PackageLength               = 0x000139F5
+                           === GuidPkgHdr List: Empty! ===
+                           === FormPkgHdr List: Empty! ===
+                           === KeyboardLayoutHdr List: Empty! ===
+                           === StringPkgHdr List Start ===
+                           Number = 0001, Address = 0x068152B0
+                           StringPkgHdrCurrentLink.ForwardLink = 0x0618F5E0
+                           StringPkgHdrCurrentLink.BackLink    = 0x0618F5E0
+                           === StringPkgHdr List End ===
+                           === FontPkgHdr List: Empty! ===
+                           ImagePkg                    = 0x00000000
+                           === SimpleFontPkgHdr List: Empty! ===
+                           DevicePathPkg               = 0x00000000
+               DriverHandle              = 0x068AB518
+               Handle                    = 0x0674FC98
+               DatabaseEntry.ForwardLink = 0x06180738
+               DatabaseEntry.BackLink    = 0x06803538
+Number = 0013, Address                   = 0x06180718
+               Signature                 = h i d r
+               PackageList               = 0x06180598
+                           PackageListGuid             = DEC5DAA4-6781-4820-9C63-A7B0E4F1DB31
+                           PackageLength               = 0x00008677
+                           === GuidPkgHdr List: Empty! ===
+                           === FormPkgHdr List: Empty! ===
+                           === KeyboardLayoutHdr List: Empty! ===
+                           === StringPkgHdr List Start ===
+                           Number = 0001, Address = 0x061801B0
+                           StringPkgHdrCurrentLink.ForwardLink = 0x061805E0
+                           StringPkgHdrCurrentLink.BackLink    = 0x061805E0
+                           === StringPkgHdr List End ===
+                           === FontPkgHdr List: Empty! ===
+                           ImagePkg                    = 0x00000000
+                           === SimpleFontPkgHdr List: Empty! ===
+                           DevicePathPkg               = 0x00000000
+               DriverHandle              = 0x068AB518
+               Handle                    = 0x06180698
+               DatabaseEntry.ForwardLink = 0x0617FA38
+               DatabaseEntry.BackLink    = 0x0674FAB8
+Number = 0014, Address                   = 0x0617FA18
+               Signature                 = h i d r
+               PackageList               = 0x0617F798
+                           PackageListGuid             = 4344558D-4EF9-4725-B1E4-3376E8D6974F
+                           PackageLength               = 0x000083BD
+                           === GuidPkgHdr List: Empty! ===
+                           === FormPkgHdr List: Empty! ===
+                           === KeyboardLayoutHdr List: Empty! ===
+                           === StringPkgHdr List Start ===
+                           Number = 0001, Address = 0x0617F8B0
+                           StringPkgHdrCurrentLink.ForwardLink = 0x0617F7E0
+                           StringPkgHdrCurrentLink.BackLink    = 0x0617F7E0
+                           === StringPkgHdr List End ===
+                           === FontPkgHdr List: Empty! ===
+                           ImagePkg                    = 0x00000000
+                           === SimpleFontPkgHdr List: Empty! ===
+                           DevicePathPkg               = 0x00000000
+               DriverHandle              = 0x068AB518
+               Handle                    = 0x0617FA98
+               DatabaseEntry.ForwardLink = 0x0617EDB8
+               DatabaseEntry.BackLink    = 0x06180738
+Number = 0015, Address                   = 0x0617ED98
+               Signature                 = h i d r
+               PackageList               = 0x0617EC18
+                           PackageListGuid             = 0AF0B742-63EC-45BD-8DB6-71AD7F2FE8E8
+                           PackageLength               = 0x0000CB04
+                           === GuidPkgHdr List: Empty! ===
+                           === FormPkgHdr List: Empty! ===
+                           === KeyboardLayoutHdr List: Empty! ===
+                           === StringPkgHdr List Start ===
+                           Number = 0001, Address = 0x0617E0B0
+                           StringPkgHdrCurrentLink.ForwardLink = 0x0617EC60
+                           StringPkgHdrCurrentLink.BackLink    = 0x0617EC60
+                           === StringPkgHdr List End ===
+                           === FontPkgHdr List: Empty! ===
+                           ImagePkg                    = 0x00000000
+                           === SimpleFontPkgHdr List: Empty! ===
+                           DevicePathPkg               = 0x00000000
+               DriverHandle              = 0x068AB518
+               Handle                    = 0x0617ED18
+               DatabaseEntry.ForwardLink = 0x0617DE38
+               DatabaseEntry.BackLink    = 0x0617FA38
+Number = 0016, Address                   = 0x0617DE18
+               Signature                 = h i d r
+               PackageList               = 0x0617DB98
+                           PackageListGuid             = 25F200AA-D3CB-470A-BF51-E7D162D22E6F
+                           PackageLength               = 0x0001E324
+                           === GuidPkgHdr List: Empty! ===
+                           === FormPkgHdr List: Empty! ===
+                           === KeyboardLayoutHdr List: Empty! ===
+                           === StringPkgHdr List Start ===
+                           Number = 0001, Address = 0x0617DCB0
+                           StringPkgHdrCurrentLink.ForwardLink = 0x0617DBE0
+                           StringPkgHdrCurrentLink.BackLink    = 0x0617DBE0
+                           === StringPkgHdr List End ===
+                           === FontPkgHdr List: Empty! ===
+                           ImagePkg                    = 0x00000000
+                           === SimpleFontPkgHdr List: Empty! ===
+                           DevicePathPkg               = 0x00000000
+               DriverHandle              = 0x068AB518
+               Handle                    = 0x0617DE98
+               DatabaseEntry.ForwardLink = 0x0617C9B8
+               DatabaseEntry.BackLink    = 0x0617EDB8
+Number = 0017, Address                   = 0x0617C998
+               Signature                 = h i d r
+               PackageList               = 0x0617C818
+                           PackageListGuid             = 5F5F605D-1583-4A2D-A6B2-EB12DAB4A2B6
+                           PackageLength               = 0x00003048
+                           === GuidPkgHdr List: Empty! ===
+                           === FormPkgHdr List: Empty! ===
+                           === KeyboardLayoutHdr List: Empty! ===
+                           === StringPkgHdr List Start ===
+                           Number = 0001, Address = 0x0617C130
+                           StringPkgHdrCurrentLink.ForwardLink = 0x0617C860
+                           StringPkgHdrCurrentLink.BackLink    = 0x0617C860
+                           === StringPkgHdr List End ===
+                           === FontPkgHdr List: Empty! ===
+                           ImagePkg                    = 0x00000000
+                           === SimpleFontPkgHdr List: Empty! ===
+                           DevicePathPkg               = 0x00000000
+               DriverHandle              = 0x068AB518
+               Handle                    = 0x0617C918
+               DatabaseEntry.ForwardLink = 0x0617C6B8
+               DatabaseEntry.BackLink    = 0x0617DE38
+Number = 0018, Address                   = 0x0617C698
+               Signature                 = h i d r
+               PackageList               = 0x0617C198
+                           PackageListGuid             = F3D301BB-F4A5-45A8-B0B7-FA999C6237AE
+                           PackageLength               = 0x000026B7
+                           === GuidPkgHdr List: Empty! ===
+                           === FormPkgHdr List: Empty! ===
+                           === KeyboardLayoutHdr List: Empty! ===
+                           === StringPkgHdr List Start ===
+                           Number = 0001, Address = 0x0617C2B0
+                           StringPkgHdrCurrentLink.ForwardLink = 0x0617C1E0
+                           StringPkgHdrCurrentLink.BackLink    = 0x0617C1E0
+                           === StringPkgHdr List End ===
+                           === FontPkgHdr List: Empty! ===
+                           ImagePkg                    = 0x00000000
+                           === SimpleFontPkgHdr List: Empty! ===
+                           DevicePathPkg               = 0x00000000
+               DriverHandle              = 0x068AB518
+               Handle                    = 0x0617C518
+               DatabaseEntry.ForwardLink = 0x0617BE38
+               DatabaseEntry.BackLink    = 0x0617C9B8
+Number = 0019, Address                   = 0x0617BE18
+               Signature                 = h i d r
+               PackageList               = 0x0617BB98
+                           PackageListGuid             = 7C04A583-9E3E-4F1C-AD65-E05268D0B4D1
+                           PackageLength               = 0x000005CB
+                           === GuidPkgHdr List: Empty! ===
+                           === FormPkgHdr List: Empty! ===
+                           === KeyboardLayoutHdr List: Empty! ===
+                           === StringPkgHdr List Start ===
+                           Number = 0001, Address = 0x0617BCB0
+                           StringPkgHdrCurrentLink.ForwardLink = 0x0617BBE0
+                           StringPkgHdrCurrentLink.BackLink    = 0x0617BBE0
+                           === StringPkgHdr List End ===
+                           === FontPkgHdr List: Empty! ===
+                           ImagePkg                    = 0x00000000
+                           === SimpleFontPkgHdr List: Empty! ===
+                           DevicePathPkg               = 0x00000000
+               DriverHandle              = 0x068AB518
+               Handle                    = 0x0617BE98
+               DatabaseEntry.ForwardLink = 0x06C90188
+               DatabaseEntry.BackLink    = 0x0617C6B8
+=== HiiDataBaseRecordPointer List End ===
+
+=== HiiDataaseNotifyList: Empty! ===
+
+=== HiiHandlePointer List Start ===
+Number = 0001, Address             = 0x06CA7C98
+               Signature          = h i h l
+               Handle.ForwardLink = 0x06C926A0
+               Handle.BackLink    = 0x06C902E0
+               Key                = 0x00000001
+Number = 0002, Address             = 0x06C92698
+               Signature          = h i h l
+               Handle.ForwardLink = 0x06C91BA0
+               Handle.BackLink    = 0x06CA7CA0
+               Key                = 0x00000002
+Number = 0003, Address             = 0x06C91B98
+               Signature          = h i h l
+               Handle.ForwardLink = 0x06C3F5A0
+               Handle.BackLink    = 0x06C926A0
+               Key                = 0x00000003
+Number = 0004, Address             = 0x06C3F598
+               Signature          = h i h l
+               Handle.ForwardLink = 0x06C18FA0
+               Handle.BackLink    = 0x06C91BA0
+               Key                = 0x00000004
+Number = 0005, Address             = 0x06C18F98
+               Signature          = h i h l
+               Handle.ForwardLink = 0x06C17820
+               Handle.BackLink    = 0x06C3F5A0
+               Key                = 0x00000005
+Number = 0006, Address             = 0x06C17818
+               Signature          = h i h l
+               Handle.ForwardLink = 0x06C15FA0
+               Handle.BackLink    = 0x06C18FA0
+               Key                = 0x00000006
+Number = 0007, Address             = 0x06C15F98
+               Signature          = h i h l
+               Handle.ForwardLink = 0x06C03CA0
+               Handle.BackLink    = 0x06C17820
+               Key                = 0x00000007
+Number = 0008, Address             = 0x06C03C98
+               Signature          = h i h l
+               Handle.ForwardLink = 0x069E4CA0
+               Handle.BackLink    = 0x06C15FA0
+               Key                = 0x00000008
+Number = 0009, Address             = 0x069E4C98
+               Signature          = h i h l
+               Handle.ForwardLink = 0x069D0FA0
+               Handle.BackLink    = 0x06C03CA0
+               Key                = 0x00000009
+Number = 0010, Address             = 0x069D0F98
+               Signature          = h i h l
+               Handle.ForwardLink = 0x06803320
+               Handle.BackLink    = 0x069E4CA0
+               Key                = 0x0000000A
+Number = 0011, Address             = 0x06803318
+               Signature          = h i h l
+               Handle.ForwardLink = 0x0674FCA0
+               Handle.BackLink    = 0x069D0FA0
+               Key                = 0x0000000B
+Number = 0012, Address             = 0x0674FC98
+               Signature          = h i h l
+               Handle.ForwardLink = 0x061806A0
+               Handle.BackLink    = 0x06803320
+               Key                = 0x0000000C
+Number = 0013, Address             = 0x06180698
+               Signature          = h i h l
+               Handle.ForwardLink = 0x0617FAA0
+               Handle.BackLink    = 0x0674FCA0
+               Key                = 0x0000000D
+Number = 0014, Address             = 0x0617FA98
+               Signature          = h i h l
+               Handle.ForwardLink = 0x0617ED20
+               Handle.BackLink    = 0x061806A0
+               Key                = 0x0000000E
+Number = 0015, Address             = 0x0617ED18
+               Signature          = h i h l
+               Handle.ForwardLink = 0x0617DEA0
+               Handle.BackLink    = 0x0617FAA0
+               Key                = 0x0000000F
+Number = 0016, Address             = 0x0617DE98
+               Signature          = h i h l
+               Handle.ForwardLink = 0x0617C920
+               Handle.BackLink    = 0x0617ED20
+               Key                = 0x00000010
+Number = 0017, Address             = 0x0617C918
+               Signature          = h i h l
+               Handle.ForwardLink = 0x0617C520
+               Handle.BackLink    = 0x0617DEA0
+               Key                = 0x00000011
+Number = 0018, Address             = 0x0617C518
+               Signature          = h i h l
+               Handle.ForwardLink = 0x0617BEA0
+               Handle.BackLink    = 0x0617C920
+               Key                = 0x00000012
+Number = 0019, Address             = 0x0617BE98
+               Signature          = h i h l
+               Handle.ForwardLink = 0x06C902E0
+               Handle.BackLink    = 0x0617C520
+               Key                = 0x00000013
+=== HiiHandlePointer List End ===
+
+=== HiiFontInfoList: Empty! ===
+
+
+
+Before Insert new package
+=================================================
+Insert new package
+FS0:\> HIIStringsC.efi
+Status = Success, English
+Status = Success, Hello
+Status = Success, French
+Status = Success, Bonjour
+=================================================
+After Insert new package
+
+
+
+FS0:\> ShowHII.efi
+PackageList[0000]: GUID = F74D20EE-37E7-48FC-97F7-9B1047749C69; size = 0x2EE9
+    Package[0000]: type = IMAGES; size = 0x2ED1
+    Package[0001]: type = END; size = 0x4
+PackageList[0001]: GUID = 17D0EF2A-5933-4007-8950-5749169D3DC5; size = 0x1405
+    Package[0000]: type = STRINGS; size = 0x13ED
+    Package[0001]: type = END; size = 0x4
+PackageList[0002]: GUID = 2F30DA26-F51B-4B6F-85C4-31873C281BCA; size = 0xA93
+    Package[0000]: type = STRINGS; size = 0xA7B
+    Package[0001]: type = END; size = 0x4
+PackageList[0003]: GUID = EBF8ED7C-0DD1-4787-84F1-F48D537DCACF; size = 0x46C
+    Package[0000]: type = FORMS; size = 0x82
+    Package[0001]: type = FORMS; size = 0x82
+    Package[0002]: type = STRINGS; size = 0x199
+    Package[0003]: type = STRINGS; size = 0x19B
+    Package[0004]: type = DEVICE_PATH; size = 0x1C
+    Package[0005]: type = END; size = 0x4
+PackageList[0004]: GUID = FE561596-E6BF-41A6-8376-C72B719874D0; size = 0x93F
+    Package[0000]: type = FORMS; size = 0xF5
+    Package[0001]: type = STRINGS; size = 0x40A
+    Package[0002]: type = STRINGS; size = 0x40C
+    Package[0003]: type = DEVICE_PATH; size = 0x1C
+    Package[0004]: type = END; size = 0x4
+PackageList[0005]: GUID = 2A46715F-3581-4A55-8E73-2B769AAA30C5; size = 0x6B0
+    Package[0000]: type = FORMS; size = 0x143
+    Package[0001]: type = STRINGS; size = 0x539
+    Package[0002]: type = DEVICE_PATH; size = 0x1C
+    Package[0003]: type = END; size = 0x4
+PackageList[0006]: GUID = 99FDC8FD-849B-4EBA-AD13-FB9699C90A4D; size = 0x6FE
+    Package[0000]: type = STRINGS; size = 0x340
+    Package[0001]: type = STRINGS; size = 0x3A6
+    Package[0002]: type = END; size = 0x4
+PackageList[0007]: GUID = E38C1029-E38F-45B9-8F0D-E2E60BC9B262; size = 0x15DA
+    Package[0000]: type = STRINGS; size = 0xA88
+    Package[0001]: type = STRINGS; size = 0xB3A
+    Package[0002]: type = END; size = 0x4
+PackageList[0008]: GUID = D9DCC5DF-4007-435E-9098-8970935504B2; size = 0x855
+    Package[0000]: type = FORMS; size = 0x1F6
+    Package[0001]: type = STRINGS; size = 0x62B
+    Package[0002]: type = DEVICE_PATH; size = 0x1C
+    Package[0003]: type = END; size = 0x4
+PackageList[0009]: GUID = F5F219D3-7006-4648-AC8D-D61DFB7BC6AD; size = 0x14EC
+    Package[0000]: type = SIMPLE_FONTS; size = 0x14D4
+    Package[0001]: type = END; size = 0x4
+PackageList[0010]: GUID = 74780525-20E3-8141-7F32-264FA28F3C90; size = 0xFD2
+    Package[0000]: type = FORMS; size = 0x243
+    Package[0001]: type = STRINGS; size = 0xD24
+    Package[0002]: type = DEVICE_PATH; size = 0x53
+    Package[0003]: type = END; size = 0x4
+PackageList[0011]: GUID = F95A7CCC-4C55-4426-A7B4-DC8961950BAE; size = 0x139F5
+    Package[0000]: type = STRINGS; size = 0x139DD
+    Package[0001]: type = END; size = 0x4
+PackageList[0012]: GUID = DEC5DAA4-6781-4820-9C63-A7B0E4F1DB31; size = 0x8677
+    Package[0000]: type = STRINGS; size = 0x865F
+    Package[0001]: type = END; size = 0x4
+PackageList[0013]: GUID = 4344558D-4EF9-4725-B1E4-3376E8D6974F; size = 0x83BD
+    Package[0000]: type = STRINGS; size = 0x83A5
+    Package[0001]: type = END; size = 0x4
+PackageList[0014]: GUID = 0AF0B742-63EC-45BD-8DB6-71AD7F2FE8E8; size = 0xCB04
+    Package[0000]: type = STRINGS; size = 0xCAEC
+    Package[0001]: type = END; size = 0x4
+PackageList[0015]: GUID = 25F200AA-D3CB-470A-BF51-E7D162D22E6F; size = 0x1E324
+    Package[0000]: type = STRINGS; size = 0x1E30C
+    Package[0001]: type = END; size = 0x4
+PackageList[0016]: GUID = 5F5F605D-1583-4A2D-A6B2-EB12DAB4A2B6; size = 0x3048
+    Package[0000]: type = STRINGS; size = 0x3030
+    Package[0001]: type = END; size = 0x4
+PackageList[0017]: GUID = F3D301BB-F4A5-45A8-B0B7-FA999C6237AE; size = 0x26B7
+    Package[0000]: type = STRINGS; size = 0x269F
+    Package[0001]: type = END; size = 0x4
+PackageList[0018]: GUID = 7C04A583-9E3E-4F1C-AD65-E05268D0B4D1; size = 0x5CB
+    Package[0000]: type = STRINGS; size = 0x5B3
+    Package[0001]: type = END; size = 0x4
+PackageList[0019]: GUID = 8E0B8ED3-14F7-499D-A224-AEE89DC97FA3; size = 0xC0
+    Package[0000]: type = STRINGS; size = 0x53
+    Package[0001]: type = STRINGS; size = 0x55
+    Package[0002]: type = END; size = 0x4
+
+FS0:\> HIIDebug.efi
+=== HiiDataBasePrivateDataPointer List Start ===
+Address                        = 0x06C90180
+Signature                      = H i D p
+DatabaseList.ForwardLink       = 0x06CA7C38
+DatabaseList.BackLink          = 0x06177938
+DatabaseNotifyList.ForwardLink = 0x06C90198
+DatabaseNotifyList.BackLink    = 0x06C90198
+HiiFont                        = 0x07E7A440
+HiiImage                       = 0x07E7A440
+HiiImageEx                     = 0x07E7A440
+HiiString                      = 0x07E7A440
+HiiDatabase                    = 0x07E7A440
+ConfigRouting                  = 0x07E7A440
+ConfigKeywordHandler           = 0x07E7A4B0
+HiiHandleList.ForwardLink      = 0x06CA7CA0
+HiiHandleList.BackLink         = 0x0613E3A0
+HiiHandleCount                 = 0x00000014
+FontInfoList.ForwardLink       = 0x06C902F8
+FontInfoList.BackLink          = 0x06C902F8
+Attribute                      = 0x00000007
+CurrentLayoutGuid              = 0x07E7A440
+CurrentLayout                  = 0x00000000
+=== HiiDataBasePrivateDataPointer List End ===
+
+=== HiiDataBaseRecordPointer List Start ===
+Number = 0001, Address                   = 0x06CA7C18
+               Signature                 = h i d r
+               PackageList               = 0x06CA7F18
+                           PackageListGuid             = F74D20EE-37E7-48FC-97F7-9B1047749C69
+                           PackageLength               = 0x00002EE9
+                           === GuidPkgHdr List: Empty! ===
+                           === FormPkgHdr List: Empty! ===
+                           === KeyboardLayoutHdr List: Empty! ===
+                           === StringPkgHdr List: Empty! ===
+                           === FontPkgHdr List: Empty! ===
+                           ImagePkg                    = 0x06CA7E98
+                           === SimpleFontPkgHdr List: Empty! ===
+                           DevicePathPkg               = 0x00000000
+               DriverHandle              = 0x00000000
+               Handle                    = 0x06CA7C98
+               DatabaseEntry.ForwardLink = 0x06C92638
+               DatabaseEntry.BackLink    = 0x06C90188
+Number = 0002, Address                   = 0x06C92618
+               Signature                 = h i d r
+               PackageList               = 0x06C92098
+                           PackageListGuid             = 17D0EF2A-5933-4007-8950-5749169D3DC5
+                           PackageLength               = 0x00001405
+                           === GuidPkgHdr List: Empty! ===
+                           === FormPkgHdr List: Empty! ===
+                           === KeyboardLayoutHdr List: Empty! ===
+                           === StringPkgHdr List Start ===
+                           Number = 0001, Address = 0x06C929B0
+                           StringPkgHdrCurrentLink.ForwardLink = 0x06C920E0
+                           StringPkgHdrCurrentLink.BackLink    = 0x06C920E0
+                           === StringPkgHdr List End ===
+                           === FontPkgHdr List: Empty! ===
+                           ImagePkg                    = 0x00000000
+                           === SimpleFontPkgHdr List: Empty! ===
+                           DevicePathPkg               = 0x00000000
+               DriverHandle              = 0x00000000
+               Handle                    = 0x06C92698
+               DatabaseEntry.ForwardLink = 0x06C91EB8
+               DatabaseEntry.BackLink    = 0x06CA7C38
+Number = 0003, Address                   = 0x06C91E98
+               Signature                 = h i d r
+               PackageList               = 0x06C91A98
+                           PackageListGuid             = 2F30DA26-F51B-4B6F-85C4-31873C281BCA
+                           PackageLength               = 0x00000A93
+                           === GuidPkgHdr List: Empty! ===
+                           === FormPkgHdr List: Empty! ===
+                           === KeyboardLayoutHdr List: Empty! ===
+                           === StringPkgHdr List Start ===
+                           Number = 0001, Address = 0x06C91C30
+                           StringPkgHdrCurrentLink.ForwardLink = 0x06C91AE0
+                           StringPkgHdrCurrentLink.BackLink    = 0x06C91AE0
+                           === StringPkgHdr List End ===
+                           === FontPkgHdr List: Empty! ===
+                           ImagePkg                    = 0x00000000
+                           === SimpleFontPkgHdr List: Empty! ===
+                           DevicePathPkg               = 0x00000000
+               DriverHandle              = 0x00000000
+               Handle                    = 0x06C91B98
+               DatabaseEntry.ForwardLink = 0x06C3EFB8
+               DatabaseEntry.BackLink    = 0x06C92638
+Number = 0004, Address                   = 0x06C3EF98
+               Signature                 = h i d r
+               PackageList               = 0x06C3F498
+                           PackageListGuid             = EBF8ED7C-0DD1-4787-84F1-F48D537DCACF
+                           PackageLength               = 0x0000046C
+                           === GuidPkgHdr List: Empty! ===
+                           === FormPkgHdr List Start ===
+                           Number = 0001, Address = 0x06C3ED30
+                           FormPkgHdrCurrentLink.ForwardLink = 0x06C3EEB0
+                           FormPkgHdrCurrentLink.BackLink    = 0x06C3F4C0
+                           Number = 0002, Address = 0x06C3EEB0
+                           FormPkgHdrCurrentLink.ForwardLink = 0x06C3F4C0
+                           FormPkgHdrCurrentLink.BackLink    = 0x06C3ED30
+                           === FormPkgHdr List End ===
+                           === KeyboardLayoutHdr List: Empty! ===
+                           === StringPkgHdr List Start ===
+                           Number = 0001, Address = 0x06C3ECB0
+                           StringPkgHdrCurrentLink.ForwardLink = 0x06C3EBB0
+                           StringPkgHdrCurrentLink.BackLink    = 0x06C3F4E0
+                           Number = 0002, Address = 0x06C3EBB0
+                           StringPkgHdrCurrentLink.ForwardLink = 0x06C3F4E0
+                           StringPkgHdrCurrentLink.BackLink    = 0x06C3ECB0
+                           === StringPkgHdr List End ===
+                           === FontPkgHdr List: Empty! ===
+                           ImagePkg                    = 0x00000000
+                           === SimpleFontPkgHdr List: Empty! ===
+                           DevicePathPkg               = 0x06C3EC18
+               DriverHandle              = 0x06C3F698
+               Handle                    = 0x06C3F598
+               DatabaseEntry.ForwardLink = 0x06C1A838
+               DatabaseEntry.BackLink    = 0x06C91EB8
+Number = 0005, Address                   = 0x06C1A818
+               Signature                 = h i d r
+               PackageList               = 0x06C18E98
+                           PackageListGuid             = FE561596-E6BF-41A6-8376-C72B719874D0
+                           PackageLength               = 0x0000093F
+                           === GuidPkgHdr List: Empty! ===
+                           === FormPkgHdr List Start ===
+                           Number = 0001, Address = 0x06C1A8B0
+                           FormPkgHdrCurrentLink.ForwardLink = 0x06C18EC0
+                           FormPkgHdrCurrentLink.BackLink    = 0x06C18EC0
+                           === FormPkgHdr List End ===
+                           === KeyboardLayoutHdr List: Empty! ===
+                           === StringPkgHdr List Start ===
+                           Number = 0001, Address = 0x06C18DB0
+                           StringPkgHdrCurrentLink.ForwardLink = 0x06C17EB0
+                           StringPkgHdrCurrentLink.BackLink    = 0x06C18EE0
+                           Number = 0002, Address = 0x06C17EB0
+                           StringPkgHdrCurrentLink.ForwardLink = 0x06C18EE0
+                           StringPkgHdrCurrentLink.BackLink    = 0x06C18DB0
+                           === StringPkgHdr List End ===
+                           === FontPkgHdr List: Empty! ===
+                           ImagePkg                    = 0x00000000
+                           === SimpleFontPkgHdr List: Empty! ===
+                           DevicePathPkg               = 0x06C18C18
+               DriverHandle              = 0x06C1A718
+               Handle                    = 0x06C18F98
+               DatabaseEntry.ForwardLink = 0x06C17938
+               DatabaseEntry.BackLink    = 0x06C3EFB8
+Number = 0006, Address                   = 0x06C17918
+               Signature                 = h i d r
+               PackageList               = 0x06C17498
+                           PackageListGuid             = 2A46715F-3581-4A55-8E73-2B769AAA30C5
+                           PackageLength               = 0x000006B0
+                           === GuidPkgHdr List: Empty! ===
+                           === FormPkgHdr List Start ===
+                           Number = 0001, Address = 0x06C16FB0
+                           FormPkgHdrCurrentLink.ForwardLink = 0x06C174C0
+                           FormPkgHdrCurrentLink.BackLink    = 0x06C174C0
+                           === FormPkgHdr List End ===
+                           === KeyboardLayoutHdr List: Empty! ===
+                           === StringPkgHdr List Start ===
+                           Number = 0001, Address = 0x06C179B0
+                           StringPkgHdrCurrentLink.ForwardLink = 0x06C174E0
+                           StringPkgHdrCurrentLink.BackLink    = 0x06C174E0
+                           === StringPkgHdr List End ===
+                           === FontPkgHdr List: Empty! ===
+                           ImagePkg                    = 0x00000000
+                           === SimpleFontPkgHdr List: Empty! ===
+                           DevicePathPkg               = 0x06C16E98
+               DriverHandle              = 0x06C17418
+               Handle                    = 0x06C17818
+               DatabaseEntry.ForwardLink = 0x06C188B8
+               DatabaseEntry.BackLink    = 0x06C1A838
+Number = 0007, Address                   = 0x06C18898
+               Signature                 = h i d r
+               PackageList               = 0x06C15E98
+                           PackageListGuid             = 99FDC8FD-849B-4EBA-AD13-FB9699C90A4D
+                           PackageLength               = 0x000006FE
+                           === GuidPkgHdr List: Empty! ===
+                           === FormPkgHdr List: Empty! ===
+                           === KeyboardLayoutHdr List: Empty! ===
+                           === StringPkgHdr List Start ===
+                           Number = 0001, Address = 0x06C18930
+                           StringPkgHdrCurrentLink.ForwardLink = 0x06C15DB0
+                           StringPkgHdrCurrentLink.BackLink    = 0x06C15EE0
+                           Number = 0002, Address = 0x06C15DB0
+                           StringPkgHdrCurrentLink.ForwardLink = 0x06C15EE0
+                           StringPkgHdrCurrentLink.BackLink    = 0x06C18930
+                           === StringPkgHdr List End ===
+                           === FontPkgHdr List: Empty! ===
+                           ImagePkg                    = 0x00000000
+                           === SimpleFontPkgHdr List: Empty! ===
+                           DevicePathPkg               = 0x00000000
+               DriverHandle              = 0x06C16998
+               Handle                    = 0x06C15F98
+               DatabaseEntry.ForwardLink = 0x06C15E38
+               DatabaseEntry.BackLink    = 0x06C17938
+Number = 0008, Address                   = 0x06C15E18
+               Signature                 = h i d r
+               PackageList               = 0x06C03918
+                           PackageListGuid             = E38C1029-E38F-45B9-8F0D-E2E60BC9B262
+                           PackageLength               = 0x000015DA
+                           === GuidPkgHdr List: Empty! ===
+                           === FormPkgHdr List: Empty! ===
+                           === KeyboardLayoutHdr List: Empty! ===
+                           === StringPkgHdr List Start ===
+                           Number = 0001, Address = 0x06C186B0
+                           StringPkgHdrCurrentLink.ForwardLink = 0x06C03DB0
+                           StringPkgHdrCurrentLink.BackLink    = 0x06C03960
+                           Number = 0002, Address = 0x06C03DB0
+                           StringPkgHdrCurrentLink.ForwardLink = 0x06C03960
+                           StringPkgHdrCurrentLink.BackLink    = 0x06C186B0
+                           === StringPkgHdr List End ===
+                           === FontPkgHdr List: Empty! ===
+                           ImagePkg                    = 0x00000000
+                           === SimpleFontPkgHdr List: Empty! ===
+                           DevicePathPkg               = 0x00000000
+               DriverHandle              = 0x06C16998
+               Handle                    = 0x06C03C98
+               DatabaseEntry.ForwardLink = 0x069E54B8
+               DatabaseEntry.BackLink    = 0x06C188B8
+Number = 0009, Address                   = 0x069E5498
+               Signature                 = h i d r
+               PackageList               = 0x069E4918
+                           PackageListGuid             = D9DCC5DF-4007-435E-9098-8970935504B2
+                           PackageLength               = 0x00000855
+                           === GuidPkgHdr List: Empty! ===
+                           === FormPkgHdr List Start ===
+                           Number = 0001, Address = 0x069E3FB0
+                           FormPkgHdrCurrentLink.ForwardLink = 0x069E4940
+                           FormPkgHdrCurrentLink.BackLink    = 0x069E4940
+                           === FormPkgHdr List End ===
+                           === KeyboardLayoutHdr List: Empty! ===
+                           === StringPkgHdr List Start ===
+                           Number = 0001, Address = 0x069E5530
+                           StringPkgHdrCurrentLink.ForwardLink = 0x069E4960
+                           StringPkgHdrCurrentLink.BackLink    = 0x069E4960
+                           === StringPkgHdr List End ===
+                           === FontPkgHdr List: Empty! ===
+                           ImagePkg                    = 0x00000000
+                           === SimpleFontPkgHdr List: Empty! ===
+                           DevicePathPkg               = 0x068AFF98
+               DriverHandle              = 0x06C01618
+               Handle                    = 0x069E4C98
+               DatabaseEntry.ForwardLink = 0x069D1AB8
+               DatabaseEntry.BackLink    = 0x06C15E38
+Number = 0010, Address                   = 0x069D1A98
+               Signature                 = h i d r
+               PackageList               = 0x069D0018
+                           PackageListGuid             = F5F219D3-7006-4648-AC8D-D61DFB7BC6AD
+                           PackageLength               = 0x000014EC
+                           === GuidPkgHdr List: Empty! ===
+                           === FormPkgHdr List: Empty! ===
+                           === KeyboardLayoutHdr List: Empty! ===
+                           === StringPkgHdr List: Empty! ===
+                           === FontPkgHdr List: Empty! ===
+                           ImagePkg                    = 0x00000000
+                           === SimpleFontPkgHdr List Start ===
+                           Number = 0001, Address = 0x069D1B28
+                           SimpleFontPkgHdrCurrentLink.ForwardLink = 0x069D0088
+                           SimpleFontPkgHdrCurrentLink.BackLink    = 0x069D0088
+                           === SimpleFontPkgHdr List End ===
+                           DevicePathPkg               = 0x00000000
+               DriverHandle              = 0x00000000
+               Handle                    = 0x069D0F98
+               DatabaseEntry.ForwardLink = 0x06803538
+               DatabaseEntry.BackLink    = 0x069E54B8
+Number = 0011, Address                   = 0x06803518
+               Signature                 = h i d r
+               PackageList               = 0x06803218
+                           PackageListGuid             = FCD7CDA3-FAAE-B5D3-DDAA-04F3EE5B738B
+                           PackageLength               = 0x00000FD2
+                           === GuidPkgHdr List: Empty! ===
+                           === FormPkgHdr List Start ===
+                           Number = 0001, Address = 0x068033B0
+                           FormPkgHdrCurrentLink.ForwardLink = 0x06803240
+                           FormPkgHdrCurrentLink.BackLink    = 0x06803240
+                           === FormPkgHdr List End ===
+                           === KeyboardLayoutHdr List: Empty! ===
+                           === StringPkgHdr List Start ===
+                           Number = 0001, Address = 0x06802FB0
+                           StringPkgHdrCurrentLink.ForwardLink = 0x06803260
+                           StringPkgHdrCurrentLink.BackLink    = 0x06803260
+                           === StringPkgHdr List End ===
+                           === FontPkgHdr List: Empty! ===
+                           ImagePkg                    = 0x00000000
+                           === SimpleFontPkgHdr List: Empty! ===
+                           DevicePathPkg               = 0x06802F18
+               DriverHandle              = 0x06803198
+               Handle                    = 0x06803318
+               DatabaseEntry.ForwardLink = 0x0674FAB8
+               DatabaseEntry.BackLink    = 0x069D1AB8
+Number = 0012, Address                   = 0x0674FA98
+               Signature                 = h i d r
+               PackageList               = 0x0618F598
+                           PackageListGuid             = F95A7CCC-4C55-4426-A7B4-DC8961950BAE
+                           PackageLength               = 0x000139F5
+                           === GuidPkgHdr List: Empty! ===
+                           === FormPkgHdr List: Empty! ===
+                           === KeyboardLayoutHdr List: Empty! ===
+                           === StringPkgHdr List Start ===
+                           Number = 0001, Address = 0x068152B0
+                           StringPkgHdrCurrentLink.ForwardLink = 0x0618F5E0
+                           StringPkgHdrCurrentLink.BackLink    = 0x0618F5E0
+                           === StringPkgHdr List End ===
+                           === FontPkgHdr List: Empty! ===
+                           ImagePkg                    = 0x00000000
+                           === SimpleFontPkgHdr List: Empty! ===
+                           DevicePathPkg               = 0x00000000
+               DriverHandle              = 0x068AB518
+               Handle                    = 0x0674FC98
+               DatabaseEntry.ForwardLink = 0x06180738
+               DatabaseEntry.BackLink    = 0x06803538
+Number = 0013, Address                   = 0x06180718
+               Signature                 = h i d r
+               PackageList               = 0x06180598
+                           PackageListGuid             = DEC5DAA4-6781-4820-9C63-A7B0E4F1DB31
+                           PackageLength               = 0x00008677
+                           === GuidPkgHdr List: Empty! ===
+                           === FormPkgHdr List: Empty! ===
+                           === KeyboardLayoutHdr List: Empty! ===
+                           === StringPkgHdr List Start ===
+                           Number = 0001, Address = 0x061801B0
+                           StringPkgHdrCurrentLink.ForwardLink = 0x061805E0
+                           StringPkgHdrCurrentLink.BackLink    = 0x061805E0
+                           === StringPkgHdr List End ===
+                           === FontPkgHdr List: Empty! ===
+                           ImagePkg                    = 0x00000000
+                           === SimpleFontPkgHdr List: Empty! ===
+                           DevicePathPkg               = 0x00000000
+               DriverHandle              = 0x068AB518
+               Handle                    = 0x06180698
+               DatabaseEntry.ForwardLink = 0x0617FA38
+               DatabaseEntry.BackLink    = 0x0674FAB8
+Number = 0014, Address                   = 0x0617FA18
+               Signature                 = h i d r
+               PackageList               = 0x0617F798
+                           PackageListGuid             = 4344558D-4EF9-4725-B1E4-3376E8D6974F
+                           PackageLength               = 0x000083BD
+                           === GuidPkgHdr List: Empty! ===
+                           === FormPkgHdr List: Empty! ===
+                           === KeyboardLayoutHdr List: Empty! ===
+                           === StringPkgHdr List Start ===
+                           Number = 0001, Address = 0x0617F8B0
+                           StringPkgHdrCurrentLink.ForwardLink = 0x0617F7E0
+                           StringPkgHdrCurrentLink.BackLink    = 0x0617F7E0
+                           === StringPkgHdr List End ===
+                           === FontPkgHdr List: Empty! ===
+                           ImagePkg                    = 0x00000000
+                           === SimpleFontPkgHdr List: Empty! ===
+                           DevicePathPkg               = 0x00000000
+               DriverHandle              = 0x068AB518
+               Handle                    = 0x0617FA98
+               DatabaseEntry.ForwardLink = 0x0617EDB8
+               DatabaseEntry.BackLink    = 0x06180738
+Number = 0015, Address                   = 0x0617ED98
+               Signature                 = h i d r
+               PackageList               = 0x0617EC18
+                           PackageListGuid             = 0AF0B742-63EC-45BD-8DB6-71AD7F2FE8E8
+                           PackageLength               = 0x0000CB04
+                           === GuidPkgHdr List: Empty! ===
+                           === FormPkgHdr List: Empty! ===
+                           === KeyboardLayoutHdr List: Empty! ===
+                           === StringPkgHdr List Start ===
+                           Number = 0001, Address = 0x0617E0B0
+                           StringPkgHdrCurrentLink.ForwardLink = 0x0617EC60
+                           StringPkgHdrCurrentLink.BackLink    = 0x0617EC60
+                           === StringPkgHdr List End ===
+                           === FontPkgHdr List: Empty! ===
+                           ImagePkg                    = 0x00000000
+                           === SimpleFontPkgHdr List: Empty! ===
+                           DevicePathPkg               = 0x00000000
+               DriverHandle              = 0x068AB518
+               Handle                    = 0x0617ED18
+               DatabaseEntry.ForwardLink = 0x0617DE38
+               DatabaseEntry.BackLink    = 0x0617FA38
+Number = 0016, Address                   = 0x0617DE18
+               Signature                 = h i d r
+               PackageList               = 0x0617DB98
+                           PackageListGuid             = 25F200AA-D3CB-470A-BF51-E7D162D22E6F
+                           PackageLength               = 0x0001E324
+                           === GuidPkgHdr List: Empty! ===
+                           === FormPkgHdr List: Empty! ===
+                           === KeyboardLayoutHdr List: Empty! ===
+                           === StringPkgHdr List Start ===
+                           Number = 0001, Address = 0x0617DCB0
+                           StringPkgHdrCurrentLink.ForwardLink = 0x0617DBE0
+                           StringPkgHdrCurrentLink.BackLink    = 0x0617DBE0
+                           === StringPkgHdr List End ===
+                           === FontPkgHdr List: Empty! ===
+                           ImagePkg                    = 0x00000000
+                           === SimpleFontPkgHdr List: Empty! ===
+                           DevicePathPkg               = 0x00000000
+               DriverHandle              = 0x068AB518
+               Handle                    = 0x0617DE98
+               DatabaseEntry.ForwardLink = 0x0617C9B8
+               DatabaseEntry.BackLink    = 0x0617EDB8
+Number = 0017, Address                   = 0x0617C998
+               Signature                 = h i d r
+               PackageList               = 0x0617C818
+                           PackageListGuid             = 5F5F605D-1583-4A2D-A6B2-EB12DAB4A2B6
+                           PackageLength               = 0x00003048
+                           === GuidPkgHdr List: Empty! ===
+                           === FormPkgHdr List: Empty! ===
+                           === KeyboardLayoutHdr List: Empty! ===
+                           === StringPkgHdr List Start ===
+                           Number = 0001, Address = 0x0617C130
+                           StringPkgHdrCurrentLink.ForwardLink = 0x0617C860
+                           StringPkgHdrCurrentLink.BackLink    = 0x0617C860
+                           === StringPkgHdr List End ===
+                           === FontPkgHdr List: Empty! ===
+                           ImagePkg                    = 0x00000000
+                           === SimpleFontPkgHdr List: Empty! ===
+                           DevicePathPkg               = 0x00000000
+               DriverHandle              = 0x068AB518
+               Handle                    = 0x0617C918
+               DatabaseEntry.ForwardLink = 0x0617C6B8
+               DatabaseEntry.BackLink    = 0x0617DE38
+Number = 0018, Address                   = 0x0617C698
+               Signature                 = h i d r
+               PackageList               = 0x0617C198
+                           PackageListGuid             = F3D301BB-F4A5-45A8-B0B7-FA999C6237AE
+                           PackageLength               = 0x000026B7
+                           === GuidPkgHdr List: Empty! ===
+                           === FormPkgHdr List: Empty! ===
+                           === KeyboardLayoutHdr List: Empty! ===
+                           === StringPkgHdr List Start ===
+                           Number = 0001, Address = 0x0617C2B0
+                           StringPkgHdrCurrentLink.ForwardLink = 0x0617C1E0
+                           StringPkgHdrCurrentLink.BackLink    = 0x0617C1E0
+                           === StringPkgHdr List End ===
+                           === FontPkgHdr List: Empty! ===
+                           ImagePkg                    = 0x00000000
+                           === SimpleFontPkgHdr List: Empty! ===
+                           DevicePathPkg               = 0x00000000
+               DriverHandle              = 0x068AB518
+               Handle                    = 0x0617C518
+               DatabaseEntry.ForwardLink = 0x0617BE38
+               DatabaseEntry.BackLink    = 0x0617C9B8
+Number = 0019, Address                   = 0x0617BE18
+               Signature                 = h i d r
+               PackageList               = 0x0617BB98
+                           PackageListGuid             = 7C04A583-9E3E-4F1C-AD65-E05268D0B4D1
+                           PackageLength               = 0x000005CB
+                           === GuidPkgHdr List: Empty! ===
+                           === FormPkgHdr List: Empty! ===
+                           === KeyboardLayoutHdr List: Empty! ===
+                           === StringPkgHdr List Start ===
+                           Number = 0001, Address = 0x0617BCB0
+                           StringPkgHdrCurrentLink.ForwardLink = 0x0617BBE0
+                           StringPkgHdrCurrentLink.BackLink    = 0x0617BBE0
+                           === StringPkgHdr List End ===
+                           === FontPkgHdr List: Empty! ===
+                           ImagePkg                    = 0x00000000
+                           === SimpleFontPkgHdr List: Empty! ===
+                           DevicePathPkg               = 0x00000000
+               DriverHandle              = 0x068AB518
+               Handle                    = 0x0617BE98
+               DatabaseEntry.ForwardLink = 0x06177938
+               DatabaseEntry.BackLink    = 0x0617C6B8
+Number = 0020, Address                   = 0x06177918
+               Signature                 = h i d r
+               PackageList               = 0x06151218
+                           PackageListGuid             = 8E0B8ED3-14F7-499D-A224-AEE89DC97FA3
+                           PackageLength               = 0x000000C0
+                           === GuidPkgHdr List: Empty! ===
+                           === FormPkgHdr List: Empty! ===
+                           === KeyboardLayoutHdr List: Empty! ===
+                           === StringPkgHdr List Start ===
+                           Number = 0001, Address = 0x0613F5B0
+                           StringPkgHdrCurrentLink.ForwardLink = 0x06177730
+                           StringPkgHdrCurrentLink.BackLink    = 0x06151260
+                           Number = 0002, Address = 0x06177730
+                           StringPkgHdrCurrentLink.ForwardLink = 0x06151260
+                           StringPkgHdrCurrentLink.BackLink    = 0x0613F5B0
+                           === StringPkgHdr List End ===
+                           === FontPkgHdr List: Empty! ===
+                           ImagePkg                    = 0x00000000
+                           === SimpleFontPkgHdr List: Empty! ===
+                           DevicePathPkg               = 0x00000000
+               DriverHandle              = 0x00000000
+               Handle                    = 0x0613E398
+               DatabaseEntry.ForwardLink = 0x06C90188
+               DatabaseEntry.BackLink    = 0x0617BE38
+=== HiiDataBaseRecordPointer List End ===
+
+=== HiiDataaseNotifyList: Empty! ===
+
+=== HiiHandlePointer List Start ===
+Number = 0001, Address             = 0x06CA7C98
+               Signature          = h i h l
+               Handle.ForwardLink = 0x06C926A0
+               Handle.BackLink    = 0x06C902E0
+               Key                = 0x00000001
+Number = 0002, Address             = 0x06C92698
+               Signature          = h i h l
+               Handle.ForwardLink = 0x06C91BA0
+               Handle.BackLink    = 0x06CA7CA0
+               Key                = 0x00000002
+Number = 0003, Address             = 0x06C91B98
+               Signature          = h i h l
+               Handle.ForwardLink = 0x06C3F5A0
+               Handle.BackLink    = 0x06C926A0
+               Key                = 0x00000003
+Number = 0004, Address             = 0x06C3F598
+               Signature          = h i h l
+               Handle.ForwardLink = 0x06C18FA0
+               Handle.BackLink    = 0x06C91BA0
+               Key                = 0x00000004
+Number = 0005, Address             = 0x06C18F98
+               Signature          = h i h l
+               Handle.ForwardLink = 0x06C17820
+               Handle.BackLink    = 0x06C3F5A0
+               Key                = 0x00000005
+Number = 0006, Address             = 0x06C17818
+               Signature          = h i h l
+               Handle.ForwardLink = 0x06C15FA0
+               Handle.BackLink    = 0x06C18FA0
+               Key                = 0x00000006
+Number = 0007, Address             = 0x06C15F98
+               Signature          = h i h l
+               Handle.ForwardLink = 0x06C03CA0
+               Handle.BackLink    = 0x06C17820
+               Key                = 0x00000007
+Number = 0008, Address             = 0x06C03C98
+               Signature          = h i h l
+               Handle.ForwardLink = 0x069E4CA0
+               Handle.BackLink    = 0x06C15FA0
+               Key                = 0x00000008
+Number = 0009, Address             = 0x069E4C98
+               Signature          = h i h l
+               Handle.ForwardLink = 0x069D0FA0
+               Handle.BackLink    = 0x06C03CA0
+               Key                = 0x00000009
+Number = 0010, Address             = 0x069D0F98
+               Signature          = h i h l
+               Handle.ForwardLink = 0x06803320
+               Handle.BackLink    = 0x069E4CA0
+               Key                = 0x0000000A
+Number = 0011, Address             = 0x06803318
+               Signature          = h i h l
+               Handle.ForwardLink = 0x0674FCA0
+               Handle.BackLink    = 0x069D0FA0
+               Key                = 0x0000000B
+Number = 0012, Address             = 0x0674FC98
+               Signature          = h i h l
+               Handle.ForwardLink = 0x061806A0
+               Handle.BackLink    = 0x06803320
+               Key                = 0x0000000C
+Number = 0013, Address             = 0x06180698
+               Signature          = h i h l
+               Handle.ForwardLink = 0x0617FAA0
+               Handle.BackLink    = 0x0674FCA0
+               Key                = 0x0000000D
+Number = 0014, Address             = 0x0617FA98
+               Signature          = h i h l
+               Handle.ForwardLink = 0x0617ED20
+               Handle.BackLink    = 0x061806A0
+               Key                = 0x0000000E
+Number = 0015, Address             = 0x0617ED18
+               Signature          = h i h l
+               Handle.ForwardLink = 0x0617DEA0
+               Handle.BackLink    = 0x0617FAA0
+               Key                = 0x0000000F
+Number = 0016, Address             = 0x0617DE98
+               Signature          = h i h l
+               Handle.ForwardLink = 0x0617C920
+               Handle.BackLink    = 0x0617ED20
+               Key                = 0x00000010
+Number = 0017, Address             = 0x0617C918
+               Signature          = h i h l
+               Handle.ForwardLink = 0x0617C520
+               Handle.BackLink    = 0x0617DEA0
+               Key                = 0x00000011
+Number = 0018, Address             = 0x0617C518
+               Signature          = h i h l
+               Handle.ForwardLink = 0x0617BEA0
+               Handle.BackLink    = 0x0617C920
+               Key                = 0x00000012
+Number = 0019, Address             = 0x0617BE98
+               Signature          = h i h l
+               Handle.ForwardLink = 0x0613E3A0
+               Handle.BackLink    = 0x0617C520
+               Key                = 0x00000013
+Number = 0020, Address             = 0x0613E398
+               Signature          = h i h l
+               Handle.ForwardLink = 0x06C902E0
+               Handle.BackLink    = 0x0617BEA0
+               Key                = 0x00000014
+=== HiiHandlePointer List End ===
+
+=== HiiFontInfoList: Empty! ===

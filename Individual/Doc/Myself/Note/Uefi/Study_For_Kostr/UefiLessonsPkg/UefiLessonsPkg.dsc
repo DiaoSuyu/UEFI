@@ -36,7 +36,9 @@
 
 [Components]
   UefiLessonsPkg/AcpiInfo/AcpiInfo.inf
+  UefiLessonsPkg/Debug/HIIDebug/HIIDebug.inf
   UefiLessonsPkg/HelloWorld/HelloWorld.inf
+  UefiLessonsPkg/HIIStringsC/HIIStringsC.inf
   UefiLessonsPkg/HotKeyDriver/HotKeyDriver.inf
   UefiLessonsPkg/ImageHandle/ImageHandle.inf
   UefiLessonsPkg/ImageInfo/ImageInfo.inf

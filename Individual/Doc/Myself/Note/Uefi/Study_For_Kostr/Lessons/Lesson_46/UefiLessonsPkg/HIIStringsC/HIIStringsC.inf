@@ -1,0 +1,28 @@
+## @file
+#  HIIStringsC: need to modify
+#
+##
+
+[Defines]
+  INF_VERSION                    = 1.25
+  BASE_NAME                      = HIIStringsC
+  FILE_GUID                      = d6c24528-d382-487e-85f4-0391ffe3deba
+  MODULE_TYPE                    = UEFI_APPLICATION
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = UefiMain
+
+[Sources]
+  HIIStringsC.c
+
+[Packages]
+  MdeModulePkg/MdeModulePkg.dec
+  MdePkg/MdePkg.dec
+  UefiLessonsPkg/UefiLessonsPkg.dec
+
+  [LibraryClasses]
+  UefiHiiServicesLib          # MdeModulePkg/MdeModulePkg.dec
+  UefiApplicationEntryPoint   # MdePkg/MdePkg.dec
+  UefiLib                     # MdePkg/MdePkg.dec
+
+[Guids]
+  gHIIStringsCGuid    # UefiLessonsPkg/UefiLessonsPkg.dec

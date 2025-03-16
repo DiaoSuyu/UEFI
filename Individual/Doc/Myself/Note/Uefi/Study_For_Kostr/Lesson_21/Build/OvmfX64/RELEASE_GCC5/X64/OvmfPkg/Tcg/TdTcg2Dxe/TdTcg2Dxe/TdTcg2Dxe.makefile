@@ -1,1 +1,0 @@
-/media/sf_VirtualBoxShare/UEFI/Build/OvmfX64/RELEASE_GCC5/X64/OvmfPkg/Tcg/TdTcg2Dxe/TdTcg2Dxe/GNUmakefile
