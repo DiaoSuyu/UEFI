@@ -1,0 +1,29 @@
+## @file
+#  HIIStringsUNI: Add test string under .UNI into system
+#
+##
+
+[Defines]
+  INF_VERSION                    = 1.25
+  BASE_NAME                      = HIIStringsUNI
+  FILE_GUID                      = df113230-2327-4946-892d-9caf1101ab87
+  MODULE_TYPE                    = UEFI_APPLICATION
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = UefiMain
+
+[Sources]
+  HIIStringsUNI.c
+  Strings.uni
+
+[Packages]
+  MdePkg/MdePkg.dec
+  MdeModulePkg/MdeModulePkg.dec
+  UefiLessonsPkg/UefiLessonsPkg.dec
+
+[LibraryClasses]
+  HiiLib                      # MdeModulePkg/MdeModulePkg.dec
+  UefiApplicationEntryPoint   # MdePkg/MdePkg.dec
+  UefiLib                     # MdePkg/MdePkg.dec
+
+[Guids]
+  gHIIStringsUNIGuid          # UefiLessonsPkg/UefiLessonsPkg.dec
