@@ -1,0 +1,37 @@
+## @file
+#  HIIStringsUNIRC: need to modify
+#
+##
+
+[Defines]
+  INF_VERSION                    = 1.25
+  BASE_NAME                      = HIIStringsUNIRC
+  FILE_GUID                      = 39ae15fc-35ae-4f94-84f9-17c222c88807
+  MODULE_TYPE                    = UEFI_APPLICATION
+  VERSION_STRING                 = 1.0
+  ENTRY_POINT                    = UefiMain
+#
+#  This flag specifies whether HII resource section is generated into PE image.
+#
+  UEFI_HII_RESOURCE_SECTION      = TRUE
+
+[Sources]
+  HIIStringsUNIRC.c
+  Strings.uni
+
+[Packages]
+  MdePkg/MdePkg.dec
+  MdeModulePkg/MdeModulePkg.dec
+  UefiLessonsPkg/UefiLessonsPkg.dec
+
+[LibraryClasses]
+  HiiLib                      # MdeModulePkg/MdeModulePkg.dec
+  UefiApplicationEntryPoint   # MdePkg/MdePkg.dec
+  UefiHiiServicesLib          # MdeModulePkg/MdeModulePkg.dec
+  UefiLib                     # MdePkg/MdePkg.dec
+
+[Protocols]
+  gEfiHiiPackageListProtocolGuid  # MdePkg/MdePkg.dec
+
+[Guids]
+  gHIIStringsUNIRCGuid        # UefiLessonsPkg/UefiLessonsPkg.dec

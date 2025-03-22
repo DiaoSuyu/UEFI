@@ -1,0 +1,1 @@
+D:\Share\UEFI\Build\UefiLessonsPkg\RELEASE_VS2022\X64\UefiLessonsPkg\HIIStringsUNIRC\HIIStringsUNIRC\Makefile

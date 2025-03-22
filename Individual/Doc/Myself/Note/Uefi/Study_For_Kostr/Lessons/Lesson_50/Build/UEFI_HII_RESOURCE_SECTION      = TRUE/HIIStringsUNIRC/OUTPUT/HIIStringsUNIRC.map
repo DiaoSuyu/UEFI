@@ -1,0 +1,137 @@
+ HIIStringsUNIRC
+
+ Timestamp is 67decfe0 (Sat Mar 22 22:57:36 2025)
+
+ Preferred load address is 0000000000000000
+
+ Start         Length     Name                   Class
+ 0001:00000000 00000004H .text                   CODE
+ 0001:00000004 00001a87H .text$mn                CODE
+ 0002:00000000 00000070H .data                   DATA
+ 0002:00000070 00000710H .rdata                  DATA
+ 0002:00000780 00000060H .bss                    DATA
+ 0002:000007e0 00000018H .rdata$voltmd           DATA
+ 0002:000007f8 000000d0H .rdata$zzzdbg           DATA
+ 0003:00000000 0000009cH .pdata                  DATA
+ 0004:00000000 000000b8H .xdata                  DATA
+ 0005:00000000 00000060H .rsrc$01                DATA
+ 0005:00000060 000000f0H .rsrc$02                DATA
+
+  Address         Publics by Value              Rva+Base               Lib:Object
+
+ 0000:00000000       __AbsoluteZero             0000000000000000     <absolute>
+ 0000:00000000       __arm64x_extra_rfe_table   0000000000000000     <absolute>
+ 0000:00000000       __arm64x_extra_rfe_table_size 0000000000000000     <absolute>
+ 0000:00000000       __arm64x_native_entrypoint 0000000000000000     <absolute>
+ 0000:00000000       __arm64x_redirection_metadata 0000000000000000     <absolute>
+ 0000:00000000       __arm64x_redirection_metadata_count 0000000000000000     <absolute>
+ 0000:00000000       __dynamic_value_reloc_table 0000000000000000     <absolute>
+ 0000:00000000       __enclave_config           0000000000000000     <absolute>
+ 0000:00000000       __guard_check_icall_a64n_fptr 0000000000000000     <absolute>
+ 0000:00000000       __guard_eh_cont_count      0000000000000000     <absolute>
+ 0000:00000000       __guard_eh_cont_table      0000000000000000     <absolute>
+ 0000:00000000       __guard_fids_count         0000000000000000     <absolute>
+ 0000:00000000       __guard_fids_table         0000000000000000     <absolute>
+ 0000:00000000       __guard_flags              0000000000000000     <absolute>
+ 0000:00000000       __guard_iat_count          0000000000000000     <absolute>
+ 0000:00000000       __guard_iat_table          0000000000000000     <absolute>
+ 0000:00000000       __guard_longjmp_count      0000000000000000     <absolute>
+ 0000:00000000       __guard_longjmp_table      0000000000000000     <absolute>
+ 0000:00000000       __hybrid_auxiliary_delayload_iat 0000000000000000     <absolute>
+ 0000:00000000       __hybrid_auxiliary_delayload_iat_copy 0000000000000000     <absolute>
+ 0000:00000000       __hybrid_auxiliary_iat     0000000000000000     <absolute>
+ 0000:00000000       __hybrid_auxiliary_iat_copy 0000000000000000     <absolute>
+ 0000:00000000       __hybrid_code_map          0000000000000000     <absolute>
+ 0000:00000000       __hybrid_code_map_count    0000000000000000     <absolute>
+ 0000:00000000       __hybrid_image_info_bitfield 0000000000000000     <absolute>
+ 0000:00000000       __x64_code_ranges_to_entry_points 0000000000000000     <absolute>
+ 0000:00000000       __x64_code_ranges_to_entry_points_count 0000000000000000     <absolute>
+ 0000:00000000       __ImageBase                0000000000000000     <linker-defined>
+ 0001:00000000       CpuPause                   0000000000001000     BaseLib:CpuPause.obj
+ 0001:00000004       _ModuleEntryPoint          0000000000001004 f   UefiApplicationEntryPoint:ApplicationEntryPoint.obj
+ 0001:00000048       ProcessLibraryConstructorList 0000000000001048 f   HIIStringsUNIRC:AutoGen.obj
+ 0001:00000140       UefiMain                   0000000000001140 f   HIIStringsUNIRC:HIIStringsUNIRC.obj
+ 0001:00000338       ExitBootServicesCallback   0000000000001338 f   UefiDebugLibConOut:DebugLibConstructor.obj
+ 0001:00000340       GetEfiGlobalVariable2      0000000000001340 f   UefiLib:UefiLib.obj
+ 0001:00000408       GetBestLanguage            0000000000001408 f   UefiLib:UefiLib.obj
+ 0001:00000538       InternalPrint              0000000000001538 f   UefiLib:UefiLibPrint.obj
+ 0001:000005d4       Print                      00000000000015d4 f   UefiLib:UefiLibPrint.obj
+ 0001:00000604       HiiGetString               0000000000001604 f   UefiHiiLib:HiiString.obj
+ 0001:00000798       HiiGetSupportedLanguages   0000000000001798 f   UefiHiiLib:HiiLanguage.obj
+ 0001:00000850       AsciiStrnCmp               0000000000001850 f   BaseLib:String.obj
+ 0001:00000884       StrnLenS                   0000000000001884 f   BaseLib:SafeString.obj
+ 0001:000008b0       InternalMemSetMem          00000000000018b0 f   BaseMemoryLib:SetMem.obj
+ 0001:00000924       InternalMemCopyMem         0000000000001924 f   BaseMemoryLib:CopyMem.obj
+ 0001:00000ad8       BasePrintLibFillBuffer     0000000000001ad8 f   BasePrintLib:PrintLibInternal.obj
+ 0001:00000b0c       BasePrintLibSPrintMarker   0000000000001b0c f   BasePrintLib:PrintLibInternal.obj
+ 0001:00001a00       BasePrintLibSPrint         0000000000002a00 f   BasePrintLib:PrintLibInternal.obj
+ 0001:00001a24       InternalAllocatePool       0000000000002a24 f   UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0001:00001a5c       InternalAllocateZeroPool   0000000000002a5c f   UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0002:00000000       gEfiGlobalVariableGuid     0000000000003000     HIIStringsUNIRC:AutoGen.obj
+ 0002:00000010       gEfiHiiPackageListProtocolGuid 0000000000003010     HIIStringsUNIRC:AutoGen.obj
+ 0002:00000020       gEfiHiiConfigRoutingProtocolGuid 0000000000003020     HIIStringsUNIRC:AutoGen.obj
+ 0002:00000030       gEfiHiiImageProtocolGuid   0000000000003030     HIIStringsUNIRC:AutoGen.obj
+ 0002:00000040       gEfiHiiDatabaseProtocolGuid 0000000000003040     HIIStringsUNIRC:AutoGen.obj
+ 0002:00000050       gEfiHiiStringProtocolGuid  0000000000003050     HIIStringsUNIRC:AutoGen.obj
+ 0002:00000060       gEfiHiiFontProtocolGuid    0000000000003060     HIIStringsUNIRC:AutoGen.obj
+ 0002:00000070       gHIIStringsUNIRCGuid       0000000000003070     HIIStringsUNIRC:AutoGen.obj
+ 0002:00000080       ??_C@_1GC@BIANHAFM@?$AAE?$AAr?$AAr?$AAo?$AAr?$AA?$CB?$AA?5?$AAC?$AAa?$AAn?$AA?8?$AAt?$AA?5?$AAo?$AAp@ 0000000000003080     HIIStringsUNIRC:HIIStringsUNIRC.obj
+ 0002:000000f0       ??_C@_1GC@EBMPOLFN@?$AAC?$AAa?$AAn?$AA?8?$AAt?$AA?5?$AAr?$AAe?$AAg?$AAi?$AAs?$AAt?$AAe?$AAr?$AA?5@ 00000000000030f0     HIIStringsUNIRC:HIIStringsUNIRC.obj
+ 0002:00000154       ??_C@_05JJLPJMLG@en?9US@   0000000000003154     HIIStringsUNIRC:HIIStringsUNIRC.obj
+ 0002:00000160       ??_C@_1CA@CHCOJPPI@?$AAe?$AAn?$AA?9?$AAU?$AAS?$AA?5?$AAI?$AAD?$AA?$DN?$AA1?$AA?3?$AA?5?$AA?$CF?$AAs?$AA?6@ 0000000000003160     HIIStringsUNIRC:HIIStringsUNIRC.obj
+ 0002:00000180       ??_C@_1CA@FLEPLKCD@?$AAe?$AAn?$AA?9?$AAU?$AAS?$AA?5?$AAI?$AAD?$AA?$DN?$AA2?$AA?3?$AA?5?$AA?$CF?$AAs?$AA?6@ 0000000000003180     HIIStringsUNIRC:HIIStringsUNIRC.obj
+ 0002:000001a0       ??_C@_1CA@MGEAFLFF@?$AAe?$AAn?$AA?9?$AAU?$AAS?$AA?5?$AAI?$AAD?$AA?$DN?$AA3?$AA?3?$AA?5?$AA?$CF?$AAs?$AA?6@ 00000000000031a0     HIIStringsUNIRC:HIIStringsUNIRC.obj
+ 0002:000001c0       ??_C@_05LNEALIPD@fr?9FR@   00000000000031c0     HIIStringsUNIRC:HIIStringsUNIRC.obj
+ 0002:000001c8       ??_C@_1CA@IOAIOKMD@?$AAf?$AAr?$AA?9?$AAF?$AAR?$AA?5?$AAI?$AAD?$AA?$DN?$AA1?$AA?3?$AA?5?$AA?$CF?$AAs?$AA?6@ 00000000000031c8     HIIStringsUNIRC:HIIStringsUNIRC.obj
+ 0002:000001e8       ??_C@_1CA@PCGJMPBI@?$AAf?$AAr?$AA?9?$AAF?$AAR?$AA?5?$AAI?$AAD?$AA?$DN?$AA2?$AA?3?$AA?5?$AA?$CF?$AAs?$AA?6@ 00000000000031e8     HIIStringsUNIRC:HIIStringsUNIRC.obj
+ 0002:00000208       ??_C@_1CA@GPGGCOGO@?$AAf?$AAr?$AA?9?$AAF?$AAR?$AA?5?$AAI?$AAD?$AA?$DN?$AA3?$AA?3?$AA?5?$AA?$CF?$AAs?$AA?6@ 0000000000003208     HIIStringsUNIRC:HIIStringsUNIRC.obj
+ 0002:00000228       ??_C@_1DA@HPLKNDNG@?$AAB?$AAe?$AAs?$AAt?$AA?5?$AAl?$AAa?$AAn?$AAg?$AAu?$AAa?$AAg?$AAe?$AA?5?$AAI@ 0000000000003228     HIIStringsUNIRC:HIIStringsUNIRC.obj
+ 0002:00000258       ??_C@_1DA@DNLPGAN@?$AAB?$AAe?$AAs?$AAt?$AA?5?$AAl?$AAa?$AAn?$AAg?$AAu?$AAa?$AAg?$AAe?$AA?5?$AAI@ 0000000000003258     HIIStringsUNIRC:HIIStringsUNIRC.obj
+ 0002:00000288       ??_C@_1DA@CHMNLJFI@?$AAB?$AAe?$AAs?$AAt?$AA?5?$AAl?$AAa?$AAn?$AAg?$AAi?$AAa?$AAg?$AAe?$AA?5?$AAI@ 0000000000003288     HIIStringsUNIRC:HIIStringsUNIRC.obj
+ 0002:000002b8       ??_C@_02FBONIKAL@fr@       00000000000032b8     HIIStringsUNIRC:HIIStringsUNIRC.obj
+ 0002:000002c0       ??_C@_1BK@GDFNMMAN@?$AAf?$AAr?$AA?5?$AAI?$AAD?$AA?$DN?$AA3?$AA?3?$AA?5?$AA?$CF?$AAs?$AA?6@ 00000000000032c0     HIIStringsUNIRC:HIIStringsUNIRC.obj
+ 0002:000002e0       ??_C@_1BK@GGGENMOA@?$AAP?$AAl?$AAa?$AAt?$AAf?$AAo?$AAr?$AAm?$AAL?$AAa?$AAn?$AAg@ 00000000000032e0     UefiHiiLib:HiiString.obj
+ 0002:000002fa       ??_C@_00CNPNBAHC@@         00000000000032fa     UefiHiiLib:HiiString.obj
+ 0002:00000300       ??_C@_0O@MLOLIMFM@?$DMnull?5string?$DO@ 0000000000003300     BasePrintLib:PrintLibInternal.obj
+ 0002:00000310       ??_C@_0M@BJJDNPHK@?$DMnull?5guid?$DO@ 0000000000003310     BasePrintLib:PrintLibInternal.obj
+ 0002:00000320       ??_C@_0DB@PMLHLBMO@?$CF08x?9?$CF04x?9?$CF04x?9?$CF02x?$CF02x?9?$CF02x?$CF02@ 0000000000003320     BasePrintLib:PrintLibInternal.obj
+ 0002:00000358       ??_C@_0M@LHGBCIKM@?$DMnull?5time?$DO@ 0000000000003358     BasePrintLib:PrintLibInternal.obj
+ 0002:00000368       ??_C@_0BK@FCPKCIDD@?$CF02d?1?$CF02d?1?$CF04d?5?5?$CF02d?3?$CF02d@ 0000000000003368     BasePrintLib:PrintLibInternal.obj
+ 0002:00000384       ??_C@_04JIMNDDED@?$CF08X@  0000000000003384     BasePrintLib:PrintLibInternal.obj
+ 0002:0000038c       ??_C@_02PCIJFNDE@?$AN?6@   000000000000338c     BasePrintLib:PrintLibInternal.obj
+ 0002:00000390       ??_C@_01LIIJDEN@?$AN@      0000000000003390     BasePrintLib:PrintLibInternal.obj
+ 0002:000003a0       mWarningString             00000000000033a0     BasePrintLib:PrintLibInternal.obj
+ 0002:00000470       mErrorString               0000000000003470     BasePrintLib:PrintLibInternal.obj
+ 0002:00000750       mHexStr                    0000000000003750     BasePrintLib:PrintLibInternal.obj
+ 0002:00000780       mPostEBS                   0000000000003780     UefiDebugLibConOut:DebugLibConstructor.obj
+ 0002:00000788       gST                        0000000000003788     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:00000790       gImageHandle               0000000000003790     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:00000798       gBS                        0000000000003798     UefiBootServicesTableLib:UefiBootServicesTableLib.obj
+ 0002:000007a0       gRT                        00000000000037a0     UefiRuntimeServicesTableLib:UefiRuntimeServicesTableLib.obj
+ 0002:000007a8       gHiiDatabase               00000000000037a8     UefiHiiServicesLib:UefiHiiServicesLib.obj
+ 0002:000007b0       gHiiString                 00000000000037b0     UefiHiiServicesLib:UefiHiiServicesLib.obj
+ 0002:000007b8       gHiiFont                   00000000000037b8     UefiHiiServicesLib:UefiHiiServicesLib.obj
+ 0002:000007c0       gHiiConfigRouting          00000000000037c0     UefiHiiServicesLib:UefiHiiServicesLib.obj
+ 0002:000007c8       gHiiImage                  00000000000037c8     UefiHiiServicesLib:UefiHiiServicesLib.obj
+ 0002:000007d8       mDebugST                   00000000000037d8     <common>
+ 0002:000007e0       __volatile_metadata        00000000000037e0     <linker-defined>
+
+ entry point at        0001:00000004
+
+ Static symbols
+
+ 0002:000007d0       mExitBootServicesEvent     00000000000037d0     UefiDebugLibConOut:DebugLibConstructor.obj
+ 0004:00000000       $unwind$_ModuleEntryPoint  0000000000005000     UefiApplicationEntryPoint:ApplicationEntryPoint.obj
+ 0004:0000000c       $unwind$ProcessLibraryConstructorList 000000000000500c     HIIStringsUNIRC:AutoGen.obj
+ 0004:00000018       $unwind$UefiMain           0000000000005018     HIIStringsUNIRC:HIIStringsUNIRC.obj
+ 0004:00000028       $unwind$GetEfiGlobalVariable2 0000000000005028     UefiLib:UefiLib.obj
+ 0004:00000034       $unwind$GetBestLanguage    0000000000005034     UefiLib:UefiLib.obj
+ 0004:00000044       $unwind$InternalPrint      0000000000005044     UefiLib:UefiLibPrint.obj
+ 0004:00000058       $unwind$Print              0000000000005058     UefiLib:UefiLibPrint.obj
+ 0004:00000060       $unwind$HiiGetString       0000000000005060     UefiHiiLib:HiiString.obj
+ 0004:00000074       $unwind$HiiGetSupportedLanguages 0000000000005074     UefiHiiLib:HiiLanguage.obj
+ 0004:00000084       $unwind$BasePrintLibSPrintMarker 0000000000005084     BasePrintLib:PrintLibInternal.obj
+ 0004:000000a0       $unwind$BasePrintLibSPrint 00000000000050a0     BasePrintLib:PrintLibInternal.obj
+ 0004:000000a8       $unwind$InternalAllocatePool 00000000000050a8     UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0004:000000b0       $unwind$InternalAllocateZeroPool 00000000000050b0     UefiMemoryAllocationLib:MemoryAllocationLib.obj
+ 0005:00000060       $R000000                   0000000000006060     HIIStringsUNIRChii.lib
