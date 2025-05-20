@@ -1,6 +1,6 @@
 [submodule "acpica"]
-	path = acpica
-	url = https://github.com/DiaoSuYu/acpica
+    path = acpica
+    url = https://github.com/DiaoSuYu/acpica
 [submodule "edk2-libc"]
     path = edk2-libc
     url = https://github.com/DiaoSuYu/edk2-libc
@@ -23,8 +23,11 @@
     path = Tools/DebugTools/binarly-io/efiXplorer
     url = https://github.com/DiaoSuYu/efiXplorer
 [submodule "Tools/BuildTools/MSVC"]
-	path = Tools/BuildTools/MSVC
-	url = https://github.com/DiaoSuyu/MSVC
+    path = Tools/BuildTools/MSVC
+    url = https://github.com/DiaoSuyu/MSVC
 [submodule "Tools/BuildTools/Python"]
-	path = Tools/BuildTools/Python
-	url = https://github.com/DiaoSuyu/Python
+    path = Tools/BuildTools/Python
+    url = https://github.com/DiaoSuyu/Python
+[submodule "Tools/BuildTools/WindowsKits"]
+    path = Tools/BuildTools/WindowsKits
+    url = https://github.com/DiaoSuyu/WindowsKits.git
