@@ -146,6 +146,9 @@ build --platform edk2/MdeModulePkg/MdeModulePkg.dsc --module edk2/MdeModulePkg/A
 build -p edk2/OvmfPkg/OvmfPkgX64.dsc -t VS2022 -a X64 -b NOOPT -D SOURCE_DEBUG_ENABLE
 build --platform edk2/OvmfPkg/OvmfPkgX64.dsc --tagname VS2022 --arch X64 --buildtarget NOOPT --define SOURCE_DEBUG_ENABLE
 
+# Build Ovmf with debug options and recode build log to Build folder
+build -p OvmfPkg/OvmfPkgX64.dsc -t VS2022 -a X64 -b DEBUG | tee.exe Build\Build.log
+
 # Build for SamModulePkg
 build -p edk2/SamModulePkg/SamModulePkg.dsc -t VS2022 -a X64
 build --platform edk2/SamModulePkg/SamModulePkg.dsc --tagname VS2022 --arch X64
